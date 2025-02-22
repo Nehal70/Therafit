@@ -9,6 +9,7 @@ import Welcome from "./pages/welcome";
 import Chat from "./pages/chat";
 import SignUp from "./pages/signup";
 import Setup from "./pages/setup";  // ✅ Remove duplicate import
+import Profile from "./pages/profile";
 import RegistrationForm from "./RegistrationForm";
 import PrivateRoute from "./components/PrivateRoute";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/registration" element={<RegistrationForm />} />
         <Route path="/setup" element={<Setup />} /> {/* ✅ Setup route fixed */}
+        <Route path="/profile" element={<Profile />} />
 
         {/* Protected dashboard route */}
         <Route element={<PrivateRoute isAuthenticated={isAuthenticated} />}>
