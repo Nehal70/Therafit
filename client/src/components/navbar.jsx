@@ -3,7 +3,10 @@ import Wordmark from '../assets/wordmark.svg';
 import { FaChevronDown } from "react-icons/fa";
 import { ImExit } from "react-icons/im";
 import { jwtDecode } from 'jwt-decode';
+import { useLocation } from "react-router-dom";
 import { getUserProfile } from '../services/userService';
+import { IoMdPerson } from "react-icons/io";
+
 
 // Main navbar component
 export default function Navbar() {
@@ -11,6 +14,7 @@ export default function Navbar() {
   const [userName, setUserName] = useState('');
   const dropdownRef = useRef(null);
   const dropdownButtonRef = useRef(null);
+  const location = useLocation();
 
   // Fetch user's profile when the component mounts
   useEffect(() => {
@@ -37,7 +41,7 @@ export default function Navbar() {
         setUserName('User'); // Fallback name
       }
     }
-  }, []); // Empty dependency array ensures this effect runs once on mount
+  }, [location]); // Empty dependency array ensures this effect runs once on mount
 
   // Toggle dropdown visibility when clicked
   const toggleDropdown = () => {
@@ -84,6 +88,12 @@ export default function Navbar() {
           className='fixed top-13 right-3 mt-2 bg-white border border-gray-300 rounded-lg shadow-lg w-40'
         >
           <ul className='py-2'>
+          <li className='px-4 py-2 cursor-pointer hover:bg-gray-100'>
+              <a className='flex items-center' href='/profile'>
+                <button>Profile</button>&nbsp;&nbsp;<IoMdPerson />
+
+              </a>
+            </li>
             <li className='px-4 py-2 cursor-pointer hover:bg-gray-100'>
               <a className='flex items-center' href='/login'>
                 <button>Logout</button>&nbsp;&nbsp;<ImExit />
