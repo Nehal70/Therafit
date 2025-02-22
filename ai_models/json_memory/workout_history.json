@@ -1,0 +1,67 @@
+[
+  {
+    "date_time": "2025-02-22 02:25:57",
+    "user_input": "I just need to work out for my knees",
+    "assistant_response": "Let's get started. First, do you have a user profile set up? If not, I need your age, gender, weight, height, and injury type."
+  },
+  {
+    "date_time": "2025-02-22 02:26:15",
+    "user_input": "yes you already have these are we already have my user profile",
+    "assistant_response": "Great! Let's move on to assessing your injury. What's your pain level, any previous injuries, and workout preferences?"
+  },
+  {
+    "date_time": "2025-02-22 02:26:33",
+    "user_input": "I need a 30 minute workout so how should I start",
+    "assistant_response": "Let's begin with a low-impact exercise. Try \"Knee Circles.\" Description: Stand with feet hip-width apart, bend knees slightly, and move them in a circular motion. Video link: [Knee Circles Video](#). You should spend 5 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:26:56",
+    "user_input": "exit",
+    "assistant_response": "User exited the session."
+  },
+  {
+    "date_time": "2025-02-22 02:28:51",
+    "user_input": "hey my arms are kind of hurting today",
+    "assistant_response": "Hey! Let's see what we can do about that. First, let me check your profile."
+  },
+  {
+    "date_time": "2025-02-22 02:29:07",
+    "user_input": "I want to work out for just 20 minutes today how should I start",
+    "assistant_response": "Let's focus on a quick, effective workout. First exercise: \"Light Arm Circles.\" Description: Gently rotate your arms in small circles. Video link: [Light Arm Circles](#). You should spend 5 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:29:32",
+    "user_input": "great what should I do next that was great for me",
+    "assistant_response": "Next exercise: \"Resistance Band Curls.\" Description: Use a resistance band to perform bicep curls. Video link: [Resistance Band Curls](#). You should spend 10 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:30:00",
+    "user_input": "I actually don't have resistance bands what should I do",
+    "assistant_response": "No problem! Next exercise: \"Wall Push-Ups.\" Description: Stand facing a wall and push against it as if doing a push-up. Video link: [Wall Push-Ups](#). You should spend 5 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:30:27",
+    "user_input": "okay that's great now how should I spend the remaining",
+    "assistant_response": "Final exercise: \"Tricep Dips on Chair.\" Description: Use a sturdy chair to perform tricep dips. Video link: [Tricep Dips on Chair](#). You should spend 5 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:30:51",
+    "user_input": "yeah what should I do for my final 5-minute exercise",
+    "assistant_response": "Final exercise: \"Tricep Dips on Chair.\" Description: Use a sturdy chair to perform tricep dips. Video link: [Tricep Dips on Chair](#). You should spend 5 minutes on this."
+  },
+  {
+    "date_time": "2025-02-22 02:31:13",
+    "user_input": "yeah I already did the so anyway yeah thank you",
+    "assistant_response": "You're welcome! Remember to cool down and rest. How did you feel after the workout?"
+  },
+  {
+    "date_time": "2025-02-22 02:31:26",
+    "user_input": "I felt great thank you that was really much need",
+    "assistant_response": "I'm glad to hear that! Remember to stay hydrated and rest well. Let me know if you need anything else."
+  },
+  {
+    "date_time": "2025-02-22 02:31:37",
+    "user_input": "exit",
+    "assistant_response": "User exited the session."
+  }
+]

@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import speech_recognition as sr
 import pyttsx3
+from datetime import datetime
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
@@ -20,6 +21,7 @@ os.makedirs("./json_memory", exist_ok=True)
 # User profile path
 USER_PROFILE_PATH = "./json_memory/user_profile.json"
 WORKOUT_PROGRESS_PATH = "./json_memory/workout_progress.json"
+WORKOUT_HISTORY_PATH = "./json_memory/workout_history.json"
 
 # Initialize OpenAI LLM using the fine-tuned model
 fine_tuned_model = "ft:gpt-4o-2024-08-06:personal::B3ZVjSZi"
@@ -57,10 +59,31 @@ def save_workout_progress(progress):
     with open(WORKOUT_PROGRESS_PATH, 'w') as file:
         json.dump(progress, file, indent=4)
 
+# Save workout history to JSON
+def save_workout_history(user_input, assistant_response):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    entry = {
+        "date_time": timestamp,
+        "user_input": user_input,
+        "assistant_response": assistant_response
+    }
+
+    if os.path.exists(WORKOUT_HISTORY_PATH):
+        with open(WORKOUT_HISTORY_PATH, 'r') as file:
+            history = json.load(file)
+    else:
+        history = []
+
+    history.append(entry)
+
+    with open(WORKOUT_HISTORY_PATH, 'w') as file:
+        json.dump(history, file, indent=4)
+
 # Updated system prompt
 system_prompt = """
 You are an expert injury recovery assistant. Your job is to strictly follow this conversation flow:
 1. **Collect User Profile:** Check if user profile exists in 'user_profile.json'. If not, ask for age, gender, weight, height, and injury type. Once collected, save it and do not ask again.
+IF IT ALREADY EXISTS, DO NOT ASK FOR IT AGAIN. REALLY, DO NOT.
 2. **Assess Injury:** Based on user input, ask for pain level, previous injuries, and workout preferences. Save these details in the user profile. Once saved, do not ask for it again, and just retrieve it from the file.
 3. **Generate Personalized Workout:** Suggest exercises suitable for their injury, considering workout duration. HOWEVER, you need to give the exercises one-by-one. You need to give an exercise and if it is the first exercise you are given (check the JSON file to see this) - then store that exercise to the JSON file. If it is not the first exercise, use what the user said about the previous exercises, including the time they spent, to recommend what is next.
 Note that for the exercises, you need to give the name, the description, and the video link - exact name from the dataset. Give the time as well! and track the time as you always do. And please talk directly to the user, don't talk like "User intends to..." Say "You should spend ..."
@@ -173,15 +196,13 @@ def answer_query(user_input):
         text_to_speech("User profile created and saved.")
         print("\n✅ User profile created and saved.")
 
-    # if "workout" in user_input.lower():
-    #     response = generate_workout(user_input)
-    #     print(f"\n🤖 **Workout Suggestions:**\n{response}")
-    # else:
     prompt = f"{system_prompt}\nUser: {user_input}\nAssistant:"
     try:
         response = conversation.run({"input": prompt})
         print(f"\n🤖 **Response:** {response}")
+        save_workout_history(user_input, response)
         text_to_speech(response)
+
     except Exception as e:
         print(f"❌ Error: {e}")
 
@@ -191,6 +212,8 @@ print("\n💬 **Injury Recovery Assistant** (Say 'exit' to quit)")
 while True:
     user_input = voice_input()
     if user_input and user_input.lower() == "exit":
+        print("\n💾 Saving conversation history...")
+        save_workout_history("exit", "User exited the session.")
         text_to_speech("Goodbye! Stay healthy!")
         print("\n👋 Exiting the chat. Goodbye!")
         break
