@@ -1,93 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>User Registration</title>
+  <meta charset="UTF-8">
+  <title>User Authentication Form</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    form { max-width: 400px; margin: 20px auto; }
-    label { display: block; margin: 10px 0 5px; }
-    input, select { width: 100%; padding: 8px; }
-    input[type="submit"] { margin-top: 15px; cursor: pointer; }
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 20px; }
+    form { margin-bottom: 20px; padding: 10px; border: 1px solid #ddd; display: inline-block; width: 300px; }
+    input, button { width: 90%; padding: 8px; margin: 5px 0; }
+    h2 { color: #333; }
+    #output { margin-top: 20px; font-size: 0.9em; color: green; }
   </style>
 </head>
 <body>
-  <h1>User Registration</h1>
+
+  <h1>User Authentication Demo</h1>
+
+  <!-- 📌 Registration Form -->
   <form id="registerForm">
-    <label for="firstName">First Name:</label>
-    <input type="text" id="firstName" name="firstName" required />
-
-    <label for="lastName">Last Name:</label>
-    <input type="text" id="lastName" name="lastName" required />
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required />
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required />
-
-    <label for="dateOfBirth">Date of Birth:</label>
-    <input type="date" id="dateOfBirth" name="dateOfBirth" required />
-
-    <label for="locale">Locale:</label>
-    <input type="text" id="locale" name="locale" />
-
-    <label for="profilePicture">Profile Picture URL:</label>
-    <input type="text" id="profilePicture" name="profilePicture" />
-
-    <label for="height">Height (cm):</label>
-    <input type="number" id="height" name="height" />
-
-    <label for="weight">Weight (kg):</label>
-    <input type="number" id="weight" name="weight" />
-
-    <label for="gender">Gender:</label>
-    <select id="gender" name="gender">
-      <option value="">Select</option>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-    </select>
-
-    <input type="submit" value="Register" />
+    <h2>Register</h2>
+    <input type="email" id="regEmail" placeholder="Email" required>
+    <input type="password" id="regPassword" placeholder="Password" required>
+    <input type="text" id="regFirstName" placeholder="First Name" required>
+    <input type="text" id="regLastName" placeholder="Last Name" required>
+    <input type="date" id="regDateOfBirth" placeholder="Date of Birth" required>
+    <button type="submit">Register</button>
   </form>
 
+  <!-- 📌 Login Form -->
+  <form id="loginForm">
+    <h2>Login</h2>
+    <input type="email" id="loginEmail" placeholder="Email" required>
+    <input type="password" id="loginPassword" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+  <!-- 📌 User Profile Actions -->
+  <form id="profileForm">
+    <h2>User Profile</h2>
+    <input type="text" id="userId" placeholder="User ID" required>
+    <button type="button" onclick="getProfile()">View Profile</button>
+    <button type="button" onclick="updateProfile()">Update Profile</button>
+    <button type="button" onclick="deleteProfile()">Delete Profile</button>
+  </form>
+
+  <div id="output"></div>
+
   <script>
+    const apiBaseUrl = 'http://localhost:5000/api/users';  // Update if different
+
+    const output = document.getElementById('output');
+
+    // 📌 Helper: Display results
+    const showMessage = (message, isError = false) => {
+      output.style.color = isError ? 'red' : 'green';
+      output.textContent = message;
+    };
+
+    // 📌 Handle Registration
     document.getElementById('registerForm').addEventListener('submit', async (e) => {
       e.preventDefault();
-
-      // Collect data from the form
-      const formData = {
-        firstName: document.getElementById('firstName').value,
-        lastName: document.getElementById('lastName').value,
-        email: document.getElementById('email').value,
-        password: document.getElementById('password').value,
-        dateOfBirth: document.getElementById('dateOfBirth').value,
-        locale: document.getElementById('locale').value,
-        profilePicture: document.getElementById('profilePicture').value,
-        height: document.getElementById('height').value,
-        weight: document.getElementById('weight').value,
-        gender: document.getElementById('gender').value,
+      const payload = {
+        email: document.getElementById('regEmail').value,
+        password: document.getElementById('regPassword').value,
+        firstName: document.getElementById('regFirstName').value,
+        lastName: document.getElementById('regLastName').value,
+        dateOfBirth: document.getElementById('regDateOfBirth').value,
       };
 
       try {
-        // Send the form data to the backend
-        const response = await fetch('/api/register', {
+        const res = await fetch(`${apiBaseUrl}/register`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(formData),
+          body: JSON.stringify(payload),
         });
-
-        const result = await response.json();
-        if (response.ok) {
-          alert('User registered successfully!');
-        } else {
-          alert('Error: ' + result.message);
-        }
-      } catch (error) {
-        console.error('Error:', error);
-        alert('An error occurred while registering the user.');
+        const data = await res.json();
+        showMessage(res.ok ? `✅ ${data.message} (User ID: ${data.userId})` : `❌ ${data.error}`, !res.ok);
+      } catch (err) {
+        showMessage('❌ Registration failed.');
       }
     });
+
+    // 📌 Handle Login
+    document.getElementById('loginForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const payload = {
+        email: document.getElementById('loginEmail').value,
+        password: document.getElementById('loginPassword').value,
+      };
+
+      try {
+        const res = await fetch(`${apiBaseUrl}/login`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        showMessage(res.ok ? `✅ ${data.message} (User ID: ${data.userId})` : `❌ ${data.error}`, !res.ok);
+      } catch (err) {
+        showMessage('❌ Login failed.');
+      }
+    });
+
+    // 📌 View Profile
+    async function getProfile() {
+      const userId = document.getElementById('userId').value;
+      if (!userId) return showMessage('❌ User ID is required.', true);
+
+      try {
+        const res = await fetch(`${apiBaseUrl}/${userId}`);
+        const data = await res.json();
+        showMessage(res.ok ? `✅ Profile: ${JSON.stringify(data, null, 2)}` : `❌ ${data.error}`, !res.ok);
+      } catch (err) {
+        showMessage('❌ Failed to fetch profile.');
+      }
+    }
+
+    // 📌 Update Profile
+    async function updateProfile() {
+      const userId = document.getElementById('userId').value;
+      if (!userId) return showMessage('❌ User ID is required.', true);
+
+      const payload = {
+        firstName: prompt('Enter new first name:'),
+        lastName: prompt('Enter new last name:'),
+      };
+
+      try {
+        const res = await fetch(`${apiBaseUrl}/${userId}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        showMessage(res.ok ? `✅ Updated Profile: ${JSON.stringify(data)}` : `❌ ${data.error}`, !res.ok);
+      } catch (err) {
+        showMessage('❌ Failed to update profile.');
+      }
+    }
+
+    // 📌 Delete Profile
+    async function deleteProfile() {
+      const userId = document.getElementById('userId').value;
+      if (!userId) return showMessage('❌ User ID is required.', true);
+
+      if (!confirm('⚠️ Are you sure you want to delete this user?')) return;
+
+      try {
+        const res = await fetch(`${apiBaseUrl}/${userId}`, { method: 'DELETE' });
+        const data = await res.json();
+        showMessage(res.ok ? `✅ ${data.message}` : `❌ ${data.error}`, !res.ok);
+      } catch (err) {
+        showMessage('❌ Failed to delete profile.');
+      }
+    }
   </script>
 </body>
 </html>
