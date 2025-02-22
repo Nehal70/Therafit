@@ -1,7 +1,17 @@
-{
-    "age": "18",
-    "gender": "Male",
-    "weight": "50",
-    "height": "154",
-    "injury_type": "Shoulder"
-}
+[
+    {
+        "_id": {
+            "$oid": "67ba00b3caf491035086b01e"
+        },
+        "firstName": "Emily",
+        "lastName": "Parker",
+        "email": "emily.parker@example.com",
+        "password": "emilypassword",
+        "dateOfBirth": {
+            "$date": "1992-08-25T00:00:00Z"
+        },
+        "height": 162,
+        "weight": 58,
+        "gender": "female"
+    }
+]
