@@ -1,7 +1,5 @@
 import { OAuth2Client } from 'google-auth-library';
 import dotenv from 'dotenv';
-import User from './models/User';
-
 
 dotenv.config();
 
@@ -11,9 +9,7 @@ const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 export const verifyGoogleToken = async (req, res, next) => {
   const { token } = req.body;
 
-  if (!token) {
-    return res.status(400).json({ error: 'Token is required.' });
-  }
+  if (!token) return res.status(400).json({ error: 'Token is required.' });
 
   try {
     const ticket = await client.verifyIdToken({
@@ -22,40 +18,18 @@ export const verifyGoogleToken = async (req, res, next) => {
     });
 
     const payload = ticket.getPayload();
-    const googleId = payload.sub; // Google ID
-    const email = payload.email; // User email
-    const name = payload.name; // User name
-    const picture = payload.picture; // Profile picture URL
-    const locale = payload.locale; // User's locale
 
-    //Check if the user already exists in the database
-    let user = await User.findOne({ googleId });
+    req.user = {
+      googleId: payload.sub,
+      email: payload.email,
+      name: payload.name,
+      profilePicture: payload.picture,
+      locale: payload.locale,
+    };
 
-    if (!user) {
-      user = new User({
-        googleId,
-        email,
-        firstName: name.split(' ')[0],
-        firstName: name.split(' ')[1] || '',
-        profilePicture: picture,
-        locale,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      });
-
-      await user.save();
-
-      } else {
-          user.profilePicture = picture;
-          user.updatedAt = new Date();
-
-          await user.save();
-      }
-
-      req.user = user;
-      next();
-    } catch (error) {
-      console.error('Token verification failed:', error);
-      res.status(401).json({ error: 'Invalid token.' });
-    }
-  };
+    next(); // Proceed to the route handler
+  } catch (error) {
+    console.error('Token verification failed:', error);
+    res.status(401).json({ error: 'Invalid token.' });
+  }
+};
