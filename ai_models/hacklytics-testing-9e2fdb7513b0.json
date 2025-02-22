@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hacklytics-testing",
+  "private_key_id": "9e2fdb7513b00d2ec955bbc418aec3aadb82d124",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDNSYpf4lVR+Khj\nxgZFHRd9vdji/mNhTd6giGQ5SW2cxd4zIYzEGEXpgROTwCoLbKaULmUY0aVM6FVP\ne89Cim2bxW2kqYw9Qo7oi8eg4C+tmyoRIe1fT11s0Yh4zghF5tvwQ/KUYgzuajkz\n9VB5DTMOa4I62ky8V3zINqVNOuRTyQOly+wtwzW9F+AMdMao24dFrqerY7HXQWEU\nHB+DrSDCfB1gkpf+Fo+AqQ93q1xd1Tvo2vbxHvY6FF9Tb4YkWobsi8L9DgiNhJoo\n2aYrWyBCVWLwj4F2ANl06riAtctaiyjyvqU6xi5o7izpUzORYSLVjvOaa7QGzga/\nc2qpZv+3AgMBAAECggEAAUBbAxWenobNA/qvjBlOzNns6glR8sRmQIVEUyMS83sz\nTQ19za42MuOyClsIBpTNeSbFP/77KnpaFsdy7n1oiKQN9IyCCdePhnRfrafgMoc5\nHOyfhU63C5RFaDMdUsvC+HZ5kpT8bjGgkqQCrxI5BvP50cEF6boAzTmkDVH4FVio\nCp/Z3EKDTN0SNFJTMU8roeOfuexx9l48TLdWA3qHv3t95LplEWoixZK/uxMCRbch\nzaIjqLWkEyvlJrttI+TorZPt2PHRmRnE+cLbX6m6cx7qs0xg/zuOvBK455wpVVFw\n8nMOwohLw3z72wtAPujVB3S4LI93ZyjZwaqgjWPyNQKBgQD43k6aJ4T1nuDfnRcB\n8h7t5BFIpUOEdoztF4l5OTBiCiqbxEw8uf7+Bl/78aTv41Wlj4vgDdcVxSDTgovK\nynwBwpATDcirRcTiOO1DXmh9hL8aNQ+RtJVx1v0OdFtdAmqP5K/vBQAsCIVOavgP\nh0GO9uJMDtfgKjV3sn7sRlfRcwKBgQDTK4X7H/TXGxfhGsMBgP9HpBgCt9aO5i9h\nHSqxTanGuM44vRdjZeyD4wsLTnE3JflT2xujUfJ3zlzAR7VbBoibR7Y1TVy57Xsa\nmdfLPQXJmxHAvqcoExYy/MtlRQWPrdGcAjMacAzy0LYviYBxJzrZ2lmWYnnmCzY/\n5pTfxwZ3rQKBgGoC4L6/6N5sQGRg2WUly1EQ3t/wLjOmAGAar5/o4ZhRtlbGJqeT\nn3B8LLT4+YaKc3hkDnRx0NZgM5yFtqC64loplA/ZxkpXHQg0sbUJ6T7WpkU2pxwt\nLZ/hschPfn+/QL9s7hjGK42WT5rY7DRJLH8G4dz+Ua0WrdIAQhrJ2CzLAoGAGiNZ\nAiyCcd24pvRZDuaYspVtI2j99dIoKy0hC7FBQoe9fuho7LTBAdIom82p1dmtcuO8\nGAscqBezA1nc6Nd2MUI/G3nn8Fuk0TYZr95tyPaYy/LNXfh+1vDTfEV+2rn5KAZd\nrPgRojyTUG8EpvzkG/MbA7JMxFy+6knwQ4KvGkECgYBDuuhBArc/oyZDw0S7W0AO\nZqtiHrG6Euwig0v7N0D29e9JiUYL8LHl2pU8vSgwwH0V7iFfL8HEetGaEdvAN2cx\niBsRIVJCZQNL1Zf/uiGRT2FQqWTKLq6qaQrDmRVSf2VAt5D8fBAqKC6hLX4FiIw4\n3OSQGKqJsqQ68TDb4lONcw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "hacklytics-test@hacklytics-testing.iam.gserviceaccount.com",
+  "client_id": "109002365633180123955",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hacklytics-test%40hacklytics-testing.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
