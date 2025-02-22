@@ -44,7 +44,7 @@ export const getUserProfile = async (req, res) => {
     } catch (error) {
       res.status(500).json({ error: 'Failed to fetch user profile' });
     }
-  };
+};
 
 //Update User Profile (Usually, height/weight, etc.)
 export const updateUserProfile = async (req, res) => {
@@ -54,7 +54,7 @@ export const updateUserProfile = async (req, res) => {
     } catch (error) {
       res.status(500).json({ error: 'Failed to update user' });
     }
-  };
+};
   
 
 //Delete a User (Delete Account)
@@ -65,4 +65,4 @@ export const deleteUser = async (req, res) => {
     } catch (error) {
       res.status(500).json({ error: 'Failed to delete user' });
     }
-  };
+};
