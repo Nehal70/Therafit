@@ -3,8 +3,10 @@
 
 @theme {
   --color-fit-orange: #FD6751;
+  --color-fit-orange-hover: #ed5c47;
   --color-fit-black: #432622;
   --color-fit-gray: #736E6E;
+  --color-fit-white-hover: #fbf9f8;
 }
 
 :root {
@@ -15,5 +17,9 @@
 button {
   font-family: inherit;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s ease;
+}
+
+div {
+  transition: all 0.25s ease;
 }

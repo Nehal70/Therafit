@@ -3,16 +3,27 @@ import User from '../models/user.js';
 // Register User (NO password hashing, NO email verification)
 export const registerUser = async (req, res) => {
     try {
-        const { email, password, firstName, lastName } = req.body;
+        const { email, password, firstName, lastName, dateOfBirth } = req.body;
 
+        // Check if user already exists
         let user = await User.findOne({ email });
         if (user) return res.status(400).json({ error: 'User already exists.' });
 
-        user = new User({ email, password, firstName, lastName });
+        // Create new user without hashing the password
+        user = new User({
+            email,
+            password, // Store password as it is
+            firstName,
+            lastName,
+            dateOfBirth,
+        });
+
+        // Save the new user
         await user.save();
 
         res.status(201).json({ message: '✅ Registration successful.', userId: user._id });
     } catch (error) {
+        console.error('Error details:', error);
         res.status(500).json({ error: '❌ Server error.' });
     }
 };
