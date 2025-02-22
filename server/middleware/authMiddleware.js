@@ -10,9 +10,7 @@ const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 const verifyGoogleToken = async (req, res, next) => {
   const { token } = req.body;
 
-  if (!token) {
-    return res.status(400).json({ error: 'Token is required.' });
-  }
+  if (!token) return res.status(400).json({ error: 'Token is required.' });
 
   try {
     const ticket = await client.verifyIdToken({
@@ -21,11 +19,6 @@ const verifyGoogleToken = async (req, res, next) => {
     });
 
     const payload = ticket.getPayload();
-    const googleId = payload.sub; // Google ID
-    const email = payload.email; // User email
-    const name = payload.name; // User name
-    const picture = payload.picture; // Profile picture URL
-    const locale = payload.locale; // User's locale
 
     // Check if the user already exists in the database
     let user = await User.findOne({ googleId });
