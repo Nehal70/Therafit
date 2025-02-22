@@ -34,6 +34,15 @@ const userSchema = new mongoose.Schema({
         type: String, // URL or path to image
         default: '',
     },
+    height: { 
+        type: Number,
+    }, //cm 
+    weight: { 
+        type: Number,
+    }, // kg
+    gender: { 
+        type: String, enum: ['male', 'female'],
+    },
     accessToken: {
         type: String,
     },
