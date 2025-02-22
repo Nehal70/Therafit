@@ -25,8 +25,8 @@ function Dashboard() {
     return (
         <>
             <div className='flex flex-col max-w-[1100px] m-auto py-10 items-start'>
-                <h1 className='flex items-center justify-center font-bold text-4xl mb-3'>Hi, Jane!&nbsp;<PiHandWaving /></h1>
-                <h3 className='text-lg mb-3'>Let&rsquo;s continue your fitness journey.</h3>
+                <h1 className='flex items-center justify-center font-bold text-4xl mb-3 text-fit-black'>Hi, Jane!&nbsp;<PiHandWaving /></h1>
+                <h3 className='text-lg mb-3 text-fit-gray'>Let&rsquo;s continue your fitness journey.</h3>
                 <h2 className='font-bold text-fit-black mb-3 mt-3 text-xl'>My Current Programs</h2>
                 <div className='grid grid-cols-3 gap-4'>
                     <ProgramBlock title='Upper Body Workout' desc='Focused on upper body and ankle injury recovery' />
