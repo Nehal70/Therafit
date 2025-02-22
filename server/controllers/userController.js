@@ -1,6 +1,6 @@
 import User from '../models/user.js';
 
-// 📌 Register User (NO password hashing, NO email verification)
+// Register User (NO password hashing, NO email verification)
 export const registerUser = async (req, res) => {
     try {
         const { email, password, firstName, lastName } = req.body;
@@ -17,7 +17,7 @@ export const registerUser = async (req, res) => {
     }
 };
 
-// 📌 Login User (NO password hashing)
+// Login User (NO password hashing)
 export const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body;
@@ -33,7 +33,7 @@ export const loginUser = async (req, res) => {
     }
 };
 
-// 📌 View User Profile
+// View User Profile
 export const getUserProfile = async (req, res) => {
     try {
         const user = await User.findById(req.params.userId);
@@ -45,7 +45,7 @@ export const getUserProfile = async (req, res) => {
     }
 };
 
-// 📌 Update User Profile
+// Update User Profile
 export const updateUserProfile = async (req, res) => {
     try {
         const updatedUser = await User.findByIdAndUpdate(req.params.userId, req.body, { new: true });
@@ -55,7 +55,7 @@ export const updateUserProfile = async (req, res) => {
     }
 };
 
-// 📌 Delete User
+// Delete User
 export const deleteUser = async (req, res) => {
     try {
         await User.findByIdAndDelete(req.params.userId);
