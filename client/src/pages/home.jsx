@@ -15,6 +15,7 @@ function Home() {
                     </div>
                   </div>
         <div
+        className="flex flex-col gap-12 h-[80vh] items-center justify-center px-[30px]">
             <h1 className='text-fit-black text-center font-bold text-6xl'>Smarter, safer workouts. <br /> Personalized for you.</h1>
             <h4 className='text-fit-gray text-center text-xl w-2/3 max-w-[780px]'>Our AI-powered platform creates workout programs based on your individual needs. Our tailored routines are crafted for injury recovery and making you a fitter, healthier person.</h4>
 
