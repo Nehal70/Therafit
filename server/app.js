@@ -5,13 +5,26 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { verifyGoogleToken } from './middleware/authMiddleware.js'; // ES module import
 import userRoutes from './routes/userRoutes.js'; // ES module import for user routes
+import $ from 'jquery';
 
 dotenv.config();
 
 const app = express();
 
+// Middleware for Cross-Origin Headers
+app.use((req, res, next) => {
+  res.setHeader('Cross-Origin-Opener-Policy', 'unsafe-none');  // Allow popups while maintaining isolation
+  res.setHeader('Cross-Origin-Embedder-Policy', 'unsafe-none'); // Less strict for embedding
+  next();
+});
+
+
 // Middleware
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ 
+  origin: 'http://localhost:5173', 
+  credentials: true,
+}));
+
 app.use(bodyParser.json());
 
 // MongoDB Connection
@@ -41,6 +54,7 @@ app.use('/api/users', userRoutes); // This connects all user-related routes
 
 // Export the app for use in server.js
 export default app;
+
 
 
 

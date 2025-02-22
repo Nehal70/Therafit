@@ -5,10 +5,8 @@ export const createUser = async (req, res) => {
   const { googleId, email, firstName, lastName, dateOfBirth, locale, profilePicture, height, weight, gender, accessToken, refreshToken } = req.body;
 
   try {
-    // Check if user already exists
     let user = await User.findOne({ googleId });
     if (!user) {
-      // If not, create a new user
       user = new User({
         googleId,
         email,
@@ -25,12 +23,13 @@ export const createUser = async (req, res) => {
       });
 
       await user.save();
+      return res.status(201).json(user); // Successfully created user
     }
 
-    res.status(201).json(user); // Successfully created or found user
+    return res.status(200).json(user); // User already exists
   } catch (error) {
     console.error(error);
-    res.status(500).json({ error: 'Failed to create user' });
+    return res.status(500).json({ error: 'Failed to create user' });
   }
 };
 
