@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { PiHandWaving } from "react-icons/pi";
 
 function Setup() {
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ function Setup() {
 
     try {
       await axios.put(`http://localhost:5001/api/users/${userId}`, formData);
-      setMessage('✅ Profile updated successfully! 🎉');
+      setMessage('✅ Profile updated successfully!');
       setTimeout(() => navigate('/dashboard'), 1000);
     } catch (err) {
       console.error('Error updating profile:', err);
@@ -42,18 +43,18 @@ function Setup() {
   };
 
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '450px', margin: '20px auto', textAlign: 'center' }}>
-      <h2>👋 Welcome{userName ? `, ${userName}` : ''}!</h2>
-      <p>Let’s personalize your experience. This helps us tailor your workouts just for you!</p>
+    <div className='max-w-[450px] mx-auto my-[20px] p-4'>
+      <h2 className='font-bold text-fit-black text-4xl flex items-center mb-1'><PiHandWaving />&nbsp;Welcome{userName ? `, ${userName}` : ''}!</h2>
+      <p className='text-fit-gray mb-4'>Let&#8217;s personalize your experience. This helps us tailor your workouts just for you!</p>
 
-      <div style={{ margin: '15px 0' }}>
-        <strong>Step 1 of 1: Complete your profile</strong>
+      <div className='mb-4 text-fit-black'>
+        <strong>Please complete your profile.</strong>
       </div>
 
       {message && <p style={{ color: message.includes('✅') ? 'green' : 'red' }}>{message}</p>}
 
-      <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '15px' }}>
-        <label>
+      <form onSubmit={handleSubmit} className='grid gap-4'>
+        <label className="flex flex-col">
           Height (cm):
           <input
             type="number"
@@ -61,11 +62,12 @@ function Setup() {
             placeholder="e.g., 175"
             value={formData.height}
             onChange={handleChange}
+            className="border border-gray-300 rounded-md p-2"
             required
           />
         </label>
 
-        <label>
+        <label className="flex flex-col">
           Weight (kg):
           <input
             type="number"
@@ -73,21 +75,24 @@ function Setup() {
             placeholder="e.g., 70"
             value={formData.weight}
             onChange={handleChange}
+            className="border border-gray-300 rounded-md p-2"
             required
           />
         </label>
 
-        <label>
+        <label className="flex flex-col mb-4">
           Gender:
-          <select name="gender" value={formData.gender} onChange={handleChange} required>
+          <select name="gender" value={formData.gender} onChange={handleChange} required
+            className="border border-gray-300 rounded-md p-2">
             <option value="">Select</option>
-            <option value="male">Male 🚹</option>
-            <option value="female">Female 🚺</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="female">Other</option>
           </select>
         </label>
 
-        <button type="submit" style={{ cursor: 'pointer', padding: '10px 20px', fontWeight: 'bold' }}>
-          Save & Continue 🚀
+        <button type="submit" className='cursor-pointer px-5 py-2 font-bold bg-fit-orange hover:bg-fit-orange-hover text-white hover:text-fit-white-hover rounded-[100px]'>
+          Save & Continue
         </button>
       </form>
     </div>
