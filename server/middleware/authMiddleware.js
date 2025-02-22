@@ -1,6 +1,6 @@
-const { OAuth2Client } = require('google-auth-library');
-const dotenv = require('dotenv');
-const User = require('../models/user');
+import { OAuth2Client } from 'google-auth-library';
+import dotenv from 'dotenv';
+import User from '../models/user.js';
 
 dotenv.config();
 
@@ -19,6 +19,7 @@ const verifyGoogleToken = async (req, res, next) => {
     });
 
     const payload = ticket.getPayload();
+    const { sub: googleId, email, name, picture, locale } = payload;
 
     // Check if the user already exists in the database
     let user = await User.findOne({ googleId });
@@ -51,4 +52,5 @@ const verifyGoogleToken = async (req, res, next) => {
   }
 };
 
-module.exports = { verifyGoogleToken };
+export { verifyGoogleToken };
+

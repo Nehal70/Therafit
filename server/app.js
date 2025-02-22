@@ -1,10 +1,10 @@
-const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
-const mongoose = require('mongoose');
-const { verifyGoogleToken } = require('./middleware/authMiddleware'); // CommonJS import
-const userRoutes = require('./routes/userRoutes'); // CommonJS import for user routes
+import express from 'express';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import mongoose from 'mongoose';
+import { verifyGoogleToken } from './middleware/authMiddleware.js'; // ES module import
+import userRoutes from './routes/userRoutes.js'; // ES module import for user routes
 
 dotenv.config();
 
@@ -40,6 +40,7 @@ app.post('/api/auth/google-login', verifyGoogleToken, (req, res) => {
 app.use('/api/users', userRoutes); // This connects all user-related routes
 
 // Export the app for use in server.js
-module.exports = app;
+export default app;
+
 
 

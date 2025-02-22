@@ -1,6 +1,6 @@
-const express = require('express');
-const { createUser, getUserProfile, updateUserProfile, deleteUser } = require('../controllers/userController'); // Use require instead of import
-const { verifyGoogleToken } = require('../middleware/authMiddleware'); // Use require instead of import
+import express from 'express';
+import { createUser, getUserProfile, updateUserProfile, deleteUser } from '../controllers/userController.js'; // Use import instead of require
+import { verifyGoogleToken } from '../middleware/authMiddleware.js'; // Use import instead of require
 
 const router = express.Router();
 
@@ -17,6 +17,7 @@ router.put('/:userId', verifyGoogleToken, updateUserProfile);
 // DELETE request to delete a user's profile
 router.delete('/:userId', verifyGoogleToken, deleteUser);
 
-module.exports = router;
+export default router;
+
 
 
