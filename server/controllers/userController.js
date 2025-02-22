@@ -1,4 +1,7 @@
+import jwt from 'jsonwebtoken';
 import User from '../models/user.js';
+
+const JWT_SECRET = 'your_jwt_secret';
 
 // Register User (NO password hashing, NO email verification)
 export const registerUser = async (req, res) => {
@@ -30,19 +33,30 @@ export const registerUser = async (req, res) => {
 
 // Login User (NO password hashing)
 export const loginUser = async (req, res) => {
-    try {
-        const { email, password } = req.body;
+  try {
+      const { email, password } = req.body;
 
-        const user = await User.findOne({ email });
-        if (!user || user.password !== password) {
-            return res.status(400).json({ error: 'Invalid credentials.' });
-        }
+      const user = await User.findOne({ email });
+      if (!user || user.password !== password) {
+          return res.status(400).json({ error: 'Invalid credentials.' });
+      }
 
-        res.json({ message: '✅ Login successful', userId: user._id });
-    } catch (error) {
-        res.status(500).json({ error: '❌ Server error.' });
-    }
+      // Generate JWT token
+      const token = jwt.sign(
+          { userId: user._id },
+          JWT_SECRET,
+          { expiresIn: '1h' } // Token expires in 1 hour
+      );
+
+      // Check if it's the user's first login
+      const firstLogin = !user.profileSetup; // Assuming you have a `profileSetup` field
+
+      res.json({ message: '✅ Login successful', token, firstLogin });
+  } catch (error) {
+      res.status(500).json({ error: '❌ Server error.' });
+  }
 };
+
 
 // View User Profile
 export const getUserProfile = async (req, res) => {
