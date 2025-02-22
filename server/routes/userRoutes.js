@@ -1,23 +1,19 @@
 import express from 'express';
-import { createUser, getUserProfile, updateUserProfile, deleteUser } from '../controllers/userController.js'; // Use import instead of require
-import { verifyGoogleToken } from '../middleware/authMiddleware.js'; // Use import instead of require
+import { registerUser, loginUser, getUserProfile, updateUserProfile, deleteUser } from '../controllers/userController.js';
 
 const router = express.Router();
 
-// Use the middleware to authenticate the user before performing any actions
-// POST request to create a new user (this might already be handled in your signup process, for example)
-router.post('/create', verifyGoogleToken, createUser); // This will only run if token is valid
+// 📌 Authentication routes
+router.post('/register', registerUser);
+router.post('/login', loginUser);
 
-// GET request to view a user's profile
-router.get('/:userId', verifyGoogleToken, getUserProfile);
-
-// PUT request to update a user's profile
-router.put('/:userId', verifyGoogleToken, updateUserProfile);
-
-// DELETE request to delete a user's profile
-router.delete('/:userId', verifyGoogleToken, deleteUser);
+// 📌 User profile routes
+router.get('/:userId', getUserProfile);
+router.put('/:userId', updateUserProfile);
+router.delete('/:userId', deleteUser);
 
 export default router;
+
 
 
 
