@@ -21,7 +21,7 @@ function Profile() {
     const userId = localStorage.getItem('userId');
     if (!userId) {
       setMessage('❌ User not logged in.');
-      //return navigate('/login');
+      return navigate('/login');
     }
 
     const fetchUserData = async () => {
