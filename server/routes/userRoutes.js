@@ -8,7 +8,7 @@ const router = express.Router();
 router.post('/register', registerUser);
 router.post('/login', loginUser);
 
-// Protect profile routes with authentication middleware
+// Protected user routes
 router.get('/:userId', authenticate, getUserProfile);
 router.put('/:userId', authenticate, updateUserProfile);
 router.delete('/:userId', authenticate, deleteUser);
