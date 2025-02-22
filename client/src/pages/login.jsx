@@ -12,7 +12,7 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
         e.preventDefault();
     
         try {
-            const response = await fetch('http://localhost:5001/api/login', {
+            const response = await fetch('http://localhost:5001/api/users/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
