@@ -1,5 +1,7 @@
 import { OAuth2Client } from 'google-auth-library';
 import dotenv from 'dotenv';
+import User from './models/User';
+
 
 dotenv.config();
 
@@ -20,15 +22,40 @@ export const verifyGoogleToken = async (req, res, next) => {
     });
 
     const payload = ticket.getPayload();
-    req.user = {
-      name: payload.name,
-      email: payload.email,
-      picture: payload.picture,
-    };
+    const googleId = payload.sub; // Google ID
+    const email = payload.email; // User email
+    const name = payload.name; // User name
+    const picture = payload.picture; // Profile picture URL
+    const locale = payload.locale; // User's locale
 
-    next(); // Proceed to the next middleware or route handler
-  } catch (error) {
-    console.error('Token verification failed:', error);
-    res.status(401).json({ error: 'Invalid token.' });
-  }
-};
+    //Check if the user already exists in the database
+    let user = await User.findOne({ googleId });
+
+    if (!user) {
+      user = new User({
+        googleId,
+        email,
+        firstName: name.split(' ')[0],
+        firstName: name.split(' ')[1] || '',
+        profilePicture: picture,
+        locale,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      });
+
+      await user.save();
+
+      } else {
+          user.profilePicture = picture;
+          user.updatedAt = new Date();
+
+          await user.save();
+      }
+
+      req.user = user;
+      next();
+    } catch (error) {
+      console.error('Token verification failed:', error);
+      res.status(401).json({ error: 'Invalid token.' });
+    }
+  };
