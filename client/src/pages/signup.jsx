@@ -83,16 +83,6 @@ const SignUp = () => {
         <h2 className="font-bold text-3xl text-fit-black mb-1">Create Account</h2>
         <p className='text-fit-gray mb-4'>Already have an account? <a className='underline' href='/login'>Log in</a>.</p>
 
-        {/* Display success or error messages */}
-        {successMessage && <div className='bg-[#1eab60] p-3 rounded-md flex mb-5 items-center'>
-          <FaCircleCheck size={17} className='text-white mr-3' />
-          <p className='text-white'>{successMessage}</p>
-        </div>}
-        {errorMessage && <div className='bg-[#cc4646] p-3 rounded-md flex mb-5 items-center'>
-          <MdError size={17} className='text-white mr-3' />
-          <p className='text-white'>{errorMessage}</p>
-        </div>}
-
         <form onSubmit={handleSubmit}>
           {/* First Name */}
           <div className="flex flex-col mb-4">
@@ -180,6 +170,17 @@ const SignUp = () => {
             Sign Up
           </button>
         </form>
+
+        {/* Display success or error messages */}
+        {successMessage && <div className='bg-[#1eab60] p-3 rounded-md flex mt-4 items-center'>
+          <FaCircleCheck size={17} className='text-white mr-3' />
+          <p className='text-white'>{successMessage}</p>
+        </div>}
+        {errorMessage && <div className='bg-[#cc4646] p-3 rounded-md flex mt-4 items-center'>
+          <MdError size={17} className='text-white mr-3' />
+          <p className='text-white'>{errorMessage}</p>
+        </div>}
+
       </div>
     </div>
   );
