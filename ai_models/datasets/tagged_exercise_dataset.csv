@@ -1,0 +1,522 @@
+Exercise,Body_Part,Intensity,Equipment,Benefit
+Rickshaw Carry,Arms,Unknown,Other,9.6
+Single-Leg Press,Legs,Unknown,Machine,9.6
+Landmine twist,Core,Unknown,Other,9.5
+Weighted pull-up,Back,Unknown,Other,9.5
+T-Bar Row with Handle,Back,Unknown,Other,9.5
+Palms-down wrist curl over bench,Arms,Unknown,Barbell,9.5
+Atlas Stones,Back,Unknown,Other,9.5
+Dumbbell front raise to lateral raise,Shoulders,Unknown,Dumbbell,9.5
+Clean from Blocks,Legs,Unknown,Barbell,9.5
+Incline Hammer Curls,Arms,Unknown,Dumbbell,9.5
+Straight-bar wrist roll-up,Arms,Unknown,None,9.5
+Barbell glute bridge,Legs,Unknown,Barbell,9.4
+Clean and press,Shoulders,Unknown,Barbell,9.4
+Triceps dip,Arms,Unknown,Body Only,9.4
+Dumbbell farmer's walk,Arms,Unknown,Other,9.4
+Palms-up wrist curl over bench,Arms,Unknown,Barbell,9.4
+Barbell Full Squat,Legs,Unknown,Barbell,9.4
+Barbell deficit deadlift,Back,Unknown,Barbell,9.4
+Barbell Deadlift,Legs,Unknown,Barbell,9.4
+Single-arm palm-in dumbbell shoulder press,Shoulders,Unknown,Dumbbell,9.4
+Romanian Deadlift With Dumbbells,Legs,Unknown,Dumbbell,9.4
+Tire flip,Legs,Unknown,Other,9.4
+Clean Deadlift,Legs,Unknown,Barbell,9.4
+Elbow plank,Core,Unknown,Body Only,9.3
+Bottoms Up,Core,Unknown,Body Only,9.3
+Barbell back squat to box,Legs,Unknown,Barbell,9.3
+Clean and jerk,Shoulders,Unknown,Barbell,9.3
+Single-arm kettlebell push-press,Shoulders,Unknown,Kettlebells,9.3
+Push-press,Legs,Unknown,Barbell,9.3
+Suspended ab fall-out,Core,Unknown,Other,9.3
+Military press,Shoulders,Unknown,Barbell,9.3
+Power snatch-,Legs,Unknown,Barbell,9.3
+Sumo deadlift,Legs,Unknown,Barbell,9.3
+Hang Clean,Legs,Unknown,Barbell,9.3
+Dumbbell V-Sit Cross Jab,Core,Unknown,Dumbbell,9.3
+Reverse Band Box Squat,Legs,Unknown,None,9.3
+Standing palms-in shoulder press,Shoulders,Unknown,Dumbbell,9.3
+Standing cable low-to-high twist,Core,Unknown,Cable,9.3
+Decline EZ-bar skullcrusher,Arms,Unknown,E-Z Curl Bar,9.3
+Standing behind-the-back wrist curl,Arms,Unknown,Barbell,9.3
+Seated finger curl,Arms,Unknown,Barbell,9.3
+Wide-grip barbell curl,Arms,Unknown,Barbell,9.3
+Dumbbell spell caster,Core,Unknown,Dumbbell,9.3
+Dumbbell floor press,Arms,Unknown,Dumbbell,9.3
+Lying Face Down Plate Neck Resistance,Full Body,Unknown,Other,9.3
+Pullups,Back,Unknown,Body Only,9.2
+Decline reverse crunch,Core,Unknown,Other,9.2
+Dumbbell Bench Press,Chest,Unknown,Dumbbell,9.2
+Jumping rope,Legs,Unknown,Body Only,9.2
+Seated barbell shoulder press,Shoulders,Unknown,Barbell,9.2
+EZ-bar spider curl,Arms,Unknown,Barbell,9.2
+Smith machine shrug,Full Body,Unknown,Machine,9.2
+Smith Machine Calf Raise,Full Body,Unknown,Machine,9.2
+Romanian Deadlift from Deficit,Legs,Unknown,Barbell,9.2
+Power Snatch,Legs,Unknown,Barbell,9.2
+Pushups,Chest,Unknown,Body Only,9.2
+Barbell walking lunge,Legs,Unknown,Barbell,9.2
+Front Squats With Two Kettlebells,Legs,Unknown,Kettlebells,9.2
+Spider crawl,Core,Unknown,Body Only,9.2
+Power Clean from Blocks,Legs,Unknown,Barbell,9.2
+Single Leg Push-off,Legs,Unknown,Other,9.2
+Hip Circles (Prone),Full Body,Unknown,None,9.2
+Reverse-grip bent-over row,Back,Unknown,Barbell,9.2
+Seated Two-Arm Palms-Up Low-Pulley Wrist Curl,Arms,Unknown,Cable,9.2
+Back extension,Back,Unknown,Body Only,9.1
+Close-grip bench press,Chest,Unknown,Barbell,9.1
+Cocoons,Core,Unknown,Body Only,9.1
+Cross-Body Crunch,Core,Unknown,Body Only,9.1
+Dumbbell Flyes,Chest,Unknown,Dumbbell,9.1
+Hammer Curls,Arms,Unknown,Dumbbell,9.1
+Incline dumbbell bench press,Chest,Unknown,Dumbbell,9.1
+Low-cable cross-over,Chest,Unknown,Cable,9.1
+Single-arm high-cable side bend,Core,Unknown,Cable,9.1
+Seated Dumbbell Press,Shoulders,Unknown,Dumbbell,9.1
+Standing dumbbell shoulder press,Shoulders,Unknown,Dumbbell,9.1
+Single Leg Push-off,Legs,Unknown,Other,9.2
+Hip Circles (Prone),Full Body,Unknown,None,9.2
+Reverse-grip bent-over row,Back,Unknown,Barbell,9.2
+Seated Two-Arm Palms-Up Low-Pulley Wrist Curl,Arms,Unknown,Cable,9.2
+Back extension,Back,Unknown,Body Only,9.1
+Close-grip bench press,Chest,Unknown,Barbell,9.1
+Cocoons,Core,Unknown,Body Only,9.1
+Cross-Body Crunch,Core,Unknown,Body Only,9.1
+Dumbbell Flyes,Chest,Unknown,Dumbbell,9.1
+Hammer Curls,Arms,Unknown,Dumbbell,9.1
+Incline dumbbell bench press,Chest,Unknown,Dumbbell,9.1
+Seated Dumbbell Press,Shoulders,Unknown,Dumbbell,9.1
+Standing dumbbell shoulder press,Shoulders,Unknown,Dumbbell,9.1
+EZ-Bar Curl,Arms,Unknown,E-Z Curl Bar,9.1
+Olympic Squat,Legs,Unknown,Barbell,9.1
+Natural Glute Ham Raise,Legs,Unknown,Body Only,9.1
+Axle Deadlift,Back,Unknown,Other,9.1
+Zottman Curl,Arms,Unknown,None,9.1
+Glute ham raise-,Legs,Unknown,None,9.1
+Single-arm lateral raise,Shoulders,Unknown,Dumbbell,9.1
+Power Partials,Shoulders,Unknown,Dumbbell,9.1
+Leverage Shrug,Full Body,Unknown,Machine,9.1
+Cable V-bar push-down,Arms,Unknown,Cable,9.1
+Wrist Roller,Arms,Unknown,Other,9.1
+Incline dumbbell reverse fly,Shoulders,Unknown,Dumbbell,9.1
+Stair climber,Legs,Unknown,Machine,9.1
+Elbow-to-knee crunch,Core,Unknown,Body Only,9.1
+Kettlebell Pistol Squat,Legs,Unknown,Kettlebells,9.1
+Overhead dumbbell front raise,Shoulders,Unknown,Dumbbell,9.1
+Biceps curl to shoulder press,Arms,Unknown,Dumbbell,9.1
+Weighted bench dip,Arms,Unknown,Body Only,9.1
+Barbell Hip Thrust,Legs,Unknown,Barbell,9.1
+Forward lunge,Legs,Unknown,Body Only,9.0
+Barbell Bench Press - Medium Grip,Chest,Unknown,Barbell,9.0
+Chest dip,Chest,Unknown,Other,9.0
+Seated dumbbell shoulder press,Shoulders,Unknown,Dumbbell,9.0
+Barbell Curl,Arms,Unknown,Barbell,9.0
+EZ-Bar Skullcrusher,Arms,Unknown,E-Z Curl Bar,9.0
+One-Arm Dumbbell Row,Back,Unknown,Dumbbell,9.0
+Alternating standing shoulder press,Shoulders,Unknown,Dumbbell,9.0
+Concentration curl,Arms,Unknown,Dumbbell,9.0
+Decline Crunch,Core,Unknown,Body Only,9.0
+Decline Dumbbell Flyes,Chest,Unknown,Dumbbell,9.0
+Single-arm incline rear delt raise,Shoulders,Unknown,Dumbbell,9.0
+Alternating dumbbell front raise,Shoulders,Unknown,Dumbbell,9.0
+Hanging toes-to-bar,Core,Unknown,Body Only,9.0
+Narrow-stance squat,Legs,Unknown,Barbell,9.0
+Kneeling cable oblique crunch,Core,Unknown,Cable,9.0
+Reverse Grip Triceps Pushdown,Arms,Unknown,Cable,9.0
+Bear crawl sled drag,Legs,Unknown,Other,9.0
+Rocky Pull-Ups/Pulldowns,Back,Unknown,Other,9.0
+Snatch-Grip Behind-The-Neck Overhead Press,Shoulders,Unknown,Barbell,9.0
+Box Squat with Bands,Legs,Unknown,Barbell,9.0
+Flexor Incline Dumbbell Curls,Arms,Unknown,Dumbbell,9.0
+Seated One-Arm Dumbbell Palms-Up Wrist Curl,Arms,Unknown,Dumbbell,9.0
+Thigh adductor,Full Body,Unknown,Machine,9.0
+Machine Bicep Curl,Arms,Unknown,Machine,9.0
+Seated Palms-Down Barbell Wrist Curl,Arms,Unknown,None,9.0
+Single-arm incline rear delt raise,Shoulders,Unknown,Dumbbell,9.0
+Alternating dumbbell front raise,Shoulders,Unknown,Dumbbell,9.0
+Hanging toes-to-bar,Core,Unknown,Body Only,9.0
+Narrow-stance squat,Legs,Unknown,Barbell,9.0
+Kneeling cable oblique crunch,Core,Unknown,Cable,9.0
+Reverse Grip Triceps Pushdown,Arms,Unknown,Cable,9.0
+Bear crawl sled drag,Legs,Unknown,Other,9.0
+Rocky Pull-Ups/Pulldowns,Back,Unknown,Other,9.0
+Snatch-Grip Behind-The-Neck Overhead Press,Shoulders,Unknown,Barbell,9.0
+Box Squat with Bands,Legs,Unknown,Barbell,9.0
+Flexor Incline Dumbbell Curls,Arms,Unknown,Dumbbell,9.0
+Seated One-Arm Dumbbell Palms-Up Wrist Curl,Arms,Unknown,Dumbbell,9.0
+Machine Bicep Curl,Arms,Unknown,Machine,9.0
+Seated Palms-Down Barbell Wrist Curl,Arms,Unknown,None,9.0
+Car driver,Shoulders,Unknown,Other,9.0
+Alternating Deltoid Raise,Shoulders,Unknown,Dumbbell,9.0
+Hanging Oblique Knee Raise,Core,Unknown,Body Only,9.0
+Bodyweight Flyes,Chest,Unknown,E-Z Curl Bar,9.0
+Standing Calf Raises,Full Body,Unknown,Machine,9.0
+Push-Ups - Close Triceps Position,Arms,Unknown,Body Only,9.0
+One-Arm Long Bar Row,Back,Unknown,Barbell,9.0
+Overhead cable curl,Arms,Unknown,Cable,9.0
+Single-dumbbell front raise,Shoulders,Unknown,Dumbbell,9.0
+Incline cable chest fly,Chest,Unknown,Cable,9.0
+Single-leg depth squat,Legs,Unknown,Bands,9.0
+Dumbbell suitcase crunch,Core,Unknown,Medicine Ball,9.0
+Plate Twist,Core,Unknown,Other,9.0
+Single-leg cable hip extension,Legs,Unknown,Cable,9.0
+Weighted Jump Squat,Legs,Unknown,Barbell,9.0
+Squat with Chains,Legs,Unknown,Barbell,9.0
+Gorilla Chin/Crunch,Core,Unknown,Body Only,9.0
+Kneeling cable triceps extension,Arms,Unknown,Cable,9.0
+Kneeling Cable Crunch With Alternating Oblique Twists,Core,Unknown,Cables,8.9
+Bicycling,Legs,Unknown,Other,8.9
+Arnold press,Shoulders,Unknown,Dumbbell,8.9
+Weighted Crunches,Core,Unknown,Other,8.9
+Single-arm cable triceps extension,Arms,Unknown,Cable,8.9
+Barbell roll-out,Core,Unknown,Barbell,8.9
+Kneeling cable crunch,Core,Unknown,Cable,8.9
+Exercise Ball Pull-In,Core,Unknown,Exercise Ball,8.9
+Hanging leg raise,Core,Unknown,Body Only,8.9
+Barbell Ab Rollout - On Knees,Core,Unknown,Barbell,8.9
+Barbell Squat,Legs,Unknown,Barbell,8.9
+Decline barbell bench press,Chest,Unknown,Barbell,8.9
+Dumbbell Bicep Curl,Arms,Unknown,Dumbbell,8.9
+Dumbbell Goblet Squat,Legs,Unknown,Dumbbell,8.9
+Dumbbell squat,Legs,Unknown,Dumbbell,8.9
+Barbell front squat,Legs,Unknown,Barbell,8.9
+Close-grip pull-down,Back,Unknown,Cable,8.9
+Triceps Pushdown - Rope Attachment,Arms,Unknown,Cables,8.9
+Side-to-side box skip,Legs,Unknown,Body Only,8.9
+Smith machine shoulder press,Shoulders,Unknown,Machine,8.9
+Seated triceps press,Arms,Unknown,Dumbbell,8.9
+Dumbbell Lying Supination,Arms,Unknown,None,8.9
+Pull-up,Back,Unknown,Body Only,8.9
+Wide-grip bench press,Chest,Unknown,Barbell,8.9
+Close-grip EZ-bar curl,Arms,Unknown,Barbell,8.9
+T-Bar Row,Back,Unknown,Other,8.9
+Bent Over Two-Arm Long Bar Row,Back,Unknown,Barbell,8.9
+Muscle Up,Back,Unknown,Body Only,8.9
+Machine shoulder press,Shoulders,Unknown,Machine,8.9
+Incline EZ-bar skullcrusher,Arms,Unknown,Barbell,8.9
+Alternating sit-through with crunch,Back,Unknown,Other,8.9
+Wide-Grip Decline Barbell Bench Press,Chest,Unknown,Barbell,8.9
+Rower,Back,Unknown,Machine,8.9
+Snatch Deadlift,Legs,Unknown,Barbell,8.9
+Front Plate Raise,Shoulders,Unknown,Other,8.9
+Decline Close-Grip Bench To Skull Crusher,Arms,Unknown,Barbell,8.9
+Lying Leg Curls,Legs,Unknown,Machine,8.9
+Cross-body hammer curl,Arms,Unknown,Dumbbell,8.9
+Shotgun row,Back,Unknown,Cable,8.9
+Ab Roller,Core,Unknown,Other,8.9
+Reverse-grip incline dumbbell bench press,Chest,Unknown,Dumbbell,8.9
+Leg Press,Legs,Unknown,Machine,8.8
+Stiff-Legged Dumbbell Deadlift,Legs,Unknown,Dumbbell,8.8
+Cable Crossover,Chest,Unknown,Cable,8.8
+Barbell Incline Bench Press Medium-Grip,Chest,Unknown,Barbell,8.8
+Incline Dumbbell Flyes,Chest,Unknown,Dumbbell,8.8
+Seated Cable Rows,Back,Unknown,Cable,8.8
+Tricep Dumbbell Kickback,Arms,Unknown,Dumbbell,8.8
+Otis-Up,Core,Unknown,Other,8.8
+Mountain climber,Core,Unknown,Body Only,8.8
+Ab bicycle,Core,Unknown,Body Only,8.8
+Barbell forward lunge,Legs,Unknown,Barbell,8.8
+3/4 sit-up,Core,Unknown,Body Only,8.8
+Exercise ball leg curl,Legs,Unknown,Exercise Ball,8.8
+Glute bridge,Legs,Unknown,Body Only,8.8
+Close-Grip Front Lat Pulldown,Back,Unknown,Cable,8.8
+Dip Machine,Arms,Unknown,Cable,8.8
+Incline dumbbell row,Back,Unknown,Dumbbell,8.8
+Dumbbell Lunges,Legs,Unknown,Dumbbell,8.8
+Single-arm standing shoulder press,Shoulders,Unknown,Dumbbell,8.8
+Preacher Curl,Arms,Unknown,Barbell,8.8
+Reverse crunch,Core,Unknown,Body Only,8.8
+Standing Dumbbell Triceps Extension,Arms,Unknown,Dumbbell,8.8
+Elliptical trainer,Legs,Unknown,Machine,8.8
+Bodyweight squat,Legs,Unknown,Body Only,8.8
+Bent Over Two-Dumbbell Row With Palms In,Back,Unknown,Dumbbell,8.8
+Hex-bar deadlift,Legs,Unknown,Other,8.8
+Narrow-stance leg press,Legs,Unknown,Machine,8.8
+Single-leg glute bridge,Legs,Unknown,Body Only,8.8
+Barbell Curls Lying Against An Incline,Arms,Unknown,Barbell,8.8
+Standing Hip Circles,Full Body,Unknown,Body Only,8.8
+Clam,Full Body,Unknown,None,8.8
+Narrow Stance Hack Squats,Legs,Unknown,Machine,8.8
+Seated Close-Grip Concentration Barbell Curl,Arms,Unknown,Barbell,8.8
+Dumbbell Lying Pronation,Arms,Unknown,None,8.8
+Smith machine box squat,Legs,Unknown,Barbell,8.8
+Drop Push,Chest,Unknown,Other,8.8
+Upside-down pull-up,Back,Unknown,Other,8.8
+Reverse Barbell Preacher Curls,Arms,Unknown,E-Z Curl Bar,8.8
+Close-grip EZ-bar bench press,Chest,Unknown,E-Z Curl Bar,8.8
+Incline Push-Up,Chest,Unknown,Body Only,8.8
+Hyperextensions With No Hyperextension Bench,Back,Unknown,Body Only,8.8
+Dumbbell front raise,Shoulders,Unknown,Dumbbell,8.8
+Parallel Bar Dip,Arms,Unknown,Body Only,8.8
+Stairmaster,Legs,Unknown,Machine,8.8
+Double Leg Butt Kick,Legs,Unknown,None,8.8
+Groiners,Full Body,Unknown,Body Only,8.8
+Neck Press,Chest,Unknown,Barbell,8.8
+Broad jump,Legs,Unknown,Body Only,8.8
+Machine Squat,Legs,Unknown,Machine,8.8
+V-bar pull-up,Back,Unknown,None,8.8
+Ring dip,Arms,Unknown,Body Only,8.8
+Standing One-Arm Cable Curl,Arms,Unknown,Cable,8.8
+Burpee,Legs,Unknown,Body Only,8.8
+Double-arm triceps kick-back,Arms,Unknown,Dumbbell,8.8
+Dumbbell reverse lunge,Legs,Unknown,Dumbbell,8.7
+Seated Calf Raise,Full Body,Unknown,Machine,8.7
+Standing dumbbell shrug,Full Body,Unknown,Dumbbell,8.7
+Calf Press On The Leg Press Machine,Full Body,Unknown,Machine,8.7
+Barbell step-up,Legs,Unknown,Barbell,8.7
+Feet-elevated bench dip,Arms,Unknown,Body Only,8.7
+Bent Over Barbell Row,Back,Unknown,Barbell,8.7
+Crunches,Core,Unknown,Body Only,8.7
+Dumbbell Alternate Bicep Curl,Arms,Unknown,Dumbbell,8.7
+Bent-over dumbbell rear delt row,Shoulders,Unknown,Dumbbell,8.7
+External Rotation with Cable,Shoulders,Unknown,Cables,8.7
+Handstand push-up,Shoulders,Unknown,Body Only,8.7
+Single-arm dumbbell preacher curl,Arms,Unknown,Dumbbell,8.7
+Step-up with knee raise,Legs,Unknown,Body Only,8.7
+Smith machine back squat,Legs,Unknown,Machine,8.7
+Incline dumbbell front raise,Shoulders,Unknown,Dumbbell,8.7
+Alternate Incline Dumbbell Curl,Arms,Unknown,Dumbbell,8.7
+Standing dumbbell upright row,Full Body,Unknown,Dumbbell,8.7
+Single-arm cable front raise,Shoulders,Unknown,Cable,8.7
+Two-Arm Kettlebell Military Press,Shoulders,Unknown,Kettlebells,8.7
+Incline cable chest press,Chest,Unknown,Cable,8.7
+Rope climb,Back,Unknown,Body Only,8.7
+Single-arm dumbbell preacher curl,Arms,Unknown,Dumbbell,8.7
+Step-up with knee raise,Legs,Unknown,Body Only,8.7
+Incline dumbbell front raise,Shoulders,Unknown,Dumbbell,8.7
+Rope climb,Back,Unknown,Body Only,8.7
+Trail Running/Walking,Legs,Unknown,Body Only,8.7
+Standing Bradford press,Shoulders,Unknown,Barbell,8.7
+Neutral-grip dumbbell bench press,Chest,Unknown,Dumbbell,8.7
+Cable Chest Press,Chest,Unknown,Cable,8.7
+Standing concentration curl,Arms,Unknown,Dumbbell,8.7
+Wide-Grip Rear Pull-Up,Back,Unknown,Body Only,8.7
+Kettlebell pass-through lunge,Legs,Unknown,Kettlebells,8.7
+Hands-elevated push-up,Chest,Unknown,Body Only,8.7
+Deadlift with Bands,Back,Unknown,Barbell,8.7
+Straight-arm rope pull-down,Back,Unknown,Cable,8.7
+Barbell Shoulder Press,Shoulders,Unknown,Barbell,8.7
+Power clean,Legs,Unknown,Barbell,8.7
+Hang Snatch,Legs,Unknown,Barbell,8.7
+Kettlebell sumo deadlift high pull,Full Body,Unknown,Kettlebells,8.7
+Calf-Machine Shoulder Shrug,Full Body,Unknown,Machine,8.7
+Bench Press - Powerlifting,Arms,Unknown,Barbell,8.7
+Rocking Standing Calf Raise,Full Body,Unknown,Barbell,8.7
+Goblet Squat,Legs,Unknown,Kettlebells,8.7
+Behind-the-head skullcrusher,Arms,Unknown,Barbell,8.7
+Seated palms-up wrist curl,Arms,Unknown,Barbell,8.7
+Reverse Cable Curl,Arms,Unknown,Cable,8.7
+Dumbbell side bend,Core,Unknown,Dumbbell,8.6
+Lat pull-down,Back,Unknown,Cable,8.6
+Side Lateral Raise,Shoulders,Unknown,Dumbbell,8.6
+Alternating incline dumbbell biceps curl,Arms,Unknown,Dumbbell,8.6
+Kettlebell One-Legged Deadlift,Legs,Unknown,Kettlebells,8.6
+Alternate Hammer Curl,Arms,Unknown,Dumbbell,8.6
+Decline Push-Up,Chest,Unknown,Body Only,8.6
+Captain's chair knee raise,Core,Unknown,Other,8.6
+Triceps Pushdown,Arms,Unknown,Cable,8.6
+Low cable overhead triceps extension,Arms,Unknown,Cable,8.6
+Single-arm cable cross-over,Chest,Unknown,Cable,8.6
+Seated dumbbell biceps curl,Arms,Unknown,Dumbbell,8.6
+Battle ropes,Shoulders,Unknown,Other,8.6
+Dead bug reach,Core,Unknown,Body Only,8.6
+Deadlift with Chains,Back,Unknown,Barbell,8.6
+Rope Crunch,Core,Unknown,Cable,8.6
+Palms-Up Dumbbell Wrist Curl Over A Bench,Arms,Unknown,Dumbbell,8.6
+Kettlebell thruster,Legs,Unknown,Kettlebells,8.6
+Single-Arm Push-Up,Chest,Unknown,Body Only,8.6
+Band Hip Adductions,Full Body,Unknown,Bands,8.6
+Single-arm kettlebell clean,Legs,Unknown,Kettlebells,8.6
+Preacher Hammer Dumbbell Curl,Arms,Unknown,Dumbbell,8.6
+Alternating Kettlebell Press,Shoulders,Unknown,Kettlebells,8.6
+Split Squat with Dumbbells,Legs,Unknown,Dumbbell,8.6
+Standing One-Arm Dumbbell Curl Over Incline Bench,Arms,Unknown,None,8.6
+Standing Olympic Plate Hand Squeeze,Arms,Unknown,Other,8.6
+Sledgehammer swing,Core,Unknown,Other,8.6
+Kneeling Squat,Legs,Unknown,Barbell,8.6
+Single-arm kettlebell snatch,Shoulders,Unknown,Kettlebells,8.6
+Close-grip barbell curl,Arms,Unknown,Barbell,8.6
+Box jump,Legs,Unknown,Other,8.6
+Standing cable crunch,Core,Unknown,Cable,8.6
+Leverage Incline Chest Press,Chest,Unknown,Machine,8.6
+Standing barbell overhead triceps extension,Arms,Unknown,Barbell,8.6
+Lying cable triceps extension,Arms,Unknown,Cable,8.6
+Kettlebell Turkish Get-Up (Squat style),Shoulders,Unknown,None,8.6
+Crunch - Hands Overhead,Core,Unknown,Body Only,8.6
+Cable Internal Rotation,Shoulders,Unknown,Cable,8.6
+Leg Extensions,Legs,Unknown,Machine,8.5
+Standing One-Arm Dumbbell Curl Over Incline Bench,Arms,Unknown,None,8.6
+Standing Olympic Plate Hand Squeeze,Arms,Unknown,Other,8.6
+Sledgehammer swing,Core,Unknown,Other,8.6
+Single-arm kettlebell snatch,Shoulders,Unknown,Kettlebells,8.6
+Box jump,Legs,Unknown,Other,8.6
+Standing cable crunch,Core,Unknown,Cable,8.6
+Standing barbell overhead triceps extension,Arms,Unknown,Barbell,8.6
+Lying cable triceps extension,Arms,Unknown,Cable,8.6
+Close push-up to wide push-up,Chest,Unknown,Body Only,8.5
+Single-arm dumbbell triceps extension,Arms,Unknown,Dumbbell,8.5
+Butterfly,Chest,Unknown,Machine,8.5
+Decline dumbbell bench press,Chest,Unknown,Dumbbell,8.5
+V-up,Core,Unknown,Body Only,8.5
+Seated face pull,Shoulders,Unknown,Cable,8.5
+Barbell Bulgarian split squat,Legs,Unknown,Barbell,8.5
+Reverse-grip lat pull-down,Back,Unknown,Machine,8.5
+Standing Biceps Cable Curl,Arms,Unknown,Cable,8.5
+Single-arm cable seated row,Back,Unknown,Cable,8.5
+Single-arm kettlebell row,Chest,Unknown,Dumbbell,8.5
+Scissors Jump,Legs,Unknown,Body Only,8.5
+Wide Stance Stiff Legs,Legs,Unknown,Barbell,8.5
+Rack Pull with Bands,Back,Unknown,Barbell,8.5
+Drag curl,Arms,Unknown,Barbell,8.5
+Close push-up to wide push-up,Chest,Unknown,Body Only,8.5
+Single-arm dumbbell triceps extension,Arms,Unknown,Dumbbell,8.5
+Butterfly,Chest,Unknown,Machine,8.5
+Seated face pull,Shoulders,Unknown,Cable,8.5
+Rack Pull with Bands,Back,Unknown,Barbell,8.5
+Drag curl,Arms,Unknown,Barbell,8.5
+Hang Clean - Below the Knees,Legs,Unknown,Barbell,8.5
+Decline oblique crunch,Core,Unknown,None,8.5
+Dumbbell external shoulder rotation,Shoulders,Unknown,Dumbbell,8.5
+Single-arm bent-over cable rear delt fly,Shoulders,Unknown,Cable,8.5
+Clean,Legs,Unknown,Barbell,8.5
+Single-arm incline lateral raise,Shoulders,Unknown,Dumbbell,8.5
+Decline bar press sit-up,Core,Unknown,Barbell,8.5
+Barbell rear delt bent-over row,Shoulders,Unknown,Barbell,8.5
+Calf Press,Full Body,Unknown,Machine,8.5
+Kettlebell alternating renegade row,Back,Unknown,Kettlebells,8.5
+Bosu Ball Cable Crunch With Side Bends,Core,Unknown,Cable,8.5
+Stomach Vacuum,Core,Unknown,Body Only,8.5
+Hammer Grip Incline DB Bench Press,Chest,Unknown,Dumbbell,8.5
+Wide-grip hands-elevated push-up,Chest,Unknown,Body Only,8.5
+Decline Dumbbell Triceps Extension,Arms,Unknown,Dumbbell,8.5
+Jumping jack-,Legs,Unknown,Body Only,8.5
+Push-Ups With Feet On An Exercise Ball,Chest,Unknown,Body Only,8.5
+Seated cable shoulder press,Shoulders,Unknown,Cable,8.5
+Barbell hack squat,Legs,Unknown,Barbell,8.5
+Feet-elevated push-up,Chest,Unknown,Body Only,8.5
+Good Morning,Legs,Unknown,Barbell,8.5
+Leverage Chest Press,Chest,Unknown,Machine,8.5
+Gironda Sternum Chins,Back,Unknown,Other,8.5
+Exercise ball crunch,Core,Unknown,Exercise Ball,8.4
+Seated rear delt fly,Shoulders,Unknown,Dumbbell,8.4
+Standing face pull,Shoulders,Unknown,Cable,8.4
+Glute Ham Raise,Legs,Unknown,Machine,8.4
+Russian twist,Core,Unknown,Body Only,8.4
+Seated Flat Bench Leg Pull-In,Core,Unknown,Weight Bench,8.4
+Barbell shrug,Full Body,Unknown,Barbell,8.4
+Seated Flat Bench Leg Pull-In,Core,Unknown,Weight Bench,8.4
+Barbell shrug,Full Body,Unknown,Barbell,8.4
+Standing cable rear delt row,Shoulders,Unknown,Cable,8.4
+Flat Bench Lying Leg Raise,Core,Unknown,Body Only,8.4
+Hack Squat,Legs,Unknown,Barbell,8.4
+Dumbbell skullcrusher,Arms,Unknown,Dumbbell,8.4
+Man-maker,Back,Unknown,Dumbbell,8.4
+Pallof press,Core,Unknown,Other,8.4
+Knees tucked crunch,Core,Unknown,Body Only,8.4
+Straight-arm dumbbell pull-over,Chest,Unknown,Dumbbell,8.4
+Arms-crossed jump squat,Legs,Unknown,Body Only,8.4
+Decline Smith Press,Chest,Unknown,Machine,8.4
+Band Skull Crusher,Arms,Unknown,None,8.4
+Side Wrist Pull,Shoulders,Unknown,None,8.4
+Isometric Wipers,Chest,Unknown,Body Only,8.4
+Skating,Legs,Unknown,Other,8.4
+Cable cross-over,Chest,Unknown,Cable,8.4
+Treadmill running,Legs,Unknown,Machine,8.4
+One Arm Pronated Dumbbell Triceps Extension,Arms,Unknown,Dumbbell,8.4
+Single-arm kettlebell clean and jerk,Shoulders,Unknown,Kettlebells,8.4
+Side To Side Chins,Back,Unknown,Body Only,8.4
+Incline Dumbbell Bench With Palms Facing In,Chest,Unknown,Dumbbell,8.4
+Seated palms-down wrist curl,Arms,Unknown,Dumbbell,8.4
+Standing leg swing,Legs,Unknown,Body Only,8.4
+Clock push-up,Chest,Unknown,Body Only,8.4
+Machine seated row,Back,Unknown,Machine,8.4
+Lying Face Up Plate Neck Resistance,Full Body,Unknown,Other,8.4
+Weighted sissy squat,Legs,Unknown,Other,8.4
+Jog In Place,Legs,Unknown,None,8.4
+Dumbbell Raise,Shoulders,Unknown,Dumbbell,8.4
+Palms-Down Dumbbell Wrist Curl Over A Bench,Arms,Unknown,Dumbbell,8.4
+One Arm Supinated Dumbbell Triceps Extension,Arms,Unknown,Dumbbell,8.4
+Jog In Place,Legs,Unknown,None,8.4
+Dumbbell Raise,Shoulders,Unknown,Dumbbell,8.4
+Palms-Down Dumbbell Wrist Curl Over A Bench,Arms,Unknown,Dumbbell,8.4
+One Arm Supinated Dumbbell Triceps Extension,Arms,Unknown,Dumbbell,8.4
+Stationary bike,Legs,Unknown,Machine,8.3
+Dumbbell bent-over row,Back,Unknown,Dumbbell,8.3
+Barbell thruster,Legs,Unknown,Barbell,8.3
+Flutter Kicks,Legs,Unknown,Weight Bench,8.3
+Dumbbell sumo squat,Legs,Unknown,Dumbbell,8.3
+Barbell upright row,Shoulders,Unknown,Barbell,8.3
+Superman,Back,Unknown,Body Only,8.3
+Straight-Arm Pulldown,Back,Unknown,Cable,8.3
+Barbell stiff-legged deadlift,Legs,Unknown,Barbell,8.3
+Standing One-Arm Dumbbell Triceps Extension,Arms,Unknown,Dumbbells,8.3
+Smith machine bench press,Chest,Unknown,Machine,8.3
+Seated Side Lateral Raise,Shoulders,Unknown,Dumbbell,8.3
+Dumbbell Lying Rear Lateral Raise,Shoulders,Unknown,Dumbbell,8.3
+Dumbbell preacher curl,Arms,Unknown,Dumbbell,8.3
+Front Raise And Pullover,Chest,Unknown,Barbell,8.3
+Dumbbell seated box jump,Legs,Unknown,Dumbbell,8.3
+Middle Back Shrug,Back,Unknown,Dumbbell,8.3
+Incline face-down bar front raise,Shoulders,Unknown,E-Z Curl Bar,8.3
+Butt-Ups,Core,Unknown,Body Only,8.3
+Band Good Morning (Pull Through),Legs,Unknown,Bands,8.3
+Bodyweight Reverse Lunge,Legs,Unknown,Body Only,8.3
+Seated One-Arm Dumbbell Palms-Down Wrist Curl,Arms,Unknown,Dumbbell,8.3
+Glute Kickback,Legs,Unknown,Body Only,8.3
+Treadmill jogging,Legs,Unknown,Machine,8.3
+Plate Pinch,Arms,Unknown,Other,8.3
+Yates Row Reverse Grip,Back,Unknown,Barbell,8.3
+Linear Acceleration Wall Drill,Legs,Unknown,Body Only,8.3
+Reverse-grip bench press,Arms,Unknown,Barbell,8.3
+Leverage Decline Chest Press,Chest,Unknown,Machine,8.3
+Chain Handle Extension,Arms,Unknown,Other,8.3
+Push-ups,Chest,Medium,None,Builds upper body strength
+Squats,Legs,Low,None,Strengthens lower body
+Lunges,Legs,Low,None,Improves balance and coordination
+Burpees,Full Body,High,None,Full body workout
+Mountain Climbers,Legs,Medium,None,Improves cardiovascular fitness
+Jumping Jacks,Full Body,Low,None,Improves coordination and cardiovascular health
+Bicycle Crunches,Core,Medium,None,Targets abdominal muscles
+Dips,Chest,Medium,Parallel Bars or Chair,Strengthens triceps and chest
+Pull-ups,Back,High,Pull-up Bar,Builds upper body strength
+Russian Twists,Core,Medium,None or Dumbbell,Improves core rotation strength
+Leg Raises,Core,Medium,None,Strengthens lower abs
+Deadlifts,Back,High,Barbell,Strengthens back and legs
+Bench Press,Chest,Medium,"Bench, Barbell",Builds chest strength
+Rows,Back,Medium,Dumbbells or Barbell,Improves posture and back strength
+Shoulder Press,Shoulders,Medium,Dumbbells or Barbell,Strengthens shoulders
+Calf Raises,Full Body,Low,None or Dumbbells,Builds calf muscles
+Tricep Extensions,Arms,Medium,Dumbbells,Isolates and strengthens triceps
+Lateral Raises,Shoulders,Medium,Dumbbells,Builds shoulder width
+Glute Bridges,Legs,Low,None,Activates and strengthens glutes
+Superman,Back,Low,None,Improves lower back strength
+Box Jumps,Legs,High,Box or Platform,Builds explosive power
+Kettlebell Swings,Legs,Medium,Kettlebell,Improves hip power and cardiovascular fitness
+Step-ups,Legs,Medium,Step or Box,Builds unilateral leg strength
+Face Pulls,Back,Medium,Resistance Band or Cable Machine,Improves shoulder health and posture
+Lat Pulldowns,Back,Medium,Cable Machine,Strengthens back and improves posture
+Reverse Lunges,Legs,Medium,None or Dumbbells,Improves balance and leg strength
+Plyo Squats,Legs,Medium,None,Builds lower body power
+Scissors Kicks,Core,Medium,None,Strengthens lower abs and hip flexors
+Tricep Dips,Arms,Medium,Bench or Chair,Isolates triceps
+Seated Rows,Back,Medium,Cable Machine or Resistance Band,Improves back strength and posture
+Flutter Kicks,Core,Medium,None,Targets lower abs
+Inverted Rows,Back,Medium,Low Bar or TRX,Builds back strength
+Bulgarian Split Squats,Legs,High,Bench or Step,Improves unilateral leg strength and balance
+Prone Cobras,Back,Low,None,Improves posture and strengthens upper back
+Resistance Band Pull-Aparts,Back,Low,Resistance Band,Improves shoulder health and posture
+Wall Angels,Back,Low,Wall,Improves shoulder mobility and posture
+Bird Dogs,Back,Low,None,Improves core stability and balance
+Plyometric Push-ups,Chest,High,None,Builds explosive upper body power
+Decline Push-ups,Chest,High,Bench or Step,Targets upper chest
+Incline Push-ups,Chest,Low,Bench or Step,Targets lower chest
+Dead Bugs,Back,Low,None,Improves core stability
+Pistol Squats,Legs,High,None,Builds unilateral leg strength and balance
+Zottman Curls,Arms,Medium,Dumbbells,Targets biceps and forearms
+Dragon Flags,Core,High,Bench or Sturdy Surface,Advanced core exercise
+Renegade Rows,Back,High,Dumbbells,Improves core stability and upper body strength
+Frog Jumps,Legs,Medium,None,Builds lower body power and endurance
+Turkish Get-ups,Shoulders,High,Kettlebell,Enhances full-body coordination and stability
+Bear Crawls,Shoulders,Medium,None,Strengthens core and improves mobility
+Windshield Wipers,Core,High,Pull-up Bar,Targets obliques and improves core rotation
+Thrusters,Legs,High,Dumbbells or Barbell,Combines lower body and upper body strength
