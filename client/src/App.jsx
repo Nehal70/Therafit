@@ -8,17 +8,17 @@ import Login from "./pages/login";
 import Welcome from "./pages/welcome";
 import Chat from "./pages/chat";
 import SignUp from "./pages/signup";
-import Setup from "./pages/setup";  // ✅ Remove duplicate import
+import Setup from "./pages/setup";
 import Profile from "./pages/profile";
 import RegistrationForm from "./RegistrationForm";
 import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
-  const isAuthenticated = true; // ✅ Replace with actual authentication logic
+  const isAuthenticated = true;
 
   return (
     <Router>
-      <Navbar /> {/* ✅ Navbar should be inside Router */}
+      <Navbar  key={location.pathname} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
@@ -26,7 +26,7 @@ function App() {
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/registration" element={<RegistrationForm />} />
-        <Route path="/setup" element={<Setup />} /> {/* ✅ Setup route fixed */}
+        <Route path="/setup" element={<Setup />} />
         <Route path="/profile" element={<Profile />} />
 
         {/* Protected dashboard route */}
