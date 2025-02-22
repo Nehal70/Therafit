@@ -43,9 +43,9 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
     return (
         <div className="flex items-center justify-center w-screen h-screen bg-[#F6F5F5] fixed top-0">
             <div className="max-w-[500px] w-full bg-white p-8 rounded-md border border-[#e0dfde]">
-                <img className="mb-5 max-w-[150px]" src={Wordmark} />
+                <a href='/'><img className="mb-5 max-w-[150px]" src={Wordmark} /></a>
                 <h2 className="font-bold text-3xl text-fit-black mb-1">Welcome back</h2>
-                <p className="text-fit-gray mb-4">Please enter your login details.</p>
+                <p className="text-fit-gray mb-4">Don't have an account? <a className='underline' href='/signup'>Sign up.</a></p>
                 <form onSubmit={handleSubmit}>
                     <div className="flex flex-col rounded-lg">
                         <label className="text-fit-black">Username:</label>

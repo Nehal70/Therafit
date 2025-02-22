@@ -1,7 +1,11 @@
+import { useState, useEffect, useRef } from 'react';
 import { PiHandWaving } from "react-icons/pi";
 import ProgramBlock from "../components/programBlock";
+import { jwtDecode } from 'jwt-decode';
+import { getUserProfile } from '../services/userService';
 
 function Dashboard() {
+  const [userName, setUserName] = useState('');
 
     // Fake JSON data
     const workoutData = [
@@ -22,10 +26,37 @@ function Dashboard() {
         }
     ];
 
+    // Fetch user's profile when the component mounts
+      useEffect(() => {
+        const token = localStorage.getItem('token');
+        if (token) {
+          try {
+            const decoded = jwtDecode(token);
+            const userId = decoded.userId;
+    
+            if (userId) {
+              getUserProfile(userId, token)
+                .then(user => {
+                  setUserName(user.firstName);
+                })
+                .catch(error => {
+                  console.error('Error fetching user profile:', error);
+                  setUserName('User'); // Fallback name if error
+                });
+            } else {
+              setUserName('User no userID'); // Fallback name if no userId
+            }
+          } catch (error) {
+            console.error('Failed to decode token:', error);
+            setUserName('User'); // Fallback name
+          }
+        }
+      }, []); // Empty dependency array ensures this effect runs once on mount
+
     return (
         <>
             <div className='flex flex-col max-w-[1100px] m-auto py-10 items-start'>
-                <h1 className='flex items-center justify-center font-bold text-4xl mb-3 text-fit-black'>Hi, Jane!&nbsp;<PiHandWaving /></h1>
+                <h1 className='flex items-center justify-center font-bold text-4xl mb-3 text-fit-black'>Hi, {userName}!&nbsp;<PiHandWaving /></h1>
                 <h3 className='text-lg mb-3 text-fit-gray'>Let&rsquo;s continue your fitness journey.</h3>
                 <h2 className='font-bold text-fit-black mb-3 mt-3 text-xl'>My Current Programs</h2>
                 <div className='grid grid-cols-3 gap-4'>
