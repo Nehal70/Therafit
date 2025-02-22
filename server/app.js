@@ -16,6 +16,9 @@ app.use(cors({
 
 app.use(bodyParser.json());
 
+console.log('MongoDB URI:', process.env.MONGODB_URI);  // Check the URI value
+
+
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
