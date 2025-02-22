@@ -1,0 +1,92 @@
+[
+    {
+        "datetime": "2025-02-22 17:22:19",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "Hey can you tell me about myself?",
+                "time": "2025-02-22 17:15:10"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Hello! It looks like we don't have your profile information yet. To help you better, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce I have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
+                "time": "2025-02-22 17:15:14"
+            },
+            {
+                "sender": "user",
+                "text": "Are you sure you do not have my profile",
+                "time": "2025-02-22 17:15:24"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Hello! It seems we don't have your profile information stored yet. To ensure we provide the best assistance, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce we have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
+                "time": "2025-02-22 17:15:27"
+            },
+            {
+                "time": "2025-02-22 17:15:50",
+                "sender": "user",
+                "text": "Hello can you tell me about myself?"
+            },
+            {
+                "time": "2025-02-22 17:15:53",
+                "sender": "ai",
+                "text": "Hello Emily! Here's a quick summary of your profile details: \n\n- Name: Emily Parker\n- Email: emily.parker@example.com\n- Date of Birth: August 25, 1992\n- Height: 162 cm\n- Weight: 58 kg\n- Gender: Female\n\nNow, let's move on to assess your injury. Could you tell me about any current pain you're experiencing and any previous injuries you've had?"
+            },
+            {
+                "time": "2025-02-22 17:20:51",
+                "sender": "user",
+                "text": "Hello, can you tell me about myself?"
+            },
+            {
+                "time": "2025-02-22 17:20:56",
+                "sender": "ai",
+                "text": "Hello Emily! Based on the information I have, you're 31 years old, female, with a height of 162 cm and weight of 58 kg. Let's focus on tailoring a recovery plan for you. \n\nCould you let me know about your current pain level and any previous injuries you might have had? This will help me suggest the most suitable exercises for your recovery."
+            },
+            {
+                "time": "2025-02-22 17:21:42",
+                "sender": "user",
+                "text": "Yep - but actually I have 10 minutes and just want to do an exercise that isn't putting too much pressure on my knees. "
+            },
+            {
+                "time": "2025-02-22 17:21:48",
+                "sender": "ai",
+                "text": "Since you want to avoid putting too much pressure on your knees and have only 10 minutes, I recommend the following exercise:\n\n**Exercise:** Seated Leg Lifts  \n**Description:** Sit on a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping it straight. Hold for a second, then lower it back down. Repeat with the other leg. This exercise helps strengthen the quadriceps without putting pressure on the knees.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, let me know how you felt, and we'll adjust future recommendations accordingly."
+            },
+            {
+                "time": "2025-02-22 17:22:01",
+                "sender": "user",
+                "text": "I just wanted to do one exercise, but sure. Let's complete it now. How should I finish"
+            },
+            {
+                "time": "2025-02-22 17:22:07",
+                "sender": "ai",
+                "text": "Great, Emily! Let's finish up your session with some calming and restorative activities. Here's a cool-down exercise to help you wrap up:\n\n**Exercise:** Seated Forward Bend  \n**Description:** Sit on the floor with your legs extended straight out in front of you. Inhale, and as you exhale, slowly bend forward at the hips, reaching your hands towards your feet. Keep your back straight and go as far as comfortable without straining. This stretch helps to release tension in the lower back and hamstrings.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, please let me know how you felt so I can adjust future recommendations accordingly. Remember to stay hydrated and give your body the rest it needs!"
+            }
+        ]
+    },
+    {
+        "datetime": "2025-02-22 17:29:06",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "Can you tell me about myself, just to make sure you really know me",
+                "timestamp": "2025-02-22 17:28:48"
+            },
+            {
+                "time": "2025-02-22 17:28:52",
+                "sender": "chatbot",
+                "text": "It looks like I already have your profile information. Here\u2019s what I have for you:\n\n- **Name:** Emily Parker\n- **Email:** emily.parker@example.com\n- **Date of Birth:** August 25, 1992\n- **Height:** 162 cm\n- **Weight:** 58 kg\n- **Gender:** Female\n\nNow, let's move on to assessing your injury. Could you tell me about your current pain level and if you have any previous injuries?"
+            },
+            {
+                "sender": "user",
+                "text": "Actually, I'll talk to you later. Bye!",
+                "timestamp": "2025-02-22 17:29:02"
+            },
+            {
+                "time": "2025-02-22 17:29:03",
+                "sender": "chatbot",
+                "text": "Alright, Emily. Whenever you're ready to continue, feel free to reach out. Take care and talk soon!"
+            }
+        ]
+    }
+]

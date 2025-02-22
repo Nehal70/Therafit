@@ -1,132 +1,116 @@
 [
     {
-        "date_time": "2025-02-22 02:25:57",
-        "user_input": "I just need to work out for my knees",
-        "assistant_response": "Let's get started. First, do you have a user profile set up? If not, I need your age, gender, weight, height, and injury type."
+        "name": "N/A",
+        "description": "N/A",
+        "duration": "N/A",
+        "recommendedAt": "2025-02-22 16:14:19"
     },
     {
-        "date_time": "2025-02-22 02:26:15",
-        "user_input": "yes you already have these are we already have my user profile",
-        "assistant_response": "Great! Let's move on to assessing your injury. What's your pain level, any previous injuries, and workout preferences?"
+        "name": "N/A",
+        "description": "N/A",
+        "duration": "N/A",
+        "recommendedAt": "2025-02-22 16:14:51"
     },
     {
-        "date_time": "2025-02-22 02:26:33",
-        "user_input": "I need a 30 minute workout so how should I start",
-        "assistant_response": "Let's begin with a low-impact exercise. Try \"Knee Circles.\" Description: Stand with feet hip-width apart, bend knees slightly, and move them in a circular motion. Video link: [Knee Circles Video](#). You should spend 5 minutes on this."
+        "name": "N/A",
+        "description": "N/A",
+        "duration": "N/A",
+        "recommendedAt": "2025-02-22 16:16:23"
     },
     {
-        "date_time": "2025-02-22 02:26:56",
-        "user_input": "exit",
-        "assistant_response": "User exited the session."
+        "exercise": "** Emily Parker",
+        "description": "N/A",
+        "duration": "N/A",
+        "timestamp": "2025-02-22 16:36:37"
     },
     {
-        "date_time": "2025-02-22 02:28:51",
-        "user_input": "hey my arms are kind of hurting today",
-        "assistant_response": "Hey! Let's see what we can do about that. First, let me check your profile."
+        "exercise": "** Pendulum Swing",
+        "description": "** Stand beside a table or chair, place one hand on it for support. Lean forward slightly, allowing your injured arm to hang down. Gently swing your arm in a small circle, clockwise for one minute, then counterclockwise for another minute. This exercise helps increase shoulder motion and reduce stiffness.",
+        "duration": "** 2 minutes",
+        "timestamp": "2025-02-22 16:37:07"
     },
     {
-        "date_time": "2025-02-22 02:29:07",
-        "user_input": "I want to work out for just 20 minutes today how should I start",
-        "assistant_response": "Let's focus on a quick, effective workout. First exercise: \"Light Arm Circles.\" Description: Gently rotate your arms in small circles. Video link: [Light Arm Circles](#). You should spend 5 minutes on this."
+        "exercise": "** Two-way Swing",
+        "description": "** The two-way kettlebell swing alternates between a chest-height kettlebell swing and an overhead kettlebell swing. Both variations target the hamstrings, glutes, and core, with the overhead swing being more demanding and working the upper back and shoulders. This exercise is great for circuit training or full-body workouts. If you experience lower back or shoulder pain, stick to the chest-height swing.",
+        "duration": "** 5 minutes",
+        "timestamp": "2025-02-22 16:38:08"
     },
     {
-        "date_time": "2025-02-22 02:29:32",
-        "user_input": "great what should I do next that was great for me",
-        "assistant_response": "Next exercise: \"Resistance Band Curls.\" Description: Use a resistance band to perform bicep curls. Video link: [Resistance Band Curls](#). You should spend 10 minutes on this."
+        "exercise": "** Emily Parker",
+        "description": "N/A",
+        "duration": "N/A",
+        "timestamp": "2025-02-22 16:46:36"
     },
     {
-        "date_time": "2025-02-22 02:30:00",
-        "user_input": "I actually don't have resistance bands what should I do",
-        "assistant_response": "No problem! Next exercise: \"Wall Push-Ups.\" Description: Stand facing a wall and push against it as if doing a push-up. Video link: [Wall Push-Ups](#). You should spend 5 minutes on this."
+        "exercise": "** Arm Circles",
+        "description": "** Stand with your feet shoulder-width apart. Extend your arms out to the sides at shoulder height. Slowly make small circles with your arms, gradually increasing the size of the circles. This exercise helps improve shoulder mobility and warm up the shoulder muscles.",
+        "duration": "** 3 minutes",
+        "timestamp": "2025-02-22 16:47:21"
     },
     {
-        "date_time": "2025-02-22 02:30:27",
-        "user_input": "okay that's great now how should I spend the remaining",
-        "assistant_response": "Final exercise: \"Tricep Dips on Chair.\" Description: Use a sturdy chair to perform tricep dips. Video link: [Tricep Dips on Chair](#). You should spend 5 minutes on this."
+        "exercise": "** Shoulder Blade Squeeze",
+        "description": "** Sit or stand with your back straight. Gently pull your shoulder blades together as if you are trying to hold a pencil between them. Hold the squeeze for 5 seconds, then slowly release. This exercise helps improve posture and strengthens the muscles around your shoulder blades.",
+        "duration": "** 3 minutes",
+        "timestamp": "2025-02-22 16:47:33"
     },
     {
-        "date_time": "2025-02-22 02:30:51",
-        "user_input": "yeah what should I do for my final 5-minute exercise",
-        "assistant_response": "Final exercise: \"Tricep Dips on Chair.\" Description: Use a sturdy chair to perform tricep dips. Video link: [Tricep Dips on Chair](#). You should spend 5 minutes on this."
+        "exercise": "** Wall Angels",
+        "description": "** Stand with your back against a wall, feet shoulder-width apart. Place your arms against the wall in a 'W' shape, with elbows bent and hands pointing upwards. Slowly slide your arms up the wall into a 'Y' shape, then return to the starting position. This exercise helps improve shoulder mobility and posture.",
+        "duration": "** 3 minutes",
+        "timestamp": "2025-02-22 16:47:52"
     },
     {
-        "date_time": "2025-02-22 02:31:13",
-        "user_input": "yeah I already did the so anyway yeah thank you",
-        "assistant_response": "You're welcome! Remember to cool down and rest. How did you feel after the workout?"
+        "exercise": "** Towel Shoulder Stretch",
+        "description": "** Grab a towel and hold it with one hand behind your back, with your palm facing out. Reach over your shoulder with your other hand and grab the top of the towel. Gently pull the towel up with your top hand, stretching your shoulder. Hold for a few seconds, then switch sides. This stretch helps improve shoulder flexibility and reduce tension.",
+        "duration": "** 3 minutes",
+        "timestamp": "2025-02-22 16:48:11"
     },
     {
-        "date_time": "2025-02-22 02:31:26",
-        "user_input": "I felt great thank you that was really much need",
-        "assistant_response": "I'm glad to hear that! Remember to stay hydrated and rest well. Let me know if you need anything else."
+        "exercise": "** Doorway Chest Stretch",
+        "description": "** Stand in a doorway with your arms out to the sides and elbows bent at a 90-degree angle, with your forearms resting on the door frame. Step one foot forward and gently lean into the doorway until you feel a stretch in your chest and shoulders. Hold the stretch for 30 seconds, then step back and relax. This exercise helps improve shoulder flexibility and relieve tension.",
+        "duration": "** 3 minutes",
+        "timestamp": "2025-02-22 16:48:34"
     },
     {
-        "date_time": "2025-02-22 02:31:37",
-        "user_input": "exit",
-        "assistant_response": "User exited the session."
+        "exercise": "** Seated Forward Bend",
+        "description": "** Sit on the floor with your legs extended straight in front of you. Inhale as you lengthen your spine, then exhale and gently reach for your toes, bending at the hips. Hold the stretch for 30 seconds, breathing deeply, and then slowly release. This stretch helps relax your back and hamstrings.",
+        "duration": "** 2 minutes",
+        "timestamp": "2025-02-22 16:49:46"
     },
     {
-        "date_time": "2025-02-22 10:09:30",
-        "user_input": "Hey, my shoulder is hurting mildly, can you help",
-        "assistant_response": "Sure, I can help with that. First, let's check your profile."
+        "exercise": "** Shoulder Rolls",
+        "description": "** Stand or sit comfortably with your back straight. Lift your shoulders up towards your ears, roll them back, and then down in a circular motion. Repeat this movement. Shoulder Rolls help relieve tension and improve shoulder flexibility.",
+        "duration": "** 2 minutes",
+        "timestamp": "2025-02-22 16:50:10"
     },
     {
-        "date_time": "2025-02-22 11:18:06",
-        "user_input": "Hey, can you see my profile, and tell me that information",
-        "assistant_response": "I can't see the profile information directly, but I can help you with anything else you need!"
+        "exercise": "Emily Parker",
+        "description": "N/A",
+        "duration": "N/A",
+        "timestamp": "2025-02-22 17:15:53"
     },
     {
-        "date_time": "2025-02-22 11:18:12",
-        "user_input": "What pain do I have?",
-        "assistant_response": "I can't see the profile information directly, but I can help you with anything else you need!"
+        "exercise": "** Seated Leg Lifts",
+        "description": "** Sit on a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping it straight. Hold for a second, then lower it back down. Repeat with the other leg. This exercise helps strengthen the quadriceps without putting pressure on the knees.",
+        "duration": "** 5 minutes",
+        "timestamp": "2025-02-22 17:21:48"
     },
     {
-        "date_time": "2025-02-22 11:18:15",
-        "user_input": "Are you sure?",
-        "assistant_response": "I'm sure! Just follow the plan, and we'll get through this."
+        "exercise": "** Seated Forward Bend",
+        "description": "** Sit on the floor with your legs extended straight out in front of you. Inhale, and as you exhale, slowly bend forward at the hips, reaching your hands towards your feet. Keep your back straight and go as far as comfortable without straining. This stretch helps to release tension in the lower back and hamstrings.",
+        "duration": "** 5 minutes",
+        "timestamp": "2025-02-22 17:22:07"
     },
     {
-        "date_time": "2025-02-22 11:18:51",
-        "user_input": "Ok. I am currently having some shoulder pain and need a 30 min workout",
-        "assistant_response": "Got it. Let's start with your profile.\n\n**Exercise 1:** Shoulder Circles. Description: Gently rotate your shoulders in a circular motion. Video link: [Shoulder Circles](http://example.com). You should spend 5 minutes on this."
+        "name": "** Emily Parker",
+        "description": "N/A",
+        "duration": "N/A",
+        "recommendedAt": "2025-02-22 17:28:52"
     },
     {
-        "date_time": "2025-02-22 11:18:56",
-        "user_input": "Ok, I did. Felt good. Next?",
-        "assistant_response": "**Exercise 2:** Arm Across Chest Stretch. Description: Stretch your arm across your chest and hold. Video link: [Arm Across Chest Stretch](http://example.com). You should spend 5 minutes on this."
-    },
-    {
-        "date_time": "2025-02-22 11:19:14",
-        "user_input": "Great, but I felt some pain when doing it. Next?",
-        "assistant_response": "**Exercise 3:** Doorway Stretch. Description: Stand in a doorway, place your arms on the frame, and lean forward. Video link: [Doorway Stretch](http://example.com). You should spend 5 minutes on this."
-    },
-    {
-        "date_time": "2025-02-22 11:19:31",
-        "user_input": "I need something less intense man! This is good but let's tone it down.",
-        "assistant_response": "**Exercise 4:** Shoulder Blade Squeeze. Description: Sit or stand with your back straight, squeeze your shoulder blades together, and hold. Video link: [Shoulder Blade Squeeze](http://example.com). You should spend 5 minutes on this."
-    },
-    {
-        "date_time": "2025-02-22 11:19:35",
-        "user_input": "Ok, I did",
-        "assistant_response": "**Exercise 5:** Neck Stretch. Description: Sit or stand with your back straight, gently tilt your head to one side, and hold. Video link: [Neck Stretch](http://example.com). You should spend 5 minutes on this."
-    },
-    {
-        "date_time": "2025-02-22 11:19:39",
-        "user_input": "That was done",
-        "assistant_response": "Great! Now that you've completed the workout, let's focus on recovery. Start with a light warm-up, followed by stretching. Make sure to rest and hydrate. How did you feel after the workout?"
-    },
-    {
-        "date_time": "2025-02-22 11:19:44",
-        "user_input": "felt great",
-        "assistant_response": "I'm glad to hear that! I'll adjust future workouts accordingly. If you need anything else, just let me know!"
-    },
-    {
-        "date_time": "2025-02-22 11:19:47",
-        "user_input": "ext",
-        "assistant_response": "Sure! Let's continue with your workout. **Exercise 6:** Shoulder Shrugs. Description: Lift your shoulders towards your ears and then release. Video link: [Shoulder Shrugs](http://example.com). You should spend 5 minutes on this."
-    },
-    {
-        "date_time": "2025-02-22 11:19:48",
-        "user_input": "exit",
-        "assistant_response": "User exited the session."
+        "name": "N/A",
+        "description": "N/A",
+        "duration": "N/A",
+        "recommendedAt": "2025-02-22 17:29:03"
     }
 ]
