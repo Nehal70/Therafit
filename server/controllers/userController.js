@@ -1,6 +1,9 @@
+import jwt from 'jsonwebtoken';
 import User from '../models/user.js';
 
-// Register User (NO password hashing, NO email verification)
+const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret'; // Use environment variable
+
+// Register User
 export const registerUser = async (req, res) => {
     try {
         const { email, password, firstName, lastName, dateOfBirth } = req.body;
@@ -9,18 +12,17 @@ export const registerUser = async (req, res) => {
         let user = await User.findOne({ email });
         if (user) return res.status(400).json({ error: 'User already exists.' });
 
-        // Create new user without hashing the password
+        // Create new user (password should be hashed in a real app)
         user = new User({
             email,
-            password, // Store password as it is
+            password, // Store password as it is (consider hashing in production)
             firstName,
             lastName,
             dateOfBirth,
+            profileSetup: false // Default false (first-time login)
         });
 
-        // Save the new user
         await user.save();
-
         res.status(201).json({ message: '✅ Registration successful.', userId: user._id });
     } catch (error) {
         console.error('Error details:', error);
@@ -28,21 +30,31 @@ export const registerUser = async (req, res) => {
     }
 };
 
-// Login User (NO password hashing)
+// Login User
 export const loginUser = async (req, res) => {
-    try {
-        const { email, password } = req.body;
+  try {
+      const { email, password } = req.body;
+      console.log('Login attempt:', email);  // Check if we get the email
 
-        const user = await User.findOne({ email });
-        if (!user || user.password !== password) {
-            return res.status(400).json({ error: 'Invalid credentials.' });
-        }
+      const user = await User.findOne({ email });
+      if (!user || user.password !== password) {
+          return res.status(400).json({ error: 'Invalid credentials.' });
+      }
 
-        res.json({ message: '✅ Login successful', userId: user._id });
-    } catch (error) {
-        res.status(500).json({ error: '❌ Server error.' });
-    }
+      const token = jwt.sign(
+          { userId: user._id },
+          JWT_SECRET,
+          { expiresIn: '1h' }
+      );
+
+      const firstLogin = !user.profileSetup;
+      res.json({ message: '✅ Login successful', token, firstLogin });
+  } catch (error) {
+      console.error('Error during login:', error);  // Log errors here
+      res.status(500).json({ error: '❌ Server error.' });
+  }
 };
+
 
 // View User Profile
 export const getUserProfile = async (req, res) => {
@@ -75,5 +87,6 @@ export const deleteUser = async (req, res) => {
         res.status(500).json({ error: 'Failed to delete user' });
     }
 };
+
 
 

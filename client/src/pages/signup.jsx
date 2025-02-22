@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { FaCircleCheck } from "react-icons/fa6";
+import { MdError } from "react-icons/md";
+import Wordmark from '../assets/wordmark.svg';
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -26,11 +29,14 @@ const SignUp = () => {
   // Validate the form data
   const validateForm = () => {
     const errors = {};
-    if (!formData.firstName) errors.firstName = 'First Name is required';
-    if (!formData.lastName) errors.lastName = 'Last Name is required';
+    if (!formData.firstName) errors.firstName = 'First name is required';
+    if (!formData.lastName) errors.lastName = 'Last name is required';
     if (!formData.dateOfBirth) errors.dateOfBirth = 'Birthday is required';
-    if (!formData.email) errors.email = 'Email is required';
-    if (!formData.email.match(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/)) errors.email = 'Invalid email address';
+    if (!formData.email) {
+      errors.email = 'Email is required';
+    } else if (!formData.email.match(/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/)) {
+      errors.email = 'Invalid email address';
+    }
     if (!formData.password) errors.password = 'Password is required';
     if (formData.password !== formData.confirmPassword) errors.confirmPassword = 'Passwords do not match';
     return errors;
@@ -39,7 +45,7 @@ const SignUp = () => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     const validationErrors = validateForm();
     if (Object.keys(validationErrors).length === 0) {
       // No validation errors, proceed with registration API call
@@ -48,13 +54,17 @@ const SignUp = () => {
         const response = await axios.post('http://localhost:5001/api/users/register', formData);
         console.log('User registered:', response.data);
 
-        // On success, clear form, set success message, and navigate to login page
-        setSuccessMessage('Registration successful! You can now log in.');
+        // On success, clear form, set success message, and set a redirect message
         setErrorMessage('');
         setFormData({ firstName: '', lastName: '', email: '', password: '', confirmPassword: '', dateOfBirth: '' });
-        
-        // Redirect to login page
-        navigate('/login');
+
+        // Show a message before redirect
+        setSuccessMessage('Registration successful! Redirecting...');
+        // Redirect to login page after 3 seconds
+        setTimeout(() => {
+          navigate('/login');
+        }, 3000); // 3-second delay for redirect
+
       } catch (error) {
         console.error('Error registering user:', error.response?.data?.error || error.message);
         setErrorMessage('Failed to register. Please try again.');
@@ -65,14 +75,13 @@ const SignUp = () => {
     }
   };
 
-  return (
-    <div className="flex items-start justify-center w-screen h-screen bg-[#F6F5F5] fixed top-0 overflow-auto">
-      <div className="max-w-[500px] w-full bg-white p-8 rounded-md border border-[#e0dfde] m-4">
-        <h2 className="font-bold text-3xl text-black mb-5">Create Account</h2>
 
-        {/* Display success or error messages */}
-        {successMessage && <p style={{ color: 'green' }}>{successMessage}</p>}
-        {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+  return (
+    <div className="flex items-start justify-center w-screen h-screen fixed top-0 overflow-auto bg-[#F6F5F5]">
+      <div className="max-w-[500px] w-full bg-white p-8 rounded-md border border-[#e0dfde] m-7">
+        <a href='/'><img className='mb-5 max-w-[150px]' src={Wordmark} /></a>
+        <h2 className="font-bold text-3xl text-fit-black mb-1">Create Account</h2>
+        <p className='text-fit-gray mb-4'>Already have an account? <a className='underline' href='/login'>Log in</a>.</p>
 
         <form onSubmit={handleSubmit}>
           {/* First Name */}
@@ -161,6 +170,17 @@ const SignUp = () => {
             Sign Up
           </button>
         </form>
+
+        {/* Display success or error messages */}
+        {successMessage && <div className='bg-[#1eab60] p-3 rounded-md flex mt-4 items-center'>
+          <FaCircleCheck size={17} className='text-white mr-3' />
+          <p className='text-white'>{successMessage}</p>
+        </div>}
+        {errorMessage && <div className='bg-[#cc4646] p-3 rounded-md flex mt-4 items-center'>
+          <MdError size={17} className='text-white mr-3' />
+          <p className='text-white'>{errorMessage}</p>
+        </div>}
+
       </div>
     </div>
   );

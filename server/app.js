@@ -18,7 +18,6 @@ app.use(bodyParser.json());
 
 console.log('MongoDB URI:', process.env.MONGODB_URI);  // Check the URI value
 
-
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -31,11 +30,12 @@ app.get('/', (req, res) => {
   res.send('✅ API is running.');
 });
 
-// Include user-related routes
-app.use('/api/users', userRoutes);
+// Corrected route prefix: '/api' instead of '/api/users'
+app.use('/api', userRoutes);  // This will make routes like /api/login accessible
 
 // Export app for `server.js`
 export default app;
+
 
 
 
