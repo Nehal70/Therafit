@@ -13,7 +13,6 @@ const userSchema = new mongoose.Schema({
     weight: { type: Number }, // kg
     gender: { type: String, enum: ['male', 'female'] },
     isVerified: { type: Boolean, default: false }, // New users need to verify their email
-    verificationToken: { type: String }, // Used for email verification & password reset
     createdAt: { type: Date, default: Date.now },
     updatedAt: { type: Date, default: Date.now },
 });
