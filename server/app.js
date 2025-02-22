@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { verifyGoogleToken } from './middleware/authMiddleware.js';
+import userRoutes from './routes/userRoutes.js'; // Import your user routes
 
 dotenv.config();
 
@@ -23,11 +24,20 @@ mongoose
   .catch((err) => console.error('❌ MongoDB connection error:', err));
 
 // Routes
+app.get('/', (req, res) => {
+  res.send('✅ API is running.');
+});
+
+// Google login route
 app.post('/api/auth/google-login', verifyGoogleToken, (req, res) => {
-  res.json({
-    message: '✅ Login successful',
+  res.status(200).json({
+    message: '✅ Authentication successful',
     user: req.user,
   });
 });
 
+// Include your user routes here (user-related endpoints)
+app.use('/api/users', userRoutes); // This connects all user-related routes
+
 export default app;
+
