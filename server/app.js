@@ -3,18 +3,22 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import { verifyGoogleToken } from './middleware/authMiddleware.js'; // ES module import
-import userRoutes from './routes/userRoutes.js'; // ES module import for user routes
+import userRoutes from './routes/userRoutes.js';
 
 dotenv.config();
 
 const app = express();
 
-// Middleware
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ 
+  origin: 'http://localhost:5173', 
+  credentials: true,
+}));
+
 app.use(bodyParser.json());
 
-// MongoDB Connection
+console.log('MongoDB URI:', process.env.MONGODB_URI);  // Check the URI value
+
+
 mongoose
   .connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -23,24 +27,17 @@ mongoose
   .then(() => console.log('✅ Connected to MongoDB'))
   .catch((err) => console.error('❌ MongoDB connection error:', err));
 
-// Routes
 app.get('/', (req, res) => {
   res.send('✅ API is running.');
 });
 
-// Google login route
-app.post('/api/auth/google-login', verifyGoogleToken, (req, res) => {
-  res.status(200).json({
-    message: '✅ Authentication successful',
-    user: req.user,
-  });
-});
+// Include user-related routes
+app.use('/api/users', userRoutes);
 
-// Include your user routes here (user-related endpoints)
-app.use('/api/users', userRoutes); // This connects all user-related routes
-
-// Export the app for use in server.js
+// Export app for `server.js`
 export default app;
+
+
 
 
 

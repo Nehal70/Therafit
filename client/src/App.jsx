@@ -40,10 +40,10 @@ function DashboardPage() {
 }
 
 function App() {
-  console.log('🔑 Loaded Google Client ID:', process.env.REACT_APP_GOOGLE_CLIENT_ID);
+  console.log('🔑 Loaded Google Client ID:', import.meta.env.VITE_GOOGLE_CLIENT_ID);
 
   return (
-    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -55,3 +55,4 @@ function App() {
 }
 
 export default App;
+
