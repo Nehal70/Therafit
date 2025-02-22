@@ -1,14 +1,13 @@
-import { OAuth2Client } from 'google-auth-library';
-import dotenv from 'dotenv';
-import User from './models/User';
-
+const { OAuth2Client } = require('google-auth-library');
+const dotenv = require('dotenv');
+const User = require('../models/user');
 
 dotenv.config();
 
 const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 // Middleware to verify Google token
-export const verifyGoogleToken = async (req, res, next) => {
+const verifyGoogleToken = async (req, res, next) => {
   const { token } = req.body;
 
   if (!token) {
@@ -28,7 +27,7 @@ export const verifyGoogleToken = async (req, res, next) => {
     const picture = payload.picture; // Profile picture URL
     const locale = payload.locale; // User's locale
 
-    //Check if the user already exists in the database
+    // Check if the user already exists in the database
     let user = await User.findOne({ googleId });
 
     if (!user) {
@@ -36,7 +35,7 @@ export const verifyGoogleToken = async (req, res, next) => {
         googleId,
         email,
         firstName: name.split(' ')[0],
-        firstName: name.split(' ')[1] || '',
+        lastName: name.split(' ')[1] || '',
         profilePicture: picture,
         locale,
         createdAt: new Date(),
@@ -44,18 +43,19 @@ export const verifyGoogleToken = async (req, res, next) => {
       });
 
       await user.save();
+    } else {
+      user.profilePicture = picture;
+      user.updatedAt = new Date();
 
-      } else {
-          user.profilePicture = picture;
-          user.updatedAt = new Date();
-
-          await user.save();
-      }
-
-      req.user = user;
-      next();
-    } catch (error) {
-      console.error('Token verification failed:', error);
-      res.status(401).json({ error: 'Invalid token.' });
+      await user.save();
     }
-  };
+
+    req.user = user;
+    next();
+  } catch (error) {
+    console.error('Token verification failed:', error);
+    res.status(401).json({ error: 'Invalid token.' });
+  }
+};
+
+module.exports = { verifyGoogleToken };
