@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({
     googleId: {
@@ -34,6 +34,15 @@ const userSchema = new mongoose.Schema({
         type: String, // URL or path to image
         default: '',
     },
+    height: { 
+        type: Number,
+    }, //cm 
+    weight: { 
+        type: Number,
+    }, // kg
+    gender: { 
+        type: String, enum: ['male', 'female'],
+    },
     accessToken: {
         type: String,
     },
@@ -45,11 +54,11 @@ const userSchema = new mongoose.Schema({
         default: Date.now,
     },
     updatedAt: {
-      type: Date,
-      default: Date.now,
+        type: Date,
+        default: Date.now,
     },
-})
-  
-const User = mongoose.model('User', userSchema);  
+});
 
-module.exports = User;
+const User = mongoose.model('User', userSchema);
+
+export default User;
