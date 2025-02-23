@@ -1,8 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { MdOutlineMusicNote, MdOutlineMusicOff } from "react-icons/md"; // Import the icons
+import musicFile from "../assets/music.mp3"; // Import the music file
 
 function Timer({ name, duration, onClose }) {
   const [time, setTime] = useState(duration);
   const [isRunning, setIsRunning] = useState(true);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(true); // Music starts playing by default
+
+  const audioRef = useRef(null); // Reference to audio element
 
   useEffect(() => {
     let interval;
@@ -13,17 +18,29 @@ function Timer({ name, duration, onClose }) {
     } else if (!isRunning && time !== 0) {
       clearInterval(interval);
     }
-    if (time == 0 && isRunning) {
+    if (time === 0 && isRunning) {
       setIsRunning(false);
     }
 
     return () => clearInterval(interval);
   }, [isRunning, time]);
 
+  useEffect(() => {
+    if (isMusicPlaying) {
+      audioRef.current.play(); // Play music when `isMusicPlaying` is true
+    } else {
+      audioRef.current.pause(); // Pause music when `isMusicPlaying` is false
+    }
+  }, [isMusicPlaying]);
+
   const formatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
     const secs = seconds % 60;
     return `${minutes.toString().padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
+  };
+
+  const handleMusicToggle = () => {
+    setIsMusicPlaying((prev) => !prev); // Toggle the music play state
   };
 
   return (
@@ -48,6 +65,17 @@ function Timer({ name, duration, onClose }) {
             >
               Reset
             </button>
+            {/* Music Button with Icons */}
+            <button
+              onClick={handleMusicToggle}
+              className={`text-2xl p-2 rounded-full border-2 ${
+                isMusicPlaying
+                  ? "bg-white border-fit-orange text-fit-orange"
+                  : "bg-fit-orange border-white text-white"
+              } hover:bg-opacity-80 transition`}
+            >
+              {isMusicPlaying ? <MdOutlineMusicNote /> : <MdOutlineMusicOff />}
+            </button>
           </div>
         </div>
         <button 
@@ -56,8 +84,11 @@ function Timer({ name, duration, onClose }) {
           End Exercise
         </button>
       </div>
+      {/* Audio Player (hidden from UI but functional) */}
+      <audio ref={audioRef} src={musicFile} autoPlay={true} />
     </div>
   );
 };
 
 export default Timer;
+
