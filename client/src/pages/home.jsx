@@ -8,7 +8,7 @@ function Home() {
             <div className='fixed top-0 z-[50] w-screen h-screen  bg-[auto_600px] bg-white/75 bg-blend-lighten'
                 style={{ backgroundImage: `url(${Pattern})` }}>
                 <div className='flex justify-between px-10 pt-8 pb-3'>
-                    <a href='/'><img className='max-w-[180px]' src={Wordmark} /></a>
+                    <a href='/'><img className='max-w-[230px]' src={Wordmark} /></a>
                     <div className='grid grid-cols-2 gap-4 justify-center align-middle'>
                         <a href='signup'><button className='border border-[#1E1E1E] text-[#1E1E1E] my-1 px-8 py-2 rounded-[100px] bg-white hover:bg-fit-white-hover hover:text-black'>Sign Up</button></a>
                         <a href='login'><button className='bg-fit-orange my-1 px-8 py-2 rounded-[100px] text-white hover:bg-fit-orange-hover hover:text-fit-white-hover'>Log In</button></a>

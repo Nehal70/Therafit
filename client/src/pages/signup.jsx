@@ -79,7 +79,7 @@ const SignUp = () => {
   return (
     <div className="flex items-start justify-center w-screen h-screen fixed top-0 overflow-auto bg-[#F6F5F5]">
       <div className="max-w-[500px] w-full bg-white p-8 rounded-md border border-[#e0dfde] m-7">
-        <a href='/'><img className='mb-5 max-w-[150px]' src={Wordmark} /></a>
+        <a href='/'><img className='mb-5 max-w-[170px]' src={Wordmark} /></a>
         <h2 className="font-bold text-3xl text-fit-black mb-1">Create Account</h2>
         <p className='text-fit-gray mb-4'>Already have an account? <a className='underline' href='/login'>Log in</a>.</p>
 
