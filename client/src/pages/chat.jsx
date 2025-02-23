@@ -41,29 +41,15 @@ function Chat() {
 
     // Scroll to bottom when messages change
     useEffect(() => {
-        if (chatWindowRef.current) {
-            chatWindowRef.current.scrollTop = chatWindowRef.current.scrollHeight;
-        }
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     }, [messages]);
-
+    
     return (
         <>
             <div className='flex'>
-                <div className='flex flex-col max-w-[1100px] m-auto py-10 items-start'>
-                    <h1 className='font-bold text-4xl mb-3'>Hi, Jane!</h1>
-                    <h3 className='text-lg mb-3'>Let&rsquo;s create a workout that supports your recovery and goals!</h3>
-                    <p className='mb-2'>To get started, tell me:</p>
-                    <p className='mb-3'>
-                        ✅ What injury (or injuries) are you currently dealing with?<br />
-                        ✅ How severe is it? (Mild discomfort, moderate pain, or severe?)<br />
-                        ✅ What&rsquo;s your goal today? (Strength, mobility, flexibility, pain relief, etc.)<br />
-                        ✅ Any movements or exercises you know you need to avoid?
-                    </p>
-                </div>
-
-                <div className="chatbot bg-white p-4 max-w-2xl mx-auto mt-10 rounded-xl shadow-lg">
+                <div className="chatbot bg-white w-full mx-auto rounded-xl shadow-lg">
                     <div
-                        className="chat-window h-[67vh] overflow-y-auto px-4"
+                        className="chat-window pt-10 pb-20 overflow-y-auto px-[15%]"
                         ref={chatWindowRef}  // Attach the ref to the chat window
                     >
                         <div>
@@ -71,7 +57,18 @@ function Chat() {
                                 <img className='w-full' src={BotIcon} />
                             </div>
                             <h4 className='text-center font-bold text-xl mb-3'>Hi, I’m FitBot!</h4>
-                            <p className='text-center text-lg mb-4'>Tell me what you need, and I’ll craft the perfect workout for you.</p>
+
+                            <div className='flex flex-col max-w-xl m-auto pb-10 items-center'>
+
+                                <h3 className='text-md mb-3'>Let&rsquo;s create a workout that supports your recovery and goals!</h3>
+                                
+                                <p className='text-sm mb-3 text-center w-full text-fit-gray'><em>
+                                    What injury (or injuries) are you currently dealing with?<br />
+                                    How severe is it? (Mild discomfort, moderate pain, or severe?)<br />
+                                    What&rsquo;s your goal today? (Strength, mobility, flexibility, pain relief, etc.)<br />
+                                    Any movements or exercises you know you need to avoid?</em>
+                                </p>
+                            </div>
                         </div>
                         {messages.map((message) => (
                             <Message
@@ -82,10 +79,10 @@ function Chat() {
                             />
                         ))}
                     </div>
-                    <div className="message-input flex items-center gap-2 p-2">
+                    <div className="bg-white fixed bottom-0 w-full message-input flex items-center gap-2 pt-4 pb-5 px-[15%]">
                         <input
                             type="text"
-                            className="p-2 w-full rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+                            className="py-2 px-4 w-full bg-white rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={handleKeyDown}  // Add onKeyDown listener
@@ -93,7 +90,7 @@ function Chat() {
                         />
                         <button
                             onClick={handleSend}
-                            className="bg-fit-orange text-white px-4 py-2 rounded-lg hover:bg-fit-orange-hover"
+                            className="bg-fit-orange text-white px-4 py-2 rounded-full hover:bg-fit-orange-hover"
                         >
                             <BiSend size={27} />
                         </button>
