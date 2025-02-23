@@ -442,5 +442,35 @@
         "description": "** Sit on a chair with your back straight and feet flat on the floor. Slowly extend your right leg out in front of you, keeping it straight, and hold for a few seconds before lowering it back down. Repeat with the left leg. This exercise helps strengthen the quadriceps without putting too much strain on the knees.",
         "duration": 300,
         "recommendedAt": "2025-02-22 23:31:36"
+    },
+    {
+        "name": "** One Knee to Chest",
+        "description": "** This exercise is a gentle stretch designed to relieve tension in the glutes and lower back. Lie on your back with your legs extended. Slowly bring one knee toward your chest, holding it with both hands. Keep the other leg straight and flat on the floor. Hold the stretch for a few seconds and then switch to the other leg.",
+        "duration": 180,
+        "recommendedAt": "2025-02-23 00:39:34"
+    },
+    {
+        "name": "** Seated Leg Extension",
+        "description": "** This exercise helps strengthen the quadriceps without putting too much strain on the knee. Sit on a chair with your feet flat on the floor. Slowly extend one leg out in front of you until it is straight, hold for a moment, then lower it back down to the starting position. Alternate between both legs.",
+        "duration": 240,
+        "recommendedAt": "2025-02-23 00:40:15"
+    },
+    {
+        "name": "** Partner Facing Feet-Elevated Side Plank With Band Row",
+        "description": "** This exercise helps to strengthen your core and improve stability, which can be beneficial for knee support. Place your feet on an elevated surface while in a side plank position. Hold a resistance band with your top hand. While maintaining the plank position, perform a rowing motion by pulling the band towards your ribcage, then return to the starting position. Switch sides after completing the reps.",
+        "duration": 180,
+        "recommendedAt": "2025-02-23 00:41:09"
+    },
+    {
+        "name": "** Calf Raises",
+        "description": "** This exercise helps to strengthen the calf muscles, which can provide additional support to the knees. Stand with your feet hip-width apart, and slowly raise your heels to stand on your toes, then lower back down. To maintain balance, you can hold onto a wall or a chair.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 00:41:21"
+    },
+    {
+        "name": "** Seated Leg Raises",
+        "description": "** Sit in a chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you until it's parallel to the ground, hold for a moment, then lower it back down. Alternate between legs. This exercise helps strengthen the quadriceps without putting too much strain on the knee.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 00:44:13"
     }
 ]

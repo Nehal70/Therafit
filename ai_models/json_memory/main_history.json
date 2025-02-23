@@ -818,5 +818,90 @@
                 "timestamp": "2025-02-22 23:31:36"
             }
         ]
+    },
+    {
+        "datetime": "2025-02-23 00:44:15",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "hello can you hear me",
+                "timestamp": "2025-02-23 00:39:01"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Hello Bob! Yes, I can hear you. Let's get started on your injury recovery process. \n\nBefore we proceed, I need to assess your current injury situation. Could you please let me know where you're experiencing pain and if you've had any previous injuries?",
+                "timestamp": "2025-02-23 00:39:05"
+            },
+            {
+                "sender": "user",
+                "text": "can you give me a 15-minute workout for knees",
+                "timestamp": "2025-02-23 00:39:21"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Before we proceed with the workout, could you let me know if you're currently experiencing any knee pain and whether you've had any previous knee injuries? This will help me tailor the workout to your needs.",
+                "timestamp": "2025-02-23 00:39:23"
+            },
+            {
+                "sender": "user",
+                "text": "I'm experiencing some mild knee pain",
+                "timestamp": "2025-02-23 00:39:30"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Thank you for letting me know, Bob. Since you have mild knee pain, let's start with a gentle exercise to ease into your workout.\n\n**Exercise:** One Knee to Chest  \n**Description:** This exercise is a gentle stretch designed to relieve tension in the glutes and lower back. Lie on your back with your legs extended. Slowly bring one knee toward your chest, holding it with both hands. Keep the other leg straight and flat on the floor. Hold the stretch for a few seconds and then switch to the other leg.  \n**Duration:** 3 minutes\n\nPlease let me know how you feel after this exercise, and we'll continue with the next step.",
+                "timestamp": "2025-02-23 00:39:34"
+            },
+            {
+                "sender": "user",
+                "text": "i think i'm feeling good after it what next",
+                "timestamp": "2025-02-23 00:40:10"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Great to hear that you're feeling good after the last exercise, Bob! Let's move on to the next exercise to continue our gentle knee-focused workout.\n\n**Exercise:** Seated Leg Extension  \n**Description:** This exercise helps strengthen the quadriceps without putting too much strain on the knee. Sit on a chair with your feet flat on the floor. Slowly extend one leg out in front of you until it is straight, hold for a moment, then lower it back down to the starting position. Alternate between both legs.  \n**Duration:** 4 minutes\n\nPlease let me know how this exercise feels for you, and we'll proceed with the next step based on your feedback.",
+                "timestamp": "2025-02-23 00:40:15"
+            },
+            {
+                "sender": "user",
+                "text": "can you hear me",
+                "timestamp": "2025-02-23 00:41:04"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Hello again, Bob! Yes, I can hear you. Let's continue with your knee-focused workout. Based on your feedback and current condition, here's the next exercise:\n\n**Exercise:** Partner Facing Feet-Elevated Side Plank With Band Row  \n**Description:** This exercise helps to strengthen your core and improve stability, which can be beneficial for knee support. Place your feet on an elevated surface while in a side plank position. Hold a resistance band with your top hand. While maintaining the plank position, perform a rowing motion by pulling the band towards your ribcage, then return to the starting position. Switch sides after completing the reps.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels for you, and we'll continue with the next step based on your feedback.",
+                "timestamp": "2025-02-23 00:41:09"
+            },
+            {
+                "sender": "user",
+                "text": "how much time do I have left",
+                "timestamp": "2025-02-23 00:41:17"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Based on your progress so far and considering your mild knee pain, let's continue with a knee-friendly exercise. You have approximately 5 minutes left in your 15-minute workout session. Here's the next exercise:\n\n**Exercise:** Calf Raises  \n**Description:** This exercise helps to strengthen the calf muscles, which can provide additional support to the knees. Stand with your feet hip-width apart, and slowly raise your heels to stand on your toes, then lower back down. To maintain balance, you can hold onto a wall or a chair.  \n**Duration:** 5 minutes  \n\nPlease let me know how this exercise feels for you, and we'll wrap up with some recovery tips afterward.",
+                "timestamp": "2025-02-23 00:41:21"
+            },
+            {
+                "sender": "user",
+                "text": "Can you give me a 5 min workout for knees",
+                "timestamp": "2025-02-23 00:43:56"
+            },
+            {
+                "sender": "chatbot",
+                "text": "It looks like your profile is already set up, Bob. Let's focus on assessing your injury.\n\nCould you please tell me more about your current knee pain and any previous knee injuries you might have had? This information will help me suggest the most suitable exercises for you.",
+                "timestamp": "2025-02-23 00:43:59"
+            },
+            {
+                "sender": "user",
+                "text": "Yes I just want to get started",
+                "timestamp": "2025-02-23 00:44:07"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Let's start with a gentle exercise to help with your knee recovery. Here's a recommended exercise for you:\n\n**Exercise:** Seated Leg Raises  \n**Description:** Sit in a chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you until it's parallel to the ground, hold for a moment, then lower it back down. Alternate between legs. This exercise helps strengthen the quadriceps without putting too much strain on the knee.  \n**Duration:** 5 minutes\n\nPlease let me know how this feels, and we can adjust any future recommendations based on your feedback.",
+                "timestamp": "2025-02-23 00:44:13"
+            }
+        ]
     }
 ]
