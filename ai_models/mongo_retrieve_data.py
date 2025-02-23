@@ -1,6 +1,7 @@
 import pymongo
 import json
 import os
+import argparse
 from bson.json_util import dumps
 
 # MongoDB connection details
@@ -19,18 +20,14 @@ db = client[DATABASE_NAME]
 collection = db[COLLECTION_NAME]
 
 # Function to retrieve user data as JSON
-def get_user_data(query):
-    """Retrieve user data based on a query and return as JSON."""
+def get_user_data(email):
+    """Retrieve user data based on email and return as JSON."""
     try:
-        # Find matching documents (example: find user by email)
-        user_data = collection.find(query)
-
-        # Convert BSON to JSON
+        user_data = collection.find({"email": email})
         user_json = dumps(user_data, indent=4)
         return json.loads(user_json)
-
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"Error retrieving user data: {e}")
         return None
 
 # Function to save user data to a JSON file
@@ -43,14 +40,16 @@ def save_to_json_file(data, output_path):
     except Exception as e:
         print(f"Failed to save user profile: {e}")
 
-# Example query: Find user by email
-query = {"email": "emily.parker@example.com"}
-user_profile = get_user_data(query)
+# Main execution with argparse
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Retrieve user data by email.")
+    parser.add_argument("--email", required=True, help="User's email address.")
+    args = parser.parse_args()
 
-# Save the retrieved user data to user_profile.json
-if user_profile:
-    print("User Data (JSON):")
-    print(json.dumps(user_profile, indent=4))
-    save_to_json_file(user_profile, OUTPUT_FILE)
-else:
-    print("No user found matching the query.")
+    user_profile = get_user_data(args.email)
+
+    if user_profile:
+        print(json.dumps(user_profile, indent=4))
+        save_to_json_file(user_profile, OUTPUT_FILE)
+    else:
+        print("No user found matching the query.")

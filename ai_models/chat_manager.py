@@ -7,7 +7,7 @@ from gpt4o_main import process_user_input
 # JSON paths
 CONVERSATION_HISTORY_PATH = "./json_memory/conversation_history.json"
 WORKOUT_HISTORY_PATH = "./json_memory/workout_history.json"
-USER_PROFILE_PATH = "./json_memory/user_profile.json"
+USER_PROFILE_PATH = "../server/json_memory/user_profile.json"
 MAIN_HISTORY_PATH = "./json_memory/main_history.json"
 
 # Load JSON or create empty if missing
