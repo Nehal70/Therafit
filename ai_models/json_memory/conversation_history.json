@@ -1,1 +1,262 @@
-[]
+[
+    {
+        "sender": "user",
+        "text": "hey do you know who i am",
+        "timestamp": "2025-02-22 23:45:26"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm sorry, I couldn't process your request.",
+        "timestamp": "2025-02-22 23:45:26"
+    },
+    {
+        "sender": "user",
+        "text": "hello! help me craft a workout!",
+        "timestamp": "2025-02-22 23:51:36"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm sorry, I couldn't process your request.",
+        "timestamp": "2025-02-22 23:51:36"
+    },
+    {
+        "sender": "user",
+        "text": "asdasdasd",
+        "timestamp": "2025-02-22 23:56:12"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm sorry, I couldn't process your request.",
+        "timestamp": "2025-02-22 23:56:12"
+    },
+    {
+        "sender": "user",
+        "text": "Hello! My knees are hurting. Please give me a workout idea.",
+        "timestamp": "2025-02-23 00:00:50"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Hello Dave! Since we have your profile, let's assess your injury to ensure we provide the best exercise for you. You mentioned that your knees are hurting. Could you let me know the current level of pain on a scale from 1 to 10 and if you've had any previous knee injuries? This will help me generate a suitable workout for you.",
+        "timestamp": "2025-02-23 00:00:54"
+    },
+    {
+        "sender": "user",
+        "text": "I haven't had any past injuries. My pain level is a 2.",
+        "timestamp": "2025-02-23 00:03:07"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Thank you, Dave, for the information. Since your pain level is relatively low and you haven't had previous knee injuries, let's start with a gentle exercise that can help strengthen your knees.\n\n**Exercise:** Seated Leg Extension  \n**Description:** Sit on a chair with your back straight and your feet flat on the floor. Slowly extend one leg until it is parallel to the floor, hold for a few seconds, then lower it back down. Repeat with the other leg. This exercise helps to strengthen the quadriceps without putting too much stress on the knees.  \n**Duration:** 5 minutes\n\nAfter you try this exercise, let me know how it felt, and we can adjust the plan if needed.",
+        "timestamp": "2025-02-23 00:03:14"
+    },
+    {
+        "sender": "user",
+        "text": "It went well. Tell me what to do next",
+        "timestamp": "2025-02-23 00:03:55"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Great to hear that the first exercise went well, Dave! Let's continue with another gentle exercise to support your knee recovery while also strengthening your lower body.\n\n**Exercise:** Straight Leg Raise  \n**Description:** Lie on your back on a flat surface with one leg bent at the knee and the other leg straight. Slowly lift the straight leg to the height of the bent knee, hold for a few seconds, and then lower it back down. Make sure to keep your core engaged and your back flat on the ground. This exercise helps strengthen the quadriceps without putting stress on the knee joint.  \n**Duration:** 5 minutes\n\nAfter trying this exercise, let me know how it felt, and we can further adjust your workout plan if needed.",
+        "timestamp": "2025-02-23 00:04:00"
+    },
+    {
+        "sender": "user",
+        "text": "That went well. I don't feel much pain. Can you suggest another workout?",
+        "timestamp": "2025-02-23 00:11:33"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm glad to hear that you're feeling better, Dave! Let's progress with another exercise that will help maintain your knee health and further support your recovery.\n\n**Exercise:** One Knee to Chest Stretch  \n**Description:** Lie on your back on a flat surface. Gently bring one knee towards your chest, keeping the other leg straight on the ground. Hold the position for a few seconds to stretch your glutes and lower back. Switch to the other leg and repeat. This stretch helps improve flexibility and relieve tension around the knee area.  \n**Duration:** 3 minutes\n\nTry this stretch and let me know how it feels. We can continue to adjust your plan based on your feedback.",
+        "timestamp": "2025-02-23 00:11:38"
+    },
+    {
+        "sender": "user",
+        "text": {
+            "description": "** Lie on your back on a flat surface. Gently bring one knee towards your chest, keeping the other leg straight on the ground. Hold the position for a few seconds to stretch your glutes and lower back. Switch to the other leg and repeat. This stretch helps improve flexibility and relieve tension around the knee area.",
+            "duration": 180,
+            "name": "** One Knee to Chest Stretch",
+            "recommendedAt": "2025-02-23 00:11:38"
+        },
+        "timestamp": "2025-02-23 00:11:38"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm sorry, I couldn't process your request.",
+        "timestamp": "2025-02-23 00:11:43"
+    },
+    {
+        "sender": "user",
+        "text": "Hello! Help me create a workout",
+        "timestamp": "2025-02-23 00:12:37"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Assess Injury:**\nHello Dave! Before we start with the workout, could you please tell me about your current pain levels and any previous injuries you've had? This will help me tailor the exercises to suit your needs.",
+        "timestamp": "2025-02-23 00:12:41"
+    },
+    {
+        "sender": "user",
+        "text": "I'm not in much pain but my ankle is sore.",
+        "timestamp": "2025-02-23 00:12:55"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Generate Personalized Workout:**\n\nGreat to hear that you're not in much pain, Dave. Since you're experiencing some soreness in your ankle, let's start with a gentle exercise:\n\n**Exercise:** Ankle Circles  \n**Description:** Sit comfortably on a chair with your feet flat on the floor. Lift one foot slightly off the ground and slowly rotate your ankle in a circular motion. First, make 10 circles in one direction, then switch to the other direction. This helps improve ankle mobility and circulation.  \n**Duration:** 5 minutes\n\nLet me know how that feels, and we can adjust or move on to the next exercise!",
+        "timestamp": "2025-02-23 00:12:59"
+    },
+    {
+        "sender": "user",
+        "text": {
+            "description": "** Sit comfortably on a chair with your feet flat on the floor. Lift one foot slightly off the ground and slowly rotate your ankle in a circular motion. First, make 10 circles in one direction, then switch to the other direction. This helps improve ankle mobility and circulation.",
+            "duration": 300,
+            "name": "** Ankle Circles",
+            "recommendedAt": "2025-02-23 00:12:59"
+        },
+        "timestamp": "2025-02-23 00:13:00"
+    },
+    {
+        "sender": "chatbot",
+        "text": "I'm sorry, I couldn't process your request.",
+        "timestamp": "2025-02-23 00:13:05"
+    },
+    {
+        "sender": "user",
+        "text": "Hello! I'm feeling a 9/10 pain in my ankle. Give me a workout to try.",
+        "timestamp": "2025-02-23 00:18:43"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Exercise:** Ankle Circles  \n**Description:** Sit comfortably with your feet hanging off the ground. Slowly rotate your ankle in a circular motion. Make sure to perform the exercise in both clockwise and counterclockwise directions to ensure balanced strengthening and flexibility.  \n**Duration:** 5 minutes  \n\nOnce you've tried this exercise, let me know how it feels, and I can suggest more exercises or adjustments if needed.",
+        "timestamp": "2025-02-23 00:18:47"
+    },
+    {
+        "sender": "user",
+        "text": "Hi! I'm feeling moderate pain in my shoulder. My goal is flexibility. What workout should I do?",
+        "timestamp": "2025-02-23 00:44:48"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Based on your current moderate shoulder pain and goal of increasing flexibility, I recommend starting with the following exercise:\n\n**Exercise:** Shoulder Extension Stretch  \n**Description:** The shoulder extension stretch helps improve flexibility and range of motion in the shoulder joint by moving the arms behind the back. This exercise can be included in your warm-up or done as part of your mobility and flexibility routine.  \n**Duration:** 5 minutes\n\nPlease let me know how this exercise feels for you, and we'll adjust the plan as needed!",
+        "timestamp": "2025-02-23 00:44:53"
+    },
+    {
+        "sender": "user",
+        "text": "Hi! I'm feeling moderate pain in my knees. My goal is mobility. Do you have a workout suggestion?",
+        "timestamp": "2025-02-23 00:45:52"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Based on your current moderate knee pain and goal of improving mobility, I recommend starting with the following exercise:\n\n**Exercise:** Seated Knee Extensions  \n**Description:** Sit on a chair with your feet flat on the floor. Slowly extend one leg out in front of you, keeping your foot flexed. Hold the position briefly, then return to the starting position. This exercise helps in improving knee mobility and strengthening the quadriceps without putting much strain on the knee joint.  \n**Duration:** 5 minutes\n\nPlease let me know how this exercise feels for you, and we'll adjust the plan as needed!",
+        "timestamp": "2025-02-23 00:45:58"
+    },
+    {
+        "sender": "user",
+        "text": "Hello! Make me a workout please! My pain level is mild and only in my shoulder. I would like to focus on mobility.",
+        "timestamp": "2025-02-23 00:53:32"
+    },
+    {
+        "sender": "chatbot",
+        "text": "### Exercise Suggestion\n\n**Exercise Name:** Wall Angels  \n**Description:** Stand with your back against a wall, feet a few inches away from it. Your lower back should be touching the wall. Raise your arms to form a 'W' shape against the wall, then slowly extend them upward to form a 'Y' shape. Keep your arms and back in contact with the wall at all times. This exercise helps improve shoulder mobility and posture.  \n**Duration:** 5 minutes\n\n### Recovery Tips\n- **Warm-Up:** Before starting, gently rotate your shoulders and perform arm circles for 5 minutes to increase blood flow.\n- **Cool-Down:** After your workout, stretch your shoulders by gently pulling one arm across your chest and holding for 30 seconds on each side.\n- **Rest:** Ensure you rest and ice your shoulder if you experience any discomfort, and avoid overexertion.\n\n### Feedback\nHow did you feel after performing the Wall Angels? Your feedback will help in adjusting future recommendations.",
+        "timestamp": "2025-02-23 00:53:38"
+    },
+    {
+        "sender": "user",
+        "text": "Could you give me another workout?",
+        "timestamp": "2025-02-23 00:54:07"
+    },
+    {
+        "sender": "chatbot",
+        "text": "### Exercise Suggestion\n\n**Exercise Name:** Shoulder Pendulum Swings  \n**Description:** Stand beside a table or chair, and place your uninjured arm on it for support. Lean slightly forward at the waist, allowing your injured arm to hang down. Begin to gently swing your arm in small circles, gradually increasing the circle size as your shoulder loosens up. This exercise helps improve shoulder mobility and reduce stiffness.  \n**Duration:** 5 minutes\n\n### Recovery Tips\n- **Warm-Up:** Prior to the exercise, perform gentle shoulder shrugs and neck rolls for 5 minutes to prepare your muscles.\n- **Cool-Down:** After your workout, apply a warm compress to your shoulder for 10 minutes to relax the muscles.\n- **Rest:** Make sure to rest adequately and avoid any movements that cause pain.\n\n### Feedback\nHow did you feel after performing the Shoulder Pendulum Swings? Your feedback will help in adjusting future recommendations.",
+        "timestamp": "2025-02-23 00:54:12"
+    },
+    {
+        "sender": "user",
+        "text": "hi! i'm feeling mild pain in my shoulder. can you suggest a workout for strength?",
+        "timestamp": "2025-02-23 00:55:20"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Exercise:** Bent-Over Shoulder Rotation  \n**Description:** The bent-over shoulder rotation is an upper-body exercise that helps strengthen the muscles around the rotator cuff for a stable shoulder joint. It can be performed with body weight, light dumbbells or weight plates, or bands.  \n**Duration:** 10 minutes  \n\nPlease try this exercise and let me know how you feel afterward!",
+        "timestamp": "2025-02-23 00:55:23"
+    },
+    {
+        "sender": "user",
+        "text": "hi! i'm feeling moderate pain in my shoulder. can you suggest me an exercise focused on strength?",
+        "timestamp": "2025-02-23 00:58:07"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Let's focus on strengthening your shoulder safely. Based on your current moderate pain and the need for a strength-focused exercise, I recommend the following:\n\n**Exercise:** Bent-Over Shoulder Rotation  \n**Description:** This exercise targets the muscles around the rotator cuff, providing stability to the shoulder joint. You can perform it with body weight, light dumbbells, or resistance bands. Stand bent over slightly, keeping your back straight, and rotate your arms outward from the shoulders.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after trying this exercise, and if you need further assistance or adjustments!",
+        "timestamp": "2025-02-23 00:58:11"
+    },
+    {
+        "sender": "user",
+        "text": "hi! i'm feeling moderate pain in my shoulder. can you suggest an exercise for strength?",
+        "timestamp": "2025-02-23 00:59:18"
+    },
+    {
+        "sender": "chatbot",
+        "text": "### Exercise Suggestion\n\n**Exercise:** Bent-Over Shoulder Rotation  \n**Description:** This exercise helps strengthen the muscles around the rotator cuff, stabilizing the shoulder joint. It can be performed with body weight, light dumbbells, weight plates, or bands. Begin by bending over slightly, keeping your back straight, and rotating your shoulder in a controlled motion.  \n**Duration:** 5 minutes\n\nLet me know how this feels, and we'll adjust as needed!",
+        "timestamp": "2025-02-23 00:59:22"
+    },
+    {
+        "sender": "user",
+        "text": "hi i'm feeling moderate ankle pain. could you suggest a workout for strength?",
+        "timestamp": "2025-02-23 01:05:19"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Since we have your profile, let's move on to assessing your injury.\n\nYou mentioned feeling moderate ankle pain. Have you had any previous injuries to your ankle or any other related injuries? This information can help tailor the exercises to your needs.",
+        "timestamp": "2025-02-23 01:05:22"
+    },
+    {
+        "sender": "user",
+        "text": "No, I have not.",
+        "timestamp": "2025-02-23 01:05:32"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Thank you for the information. Since you haven't had any previous injuries, we can proceed with a beginner-friendly exercise to strengthen your ankle.\n\n**Exercise:** Ankle Alphabet\n\n**Description:** Sit comfortably with your leg extended. Imagine your big toe is a pen and use it to \"write\" the alphabet in the air. This exercise helps improve ankle mobility and strength.\n\n**Duration:** 5 minutes\n\nTry this exercise and let me know how it feels. We'll adjust the plan based on your feedback.",
+        "timestamp": "2025-02-23 01:05:36"
+    },
+    {
+        "sender": "user",
+        "text": "hi i'm feeling moderate ankle pain. could you suggest a workout for strength?",
+        "timestamp": "2025-02-23 01:09:43"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Exercise:** Ankle Circles  \n**Description:** Sit comfortably on a chair with your feet flat on the ground. Lift one foot slightly off the ground and rotate the ankle in a circular motion, making sure to go both clockwise and counterclockwise. This exercise helps in improving ankle mobility and strength.  \n**Duration:** 5 minutes  \n\nPlease let me know how this exercise feels, and we can adjust or add more exercises based on your feedback!",
+        "timestamp": "2025-02-23 01:09:47"
+    },
+    {
+        "sender": "user",
+        "text": "Thank you! That went well. I'm still feeling some ankle pain. Could you suggest an exercise for flexibility?",
+        "timestamp": "2025-02-23 01:12:44"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Exercise:** Towel Stretch\n\n**Description:** Sit on the floor with your legs extended straight in front of you. Loop a towel around the ball of your foot. Gently pull the towel towards you while keeping your knee straight. Hold the stretch for a few seconds before releasing. This exercise helps improve flexibility in the ankle and calf muscles.\n\n**Duration:** 5 minutes\n\nPlease try this exercise and let me know how it feels. If you experience any discomfort or have feedback, we can adjust or provide additional recommendations!",
+        "timestamp": "2025-02-23 01:12:47"
+    },
+    {
+        "sender": "user",
+        "text": "hi! i'm feeling mild shin pain. can you suggest a workout that would help with flexibility?",
+        "timestamp": "2025-02-23 01:25:03"
+    },
+    {
+        "sender": "chatbot",
+        "text": "**Exercise:** Seated Calf Stretch  \n**Description:** Sit on the ground with both legs extended. Loop a towel or exercise band around the ball of your foot and gently pull towards you while keeping your knee straight, feeling a stretch in your calf and shin area. Hold the stretch.  \n**Duration:** 3 minutes per leg  \n\nThis exercise helps to increase flexibility in your calves and shins, which can be beneficial for managing shin pain. Let me know how it goes, and if you need further exercises!",
+        "timestamp": "2025-02-23 01:25:07"
+    },
+    {
+        "sender": "user",
+        "text": "hi! i'm feeling moderate ankle pain. can you suggest a flexibility exercise?",
+        "timestamp": "2025-02-23 01:32:45"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Hi Dave! Since you're experiencing moderate ankle pain, let's focus on a gentle flexibility exercise that can help with your recovery.\n\n**Exercise:** Ankle Circles  \n**Description:** Sit comfortably with your leg extended in front of you. Slowly rotate your ankle in a circular motion, first clockwise and then counterclockwise. This exercise helps improve flexibility and mobility in the ankle joint.  \n**Duration:** 5 minutes\n\nLet me know how it feels after you try it, and we can adjust as needed!",
+        "timestamp": "2025-02-23 01:32:50"
+    }
+]
