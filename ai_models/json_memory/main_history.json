@@ -818,5 +818,55 @@
                 "timestamp": "2025-02-22 23:31:36"
             }
         ]
+    },
+    {
+        "datetime": "2025-02-22 23:55:04",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "if you waddle away waddle waddle waddle",
+                "timestamp": "2025-02-22 23:53:25"
+            },
+            {
+                "sender": "chatbot",
+                "text": "I'm sorry, I couldn't process your request.",
+                "timestamp": "2025-02-22 23:53:25"
+            }
+        ]
+    },
+    {
+        "datetime": "2025-02-22 23:56:50",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "my knee hurts too",
+                "timestamp": "2025-02-22 23:55:17"
+            },
+            {
+                "sender": "chatbot",
+                "text": "I'm sorry, I couldn't process your request.",
+                "timestamp": "2025-02-22 23:55:17"
+            },
+            {
+                "sender": "user",
+                "text": "my knee hurt",
+                "timestamp": "2025-02-22 23:56:15"
+            },
+            {
+                "sender": "chatbot",
+                "text": "**Assess Injury:**\n\nI'm sorry to hear about your knee pain, Sam. To better assist you, could you please describe the current level of pain you're experiencing in your knee? Additionally, have you had any previous injuries related to your knee or any other areas?",
+                "timestamp": "2025-02-22 23:56:22"
+            },
+            {
+                "sender": "user",
+                "text": "Can you give me a 5 min workout for knees that's light i don't have any equipment",
+                "timestamp": "2025-02-22 23:56:39"
+            },
+            {
+                "sender": "chatbot",
+                "text": "**Generate Personalized Workout:**\n\n**Exercise:** Knee Up-Down  \n**Description:** The knee up-down is a bodyweight exercise that involves getting up and down from a kneeling position on the floor. This exercise combines the low position of a squat with lunges, providing benefits such as improved strength and mobility. It's a great option for a light knee workout, especially without equipment.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after completing this exercise, and I'll adjust future recommendations based on your feedback.",
+                "timestamp": "2025-02-22 23:56:43"
+            }
+        ]
     }
 ]

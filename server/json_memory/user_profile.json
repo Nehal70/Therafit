@@ -1,26 +1,17 @@
 [
     {
         "_id": {
-            "$oid": "67ba5fbdade15bcf3f053dbd"
+            "$oid": "67b9ff2b96e9c10c6586b021"
         },
-        "email": "bob@example.com",
-        "password": "password",
-        "firstName": "Bob",
-        "lastName": "Jeff",
+        "firstName": "Sam",
+        "lastName": "Davis",
+        "email": "sam.davis@example.com",
+        "password": "sampassword",
         "dateOfBirth": {
-            "$date": "2000-01-01T00:00:00Z"
+            "$date": "1985-02-10T00:00:00Z"
         },
-        "profilePicture": "",
-        "isVerified": false,
-        "createdAt": {
-            "$date": "2025-02-22T23:37:33.182Z"
-        },
-        "updatedAt": {
-            "$date": "2025-02-22T23:37:33.182Z"
-        },
-        "__v": 0,
-        "gender": "male",
-        "height": 234,
-        "weight": 235
+        "height": 178,
+        "weight": 72,
+        "gender": "male"
     }
 ]
