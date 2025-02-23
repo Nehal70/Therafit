@@ -37,6 +37,7 @@ export const loginUser = async (req, res) => {
       console.log('Login attempt:', email);  // Check if we get the email
 
       const user = await User.findOne({ email });
+      console.log('Fetched user:', user);
       if (!user || user.password !== password) {
           return res.status(400).json({ error: 'Invalid credentials.' });
       }
@@ -47,7 +48,7 @@ export const loginUser = async (req, res) => {
           { expiresIn: '1h' }
       );
 
-      const firstLogin = !(user.height && user.weight && user.gender);
+      const firstLogin = !(user.height && user.weight && user.gender);  
       res.json({ message: '✅ Login successful', token, firstLogin });
   } catch (error) {
       console.error('Error during login:', error);  // Log errors here
