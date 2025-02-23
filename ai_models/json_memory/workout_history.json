@@ -430,5 +430,17 @@
         "description": "** This stretch helps to relieve tension in the glutes and lower back, which can indirectly support knee health by improving overall leg flexibility. Lie on your back with both legs extended. Pull one knee toward your chest while keeping the other leg straight on the floor. Hold for a few seconds and switch legs.",
         "duration": 180,
         "recommendedAt": "2025-02-22 23:26:41"
+    },
+    {
+        "name": "** Knee Circles",
+        "description": "** Stand with your feet together and place your hands on your knees. Slowly move your knees in a circular motion, first clockwise and then counterclockwise. This exercise helps improve knee flexibility and warm up the joint.",
+        "duration": 300,
+        "recommendedAt": "2025-02-22 23:30:51"
+    },
+    {
+        "name": "** Seated Leg Extension",
+        "description": "** Sit on a chair with your back straight and feet flat on the floor. Slowly extend your right leg out in front of you, keeping it straight, and hold for a few seconds before lowering it back down. Repeat with the left leg. This exercise helps strengthen the quadriceps without putting too much strain on the knees.",
+        "duration": 300,
+        "recommendedAt": "2025-02-22 23:31:36"
     }
 ]

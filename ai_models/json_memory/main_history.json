@@ -778,5 +778,45 @@
                 "timestamp": "2025-02-22 23:26:41"
             }
         ]
+    },
+    {
+        "datetime": "2025-02-22 23:31:12",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "Hi, can you give me a 5 min workout for my knees",
+                "timestamp": "2025-02-22 23:30:46"
+            },
+            {
+                "sender": "chatbot",
+                "text": "**Exercise:** Knee Circles  \n**Description:** Stand with your feet together and place your hands on your knees. Slowly move your knees in a circular motion, first clockwise and then counterclockwise. This exercise helps improve knee flexibility and warm up the joint.  \n**Duration:** 5 minutes  \n\nPlease perform this exercise and let me know how you feel afterward!",
+                "timestamp": "2025-02-22 23:30:51"
+            }
+        ]
+    },
+    {
+        "datetime": "2025-02-22 23:31:56",
+        "convo": [
+            {
+                "sender": "user",
+                "text": "Hi, my legs are hurting",
+                "timestamp": "2025-02-22 23:31:20"
+            },
+            {
+                "sender": "chatbot",
+                "text": "Before we proceed with the exercise recommendation, could you please let me know if there have been any recent injuries or if there's any current pain you're experiencing in your legs? Additionally, it would be helpful to know if you have had any previous injuries related to your legs. This information will help me tailor the exercise to your needs.",
+                "timestamp": "2025-02-22 23:31:22"
+            },
+            {
+                "sender": "user",
+                "text": "What's everything I told you so far",
+                "timestamp": "2025-02-22 23:31:30"
+            },
+            {
+                "sender": "chatbot",
+                "text": "It looks like we've had a conversation about knee exercises before, and you mentioned some leg pain. Here's a summary of what you've shared so far:\n\n1. You requested a 5-minute workout for your knees, and I suggested \"Knee Circles\" to help improve flexibility and warm up the joint.\n2. You later mentioned that your legs were hurting, so I asked about any recent or previous injuries to better tailor the recommendations.\n\nNow, let's proceed with the next step for your recovery. Given your history and current situation, here's a recommended exercise:\n\n**Exercise:** Seated Leg Extension  \n**Description:** Sit on a chair with your back straight and feet flat on the floor. Slowly extend your right leg out in front of you, keeping it straight, and hold for a few seconds before lowering it back down. Repeat with the left leg. This exercise helps strengthen the quadriceps without putting too much strain on the knees.  \n**Duration:** 5 minutes\n\nPlease perform this exercise and let me know how you feel afterward. This will help me adjust future recommendations for your recovery journey.",
+                "timestamp": "2025-02-22 23:31:36"
+            }
+        ]
     }
 ]
