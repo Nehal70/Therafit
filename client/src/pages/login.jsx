@@ -23,16 +23,21 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
             const data = await response.json();
     
             if (response.ok) {
-                localStorage.setItem('token', data.token);
-    
-                if (data.firstLogin) {
-                    navigate('/setup');
+                const { token, firstLogin } = data;
+              
+                // ✅ Save token to localStorage
+                localStorage.setItem('token', token);
+              
+                // 🔑 Redirect based on firstLogin flag
+                if (firstLogin) {
+                  navigate('/dashboard');      // 🚀 New user → Setup page
                 } else {
-                    navigate('/dashboard');
+                  navigate('/setup');  // ✅ Existing user → Dashboard
                 }
-            } else {
-                setError(data.error || 'Something went wrong');
-            }
+              } else {
+                setError(data.error || '❌ Something went wrong');
+              }
+              
         } catch (error) {
             console.error('Frontend error:', error);  // Log unexpected errors
             setError('An error occurred while trying to log in');

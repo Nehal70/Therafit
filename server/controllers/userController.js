@@ -47,7 +47,7 @@ export const loginUser = async (req, res) => {
           { expiresIn: '1h' }
       );
 
-      const firstLogin = !user.profileSetup;
+      const firstLogin = !(user.height && user.weight && user.gender);
       res.json({ message: '✅ Login successful', token, firstLogin });
   } catch (error) {
       console.error('Error during login:', error);  // Log errors here
