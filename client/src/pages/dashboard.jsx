@@ -3,12 +3,15 @@ import { PiHandWaving } from "react-icons/pi";
 import ProgramBlock from "../components/programBlock";
 import { jwtDecode } from "jwt-decode";
 import { getUserProfile } from "../services/userService";
+import { getUserSessions } from "../services/sessionService";
 import { useNavigate } from "react-router-dom";
-import Chat from "./chat"; // Import the Chat component
+import Chat from "./chat";
+import { FaPlus } from "react-icons/fa6";
 
 function Dashboard() {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("");
+  const [sessions, setSessions] = useState(null);
   const [sessionId, setSessionId] = useState(null); // Store session ID when started
   const [showChat, setShowChat] = useState(false); // Control chat visibility
 
@@ -24,6 +27,15 @@ function Dashboard() {
           getUserProfile(userId, token)
             .then((user) => {
               setUserName(user.firstName);
+            })
+            .catch((error) => {
+              console.error("Error fetching user profile:", error);
+              setUserName("User");
+            });
+          getUserSessions(userId, token)
+            .then((data) => {
+              setSessions(data);
+              console.log(data);
             })
             .catch((error) => {
               console.error("Error fetching user profile:", error);
@@ -84,6 +96,38 @@ function Dashboard() {
     },
   ];
 
+
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    return date.toLocaleDateString('en-US', {
+      month: 'long', // full month name
+      day: 'numeric', // day of the month
+      year: 'numeric', // full year
+    });
+  };
+
+  const formatTime = (dateString) => {
+    const date = new Date(dateString);
+    
+    // Format the time using toLocaleTimeString
+    const options = {
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true, // This ensures it uses 12-hour format
+    };
+  
+    const time = date.toLocaleTimeString('en-US', options);
+  
+    // Convert time to the desired format (e.g., 3:55 p.m. instead of 03:55 PM)
+    const formattedTime = time.replace(/(\d{1,2}):(\d{2}) (AM|PM)/, (match, p1, p2, p3) => {
+      const hour = p1.startsWith('0') ? p1[1] : p1; // Remove leading zero from hours (if needed)
+      const amPm = p3.toLowerCase(); // Convert AM/PM to lowercase
+      return `${hour}:${p2} ${amPm}`;
+    });
+  
+    return formattedTime;
+  };
+
   return (
     <>{/* Show Chat if session started */}
       {showChat && sessionId ? (
@@ -104,29 +148,25 @@ function Dashboard() {
               My Current Programs
             </h2>
             <div className="grid grid-cols-3 gap-4">
-              <ProgramBlock
-                title="Upper Body Workout"
-                desc="Focused on upper body and ankle injury recovery"
-              />
-              <ProgramBlock
-                title="Lower Body Workout"
-                desc="Focused on lower body and shoulder injury recovery"
-              />
-              <ProgramBlock title="" desc="" />
+                {sessions && [...sessions].reverse().map((session) => (
+                    <ProgramBlock
+                    title={formatDate(session.sessionStart)} desc={formatTime(session.sessionStart)}
+                  />
+                  ))}
+              <div onClick={startSession} className='cursor-pointer text-[#737373] hover:text-[#615e5e] border-dashed border-4 gap-4 rounded-lg border-[#ADADAD] hover:border-[#615e5e] p-6 w-full items-center flex justify-center flex-col'>
+                              <h1 className=''><FaPlus size={90}/></h1>
+              
+                              <div>
+                                  <h1 className='font-bold text-center text-lg'>Add new workout program</h1>
+                                  
+                              </div>
+                          </div>
             </div>
 
-            {/* Start Session Button */}
-            <div className="my-5">
-              <button
-                onClick={startSession}
-                className="bg-blue-500 text-white px-4 py-2 rounded-md"
-              >
-                + Start Session
-              </button>
-            </div>
+        
 
             {/* Past Workouts Section */}
-            <h2 className="font-bold text-fit-black mt-6 mb-3 text-xl">
+            {/* <h2 className="font-bold text-fit-black mt-6 mb-3 text-xl">
               Past Workouts
             </h2>
             <div className="border rounded-lg border-gray-300 text-left w-full p-3">
@@ -139,16 +179,14 @@ function Dashboard() {
                   </tr>
                 </thead>
                 <tbody>
-                  {workoutData.map((workout, index) => (
+                  {sessions && sessions.map((session, index) => (
                     <tr key={index}>
-                      <td className="p-3">{workout.date}</td>
-                      <td className="p-3">{workout.workoutName}</td>
-                      <td className="p-3">{workout.duration}</td>
+                      <td className="p-3">{formatDate(session.sessionStart)}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
-            </div>
+            </div> */}
           </>
 
         </div>
