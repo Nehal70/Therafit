@@ -85,20 +85,20 @@ function Dashboard() {
   ];
 
   return (
-    <>
-      <div className="flex flex-col max-w-[1100px] m-auto py-10 items-start">
-        <h1 className="flex items-center justify-center font-bold text-4xl mb-3 text-fit-black">
-          Hi, {userName}!&nbsp;
-          <PiHandWaving />
-        </h1>
-        <h3 className="text-lg mb-3 text-fit-gray">
-          Let&rsquo;s continue your fitness journey.
-        </h3>
+    <>{/* Show Chat if session started */}
+      {showChat && sessionId ? (
+        <Chat sessionId={sessionId} />
+      ) : (
+        <div className="flex flex-col max-w-[1100px] m-auto py-10 items-start">
+          <h1 className="flex items-center justify-center font-bold text-4xl mb-3 text-fit-black">
+            Hi, {userName}!&nbsp;
+            <PiHandWaving />
+          </h1>
+          <h3 className="text-lg mb-3 text-fit-gray">
+            Let&rsquo;s continue your fitness journey.
+          </h3>
 
-        {/* Show Chat if session started */}
-        {showChat && sessionId ? (
-          <Chat sessionId={sessionId} />
-        ) : (
+
           <>
             <h2 className="font-bold text-fit-black mb-3 mt-3 text-xl">
               My Current Programs
@@ -150,8 +150,9 @@ function Dashboard() {
               </table>
             </div>
           </>
-        )}
-      </div>
+
+        </div>
+      )}
     </>
   );
 }
