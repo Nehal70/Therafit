@@ -13,15 +13,15 @@ function Profile() {
     height: '',
     weight: '',
     gender: '',
-    dateOfBirth: ''
+    dateOfBirth: '',
+    password: '',
   });
 
   const [message, setMessage] = useState('');
-  const [isEditing, setIsEditing] = useState(false);
+  const token = localStorage.getItem('token');
 
   // Fetch user's profile when the component mounts
   useEffect(() => {
-    const token = localStorage.getItem('token');
     if (token) {
       const decoded = jwtDecode(token);
       const userId = decoded.userId;
@@ -36,6 +36,7 @@ function Profile() {
             weight: userData.weight || '',
             gender: userData.gender || '',
             dateOfBirth: userData.dateOfBirth || '',
+            password: userData.password || '',
           });
         })
         .catch((error) => {
@@ -50,9 +51,21 @@ function Profile() {
   };
 
   const handleSave = async () => {
-    const userId = localStorage.getItem('userId');
     try {
-      await axios.put(`http://localhost:5001/api/users/${userId}`, userData);
+      const decoded = jwtDecode(token);
+      const userId = decoded.userId;
+
+      // Include the token in the Authorization header
+      await axios.put(
+        `http://localhost:5001/api/users/${userId}`,
+        userData,
+        {
+          headers: {
+            Authorization: `Bearer ${token}`, // Add token to Authorization header
+          },
+        }
+      );
+
       setMessage('✅ Profile updated successfully!');
     } catch (err) {
       console.error('Error updating profile:', err);
@@ -60,7 +73,54 @@ function Profile() {
     }
   };
 
-  console.log(userData.dateOfBirth);
+  const [pwMessage, setPWMessage] = useState('');
+
+  const [oldPW, setOldPW] = useState('');
+  const [newPW, setNewPW] = useState('');
+  const [confPW, setConfPW] = useState('');
+
+  const handlePWSave = async () => {
+    if (newPW !== confPW) {
+      setPWMessage('❌ Passwords do not match.');
+    } else if (oldPW !== userData.password) {
+      setPWMessage('❌ Old password is incorrect.');
+    } else {
+      try {
+        const decoded = jwtDecode(token);
+        const userId = decoded.userId;
+    
+        // Make an API request to update the password
+        await axios.put(
+          `http://localhost:5001/api/users/${userId}`, // Assuming your API accepts a specific endpoint for password update
+          {
+            password: newPW,
+          },
+          {
+            headers: {
+              Authorization: `Bearer ${token}`, // Add the token to the Authorization header
+            },
+          }
+        );
+    
+        setPWMessage('✅ Password updated successfully!');
+        setOldPW('');
+        setNewPW('');
+        setConfPW('');
+    
+        // Fetch only the password field to update the state
+        const updatedUserData = await getUserProfile(userId, token);
+        setUserData((prevData) => ({
+          ...prevData, // Keep other fields as is
+          password: updatedUserData.password || '', // Update only the password field
+        }));
+    
+      } catch (err) {
+        console.error('Error updating password:', err);
+        setPWMessage('❌ Failed to update password.');
+      }
+    }
+  };    
+
 
   return (
     <>
@@ -71,6 +131,9 @@ function Profile() {
 
         <div className='mt-5'>
           {Object.entries(userData).map(([key, value]) => {
+            if (key == 'password') {
+              return
+            }
             return (
               <div key={key} className='flex flex-col'>
                 <p className='mb-1 text-fit-black'>
@@ -122,17 +185,47 @@ function Profile() {
 
       <div className='max-w-[600px] my-8 mx-auto'>
         <h2 className='font-bold text-fit-black text-3xl mb-1'>Privacy and Security</h2>
-        <p className='text-fit-gray'>Update your password.</p>
+        <p className='text-fit-gray mb-1'>Update your password.</p>
+        {pwMessage && <p style={{ color: message.includes('✅') ? 'green' : 'red' }}>{pwMessage}</p>}
 
-        <div className='mt-5'>
+        <div key='old_pw' className='flex flex-col'>
+          <p className='mt-3 mb-1 text-fit-black'>Old Password</p>
+          <input
+            type='text'
+            name='old_pw'
+            value={oldPW}
+            className="border border-gray-300 p-2 rounded-md mb-3"
+            onChange={(e) => setOldPW(e.target.value)}
+          />
+        </div>
 
+        <div key='new_pw' className='flex flex-col'>
+          <p className='mb-1 text-fit-black'>New Password</p>
+          <input
+            type='text'
+            name='new_pw'
+            value={newPW}
+            className="border border-gray-300 p-2 rounded-md mb-3"
+            onChange={(e) => setNewPW(e.target.value)}
+          />
+        </div>
+
+        <div key='conf_pw' className='flex flex-col'>
+          <p className='mb-1 text-fit-black'>Confirm Password</p>
+          <input
+            type='text'
+            name='conf_pw'
+            value={confPW}
+            className="border border-gray-300 p-2 rounded-md mb-3"
+            onChange={(e) => setConfPW(e.target.value)}
+          />
         </div>
 
         <button
-          onClick={handleSave}
+          onClick={handlePWSave}
           className='cursor-pointer mt-2 px-10 py-2 text-lg font-medium bg-fit-orange text-white rounded-[100px]'
         >
-          Save Profile
+          Update Password
         </button>
       </div>
     </>
