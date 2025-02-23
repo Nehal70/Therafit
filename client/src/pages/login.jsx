@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Wordmark from "../assets/wordmark.svg";
+import { jwtDecode } from "jwt-decode";
+import { getUserProfile } from "../services/userService";
 
 function Login({ setIsAuthenticated, setFirstLogin }) {
     const [username, setUsername] = useState("");
@@ -10,7 +12,7 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
+
         try {
             const response = await fetch('http://localhost:5001/api/users/login', {
                 method: 'POST',
@@ -19,31 +21,36 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
                 },
                 body: JSON.stringify({ email: username, password: password }),
             });
-    
+
             const data = await response.json();
 
             if (response.ok) {
                 const { token, firstLogin } = data;
-              
+
                 // ✅ Save token to localStorage
                 localStorage.setItem('token', token);
-              
-                // 🔑 Redirect based on firstLogin flag
-                if (firstLogin) {
-                  navigate('/setup');      // 🚀 New user → Setup page
-                } else {
-                  navigate('/dashboard');  // ✅ Existing user → Dashboard
-                }
-              } else {
+                const decoded = jwtDecode(token);
+                const userId = decoded.userId;
+
+                getUserProfile(userId, token)
+                    .then((user) => {
+                        if (user.height) {
+                            navigate('/dashboard');
+                        } else {
+                            navigate('/setup'); 
+                        }
+                    })
+                
+            } else {
                 setError(data.error || '❌ Something went wrong');
-              }
-              
+            }
+
         } catch (error) {
             console.error('Frontend error:', error);  // Log unexpected errors
             setError('An error occurred while trying to log in');
         }
     };
-    
+
 
     return (
         <div className="flex items-center justify-center w-screen h-screen bg-[#F6F5F5] fixed top-0">
@@ -53,7 +60,7 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
                 <p className="text-fit-gray mb-4">Don't have an account? <a className='underline' href='/signup'>Sign up.</a></p>
                 <form onSubmit={handleSubmit}>
                     <div className="flex flex-col rounded-lg">
-                        <label className="text-fit-black">Username:</label>
+                        <label className="text-fit-black">Email:</label>
                         <input
                             type="text"
                             value={username}
