@@ -9,6 +9,8 @@ function Chat({ sessionId }) {
   ]);
   const [input, setInput] = useState("");
   const [exercise, setExercise] = useState(null); // 🟢 Store workout info
+  const [isRecording, setIsRecording] = useState(false);
+
   const chatWindowRef = useRef(null);
 
   const handleSend = () => {
@@ -19,6 +21,46 @@ function Chat({ sessionId }) {
   };
 
   //
+  const handleVoiceInput = () => {
+    if (
+      !("webkitSpeechRecognition" in window) &&
+      !("SpeechRecognition" in window)
+    ) {
+      alert("Voice input is not supported in this browser.");
+      return;
+    }
+
+    const recognition = new (window.SpeechRecognition ||
+      window.webkitSpeechRecognition)();
+    recognition.lang = "en-US";
+    recognition.continuous = false;
+    recognition.interimResults = false;
+
+    recognition.onstart = () => {
+      setIsRecording(true);
+      console.log("🎙️ Recording started...");
+    };
+
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      console.log("✅ Transcription:", transcript);
+      setInput(transcript); // Show transcribed text in input
+      sendMessage(transcript); // Auto-send message
+    };
+
+    recognition.onerror = (event) => {
+      console.error("❌ Voice error:", event.error);
+      alert("Failed to capture voice. Please try again.");
+    };
+
+    recognition.onend = () => {
+      setIsRecording(false);
+      console.log("🛑 Recording ended.");
+    };
+
+    recognition.start();
+    setTimeout(() => recognition.stop(), 5000); // Record for 5 seconds
+  };
 
   function removeExerciseDetails(text) {
     const firstIdx = text.indexOf("**");
@@ -225,6 +267,15 @@ function Chat({ sessionId }) {
               onKeyDown={handleKeyDown} // Add onKeyDown listener
               placeholder="Type a message..."
             />
+            <button
+              onClick={handleVoiceInput}
+              className={`ml-2 px-4 py-2 rounded-full ${
+                isRecording ? "bg-red-500" : "bg-blue-500"
+              } text-white`}
+            >
+              {isRecording ? "Listening..." : "🎙️ Voice"}
+            </button>
+
             <button
               onClick={handleSend}
               className="bg-fit-orange text-white px-4 py-2 rounded-full hover:bg-fit-orange-hover"

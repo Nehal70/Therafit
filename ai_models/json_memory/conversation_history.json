@@ -1,12 +1,12 @@
 [
-  {
-    "sender": "user",
-    "text": "hey can you tell me things about myself",
-    "timestamp": "2025-02-23 01:43:44"
-  },
-  {
-    "sender": "chatbot",
-    "text": "Hello Bob! Based on the information I have, you're a male with a height of 234 cm and a weight of 235 kg. You're currently dealing with knee pain, and we've been focusing on exercises that are gentle on the knees. Let's continue with another exercise to support your recovery:\n\n**Exercise:** Ankle Circles  \n**Description:** Sit comfortably in a chair with your feet flat on the floor. Lift one foot slightly off the ground and slowly rotate your ankle in a circular motion. Complete a set of rotations in one direction, then switch directions. This exercise helps improve ankle flexibility and can support knee stability by enhancing the range of motion in the lower leg.  \n**Duration:** 5 minutes (alternating ankles)\n\nOnce you've completed this exercise, let me know how it felt, and we can proceed with the next steps.",
-    "timestamp": "2025-02-23 01:43:49"
-  }
+    {
+        "sender": "user",
+        "text": "Thanks, can you tell information about me",
+        "timestamp": "2025-02-23 02:33:48"
+    },
+    {
+        "sender": "chatbot",
+        "text": "Hello Bob! Based on the information I have, you're a male with a height of 234 cm and weight of 235 kg. You've recently mentioned experiencing shoulder pain, so let's focus on an exercise to help with that.\n\n**Exercise:** Shoulder Circles  \n**Description:** Stand or sit with your back straight. Gently roll your shoulders forward in a circular motion for about 15 seconds, then reverse the direction and roll them backward for another 15 seconds. This exercise helps increase blood flow to the shoulder area, promoting flexibility and reducing tension.  \n**Duration:** 5 minutes\n\nPlease give this exercise a try and let me know how it feels. Your feedback will help us adjust future recommendations to better suit your needs.",
+        "timestamp": "2025-02-23 02:33:53"
+    }
 ]
