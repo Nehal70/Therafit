@@ -70,7 +70,7 @@ export default function Navbar() {
 
   return (
     <div className='sticky top-0 bg-white flex items-center justify-between border-b px-5 py-3 border-gray-300'>
-      <a href='/'><img className='max-w-[130px]' src={Wordmark} alt="Logo" /></a>
+      <a href='/dashboard'><img className='max-w-[180px]' src={Wordmark} alt="Logo" /></a>
       
       <div 
         ref={dropdownButtonRef}
