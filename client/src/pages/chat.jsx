@@ -225,7 +225,7 @@ function Chat({ sessionId }) {
                 <img className="w-full" src={BotIcon} />
               </div>
               <h4 className="text-center font-bold text-xl mb-3">
-                Hi, I’m FitBot!
+                Hi, I’m TheraFit!
               </h4>
 
               <div className="flex flex-col max-w-xl m-auto pb-10 items-center">
