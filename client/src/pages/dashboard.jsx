@@ -147,9 +147,9 @@ function Dashboard() {
             <h2 className="font-bold text-fit-black mb-3 mt-3 text-xl">
               My Current Programs
             </h2>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid w-full grid-cols-3 gap-4">
                 {sessions && [...sessions].reverse().map((session) => (
-                    <ProgramBlock
+                    <ProgramBlock key={session._id}
                     title={formatDate(session.sessionStart)} desc={formatTime(session.sessionStart)}
                   />
                   ))}
