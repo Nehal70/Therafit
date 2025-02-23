@@ -98,7 +98,7 @@ User's Message:
 Relevant Exercise Recommendations:
 {exercise_context}
 
-Based on the user’s injury history and fitness goals, suggest a safe and effective exercise. Always provide the exercise name, description, and duration.
+Based on the user's injury history and fitness goals, suggest a safe and effective exercise. Always provide the exercise name, description, and duration.
 """
 
     try:

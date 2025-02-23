@@ -1,6 +1,8 @@
 import Session from "../models/session.js";
 import User from "../models/user.js";
 import { exec } from "child_process";
+import axios from "axios";
+import mongoose from "mongoose";
 
 // Start a new session
 // Start a new session and save it to MongoDB
@@ -43,15 +45,65 @@ export const addMessageToSession = async (req, res) => {
   try {
     const { sessionId, sender, text } = req.body;
 
+    // 🟢 Find the session
     const session = await Session.findById(sessionId);
-    if (!session) return res.status(404).json({ error: "Session not found" });
+    if (!session) {
+      console.error("❌ Session not found for ID:", sessionId);
+      return res.status(404).json({ error: "Session not found" });
+    }
 
-    session.messages.push({ sender, text });
+    // 🟢 1. Save User Message in MongoDB
+    const userMessage = { sender, text, timestamp: new Date() };
+    session.messages.push(userMessage); // ✅ Add user message to session
+
+    // 🟢 2. Call Python API for AI Response
+    const aiResponse = await axios.post("http://localhost:5002/api/chat", {
+      text,
+    });
+
+    const {
+      userMessage: savedUserMessage,
+      botMessage,
+      exercise,
+    } = aiResponse.data;
+
+    // 🟢 3. Save Bot Message in MongoDB
+    if (botMessage && botMessage.text) {
+      session.messages.push({
+        sender: botMessage.sender || "chatbot",
+        text: botMessage.text,
+        timestamp: new Date(),
+      });
+    } else {
+      console.warn("⚠️ No bot message received from AI.");
+    }
+
+    // 🟢 4. Save Exercise to MongoDB (if valid)
+    if (exercise && exercise.name && typeof exercise.duration === "number") {
+      const exerciseEntry = {
+        name: exercise.name,
+        description: exercise.description || "No description provided",
+        duration: exercise.duration,
+        recommendedAt: new Date(),
+        feedback: "",
+      };
+      session.workout.push(exerciseEntry); // ✅ Save valid exercise
+    } else {
+      console.log("⚠️ Invalid exercise, skipping MongoDB save.");
+    }
+
+    // 🟢 5. Save Session with Messages and Exercise
     await session.save();
 
-    res.status(200).json({ message: "Message added to session", session });
+    // 🟢 6. Send Response Back to Frontend
+    res.status(200).json({
+      userMessage: userMessage,
+      botMessage: botMessage,
+      exercise: exercise,
+    });
   } catch (error) {
-    res.status(500).json({ error: "Error adding message to session" });
+    console.error("❌ Error processing message:", error.message);
+    res.status(500).json({ error: "Failed to process message." });
   }
 };
 
@@ -116,6 +168,38 @@ export const updateSession = async (req, res) => {
     res.status(200).json({ message: "Session updated successfully", session });
   } catch (error) {
     res.status(500).json({ error: "Error updating session" });
+  }
+};
+
+export const archiveConversation = async (req, res) => {
+  try {
+    const { sessionId } = req.body;
+
+    console.log(`🔄 Archiving conversation for session ID: ${sessionId}`);
+
+    // 🟢 1. Call Flask API to archive JSON only
+    const flaskResponse = await axios.post(
+      "http://localhost:5002/api/archive-conversation",
+      { sessionId }
+    );
+
+    if (flaskResponse.status !== 200) {
+      console.error("❌ Failed to archive JSON in Flask.");
+      return res.status(500).json({ error: "Flask archive failed." });
+    }
+
+    console.log("✅ Flask archive successful!");
+
+    // 🟢 2. Do NOT clear MongoDB messages, only clear JSON history
+    console.log("✅ Chat cleared from JSON, MongoDB messages remain intact.");
+
+    res.status(200).json({
+      message: "Chat archived in JSON and cleared successfully.",
+      flaskMessage: flaskResponse.data.message,
+    });
+  } catch (error) {
+    console.error("❌ Error archiving conversation:", error.message);
+    res.status(500).json({ error: "Failed to archive conversation." });
   }
 };
 

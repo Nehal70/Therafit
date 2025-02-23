@@ -6,6 +6,7 @@ import {
   getSession,
   updateSession,
   deleteSession,
+  archiveConversation,
 } from "../controllers/sessionController.js";
 
 const router = express.Router();
@@ -15,6 +16,8 @@ router.post("/start", startSession);
 
 // Route to add a message to an existing session
 router.post("/message", addMessageToSession);
+
+router.post("/archive-conversation", archiveConversation);
 
 // Route to add an exercise to an existing session
 router.post("/exercise", addExerciseToSession);

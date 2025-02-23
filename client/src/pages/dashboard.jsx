@@ -4,11 +4,13 @@ import ProgramBlock from "../components/programBlock";
 import { jwtDecode } from "jwt-decode";
 import { getUserProfile } from "../services/userService";
 import { useNavigate } from "react-router-dom";
+import Chat from "./chat"; // Import the Chat component
 
 function Dashboard() {
   const navigate = useNavigate();
   const [userName, setUserName] = useState("");
   const [sessionId, setSessionId] = useState(null); // Store session ID when started
+  const [showChat, setShowChat] = useState(false); // Control chat visibility
 
   // Fetch user's profile when the component mounts
   useEffect(() => {
@@ -44,7 +46,7 @@ function Dashboard() {
     const token = localStorage.getItem("token");
     const decoded = jwtDecode(token);
     const userId = decoded.userId;
-    const userEmail = decoded.email; // Ensure email exists in the token
+    const userEmail = decoded.email;
 
     try {
       const response = await fetch("http://localhost:5001/api/sessions/start", {
@@ -58,9 +60,12 @@ function Dashboard() {
 
       const data = await response.json();
       alert(`✅ Session started! Session ID: ${data.sessionId}`);
+      setSessionId(data.sessionId); // Store session ID
+      setShowChat(true); // Show chat after session starts
     } catch (error) {
       console.error("❌ Error starting session:", error);
       alert("Failed to start session. Please try again.");
+      console.error(" Error starting session:", error);
     }
   };
 
@@ -90,54 +95,62 @@ function Dashboard() {
           Let&rsquo;s continue your fitness journey.
         </h3>
 
-        <h2 className="font-bold text-fit-black mb-3 mt-3 text-xl">
-          My Current Programs
-        </h2>
-        <div className="grid grid-cols-3 gap-4">
-          <ProgramBlock
-            title="Upper Body Workout"
-            desc="Focused on upper body and ankle injury recovery"
-          />
-          <ProgramBlock
-            title="Lower Body Workout"
-            desc="Focused on lower body and shoulder injury recovery"
-          />
-          <ProgramBlock title="" desc="" />
-        </div>
+        {/* Show Chat if session started */}
+        {showChat && sessionId ? (
+          <Chat sessionId={sessionId} />
+        ) : (
+          <>
+            <h2 className="font-bold text-fit-black mb-3 mt-3 text-xl">
+              My Current Programs
+            </h2>
+            <div className="grid grid-cols-3 gap-4">
+              <ProgramBlock
+                title="Upper Body Workout"
+                desc="Focused on upper body and ankle injury recovery"
+              />
+              <ProgramBlock
+                title="Lower Body Workout"
+                desc="Focused on lower body and shoulder injury recovery"
+              />
+              <ProgramBlock title="" desc="" />
+            </div>
 
-        {/* Start Session Button */}
-        <div className="my-5">
-          <button
-            onClick={startSession}
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
-          >
-            + Start Session
-          </button>
-        </div>
+            {/* Start Session Button */}
+            <div className="my-5">
+              <button
+                onClick={startSession}
+                className="bg-blue-500 text-white px-4 py-2 rounded-md"
+              >
+                + Start Session
+              </button>
+            </div>
 
-        <h2 className="font-bold text-fit-black mt-6 mb-3 text-xl">
-          Past Workouts
-        </h2>
-        <div className="border rounded-lg border-gray-300 text-left w-full p-3">
-          <table className="rounded-lg text-left w-full">
-            <thead>
-              <tr className="border-b border-gray-400">
-                <th className="p-3">Date</th>
-                <th className="p-3">Workout Name</th>
-                <th className="p-3">Duration</th>
-              </tr>
-            </thead>
-            <tbody>
-              {workoutData.map((workout, index) => (
-                <tr key={index}>
-                  <td className="p-3">{workout.date}</td>
-                  <td className="p-3">{workout.workoutName}</td>
-                  <td className="p-3">{workout.duration}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+            {/* Past Workouts Section */}
+            <h2 className="font-bold text-fit-black mt-6 mb-3 text-xl">
+              Past Workouts
+            </h2>
+            <div className="border rounded-lg border-gray-300 text-left w-full p-3">
+              <table className="rounded-lg text-left w-full">
+                <thead>
+                  <tr className="border-b border-gray-400">
+                    <th className="p-3">Date</th>
+                    <th className="p-3">Workout Name</th>
+                    <th className="p-3">Duration</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {workoutData.map((workout, index) => (
+                    <tr key={index}>
+                      <td className="p-3">{workout.date}</td>
+                      <td className="p-3">{workout.workoutName}</td>
+                      <td className="p-3">{workout.duration}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
       </div>
     </>
   );

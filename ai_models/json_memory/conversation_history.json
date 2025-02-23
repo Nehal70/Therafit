@@ -1,12 +1,1 @@
-[
-    {
-        "sender": "user",
-        "text": "hey this is a test",
-        "timestamp": "2025-02-22 19:24:45"
-    },
-    {
-        "time": "2025-02-22 19:24:50",
-        "sender": "chatbot",
-        "text": "Hello Bob! It looks like I already have your profile information. Let's move on to assessing your injury. Could you please tell me about your current pain level and if you've had any previous injuries?"
-    }
-]
+[]
