@@ -622,5 +622,11 @@
         "description": "** Stand or sit with your back straight. Gently roll your shoulders forward in a circular motion for about 15 seconds, then reverse the direction and roll them backward for another 15 seconds. This exercise helps increase blood flow to the shoulder area, promoting flexibility and reducing tension.",
         "duration": 300,
         "recommendedAt": "2025-02-23 02:33:53"
+    },
+    {
+        "name": "** Wall Sit",
+        "description": "** This exercise helps build strength in the quadriceps, which supports the knee joint. Stand with your back against a wall and your feet shoulder-width apart. Slowly slide down the wall until your knees are at a 90-degree angle, as if sitting in a chair. Hold this position.",
+        "duration": 180,
+        "recommendedAt": "2025-02-23 04:15:04"
     }
 ]

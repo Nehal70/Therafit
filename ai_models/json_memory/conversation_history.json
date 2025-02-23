@@ -1,12 +1,1 @@
-[
-    {
-        "sender": "user",
-        "text": "Thanks, can you tell information about me",
-        "timestamp": "2025-02-23 02:33:48"
-    },
-    {
-        "sender": "chatbot",
-        "text": "Hello Bob! Based on the information I have, you're a male with a height of 234 cm and weight of 235 kg. You've recently mentioned experiencing shoulder pain, so let's focus on an exercise to help with that.\n\n**Exercise:** Shoulder Circles  \n**Description:** Stand or sit with your back straight. Gently roll your shoulders forward in a circular motion for about 15 seconds, then reverse the direction and roll them backward for another 15 seconds. This exercise helps increase blood flow to the shoulder area, promoting flexibility and reducing tension.  \n**Duration:** 5 minutes\n\nPlease give this exercise a try and let me know how it feels. Your feedback will help us adjust future recommendations to better suit your needs.",
-        "timestamp": "2025-02-23 02:33:53"
-    }
-]
+[]

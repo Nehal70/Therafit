@@ -3,8 +3,13 @@ import BotIcon from "../assets/bot_icon.svg";
 import Message from "../components/message";
 import { BiSend } from "react-icons/bi";
 import { CiMicrophoneOn } from "react-icons/ci";
+import { ImExit } from "react-icons/im";
+import { useNavigate } from "react-router-dom";
 
 function Chat({ sessionId }) {
+
+  const navigate = useNavigate();
+
   const [messages, setMessages] = useState([
     { id: 1, text: "Let me know your ideal workout!", sender: "bot" },
   ]);
@@ -193,9 +198,9 @@ function Chat({ sessionId }) {
       {/* 🔴 Archive Conversation Button */}
       <a href='/dashboard'><button
         onClick={handleArchiveConversation}
-        className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600"
+        className="bg-fit-orange text-white px-4 py-2 rounded-full fixed top-20 left-10 hover:bg-red-600"
       >
-        Clear Chat
+        <ImExit />
       </button></a>
 
       {/* 🟢 Display Workout Info (if name not N/A) */}
@@ -216,7 +221,7 @@ function Chat({ sessionId }) {
       )}
 
       <div className="flex">
-        <div className="chatbot bg-white w-full mx-auto rounded-xl shadow-lg">
+        <div className="chatbot bg-white w-full mx-auto rounded-xl">
           <div
             className="chat-window pt-10 pb-20 overflow-y-auto px-[15%]"
             ref={chatWindowRef} // Attach the ref to the chat window
