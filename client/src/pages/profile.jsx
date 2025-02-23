@@ -42,6 +42,8 @@ function Profile() {
         .catch((error) => {
           console.error('Error fetching user profile:', error);
         });
+    } else {
+      navigate("/login");
     }
   }, []); // Empty dependency array ensures this effect runs once on mount
 
