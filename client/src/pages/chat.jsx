@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import BotIcon from "../assets/bot_icon.svg";
 import Message from "../components/message";
 import { BiSend } from "react-icons/bi";
+import { CiMicrophoneOn } from "react-icons/ci";
 
 function Chat({ sessionId }) {
   const [messages, setMessages] = useState([
@@ -190,12 +191,12 @@ function Chat({ sessionId }) {
   return (
     <>
       {/* 🔴 Archive Conversation Button */}
-      <button
+      <a href='/dashboard'><button
         onClick={handleArchiveConversation}
         className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600"
       >
         Clear Chat
-      </button>
+      </button></a>
 
       {/* 🟢 Display Workout Info (if name not N/A) */}
       {exercise && (
@@ -270,10 +271,10 @@ function Chat({ sessionId }) {
             <button
               onClick={handleVoiceInput}
               className={`ml-2 px-4 py-2 rounded-full ${
-                isRecording ? "bg-red-500" : "bg-blue-500"
-              } text-white`}
+                isRecording ? "bg-fit-orange border border-fit-orange text-white" : "bg-white border border-fit-orange text-fit-orange"
+              }`}
             >
-              {isRecording ? "Listening..." : "🎙️ Voice"}
+              <CiMicrophoneOn size={27} />
             </button>
 
             <button
