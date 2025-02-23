@@ -21,7 +21,7 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
             });
     
             const data = await response.json();
-    
+
             if (response.ok) {
                 const { token, firstLogin } = data;
               
@@ -30,9 +30,9 @@ function Login({ setIsAuthenticated, setFirstLogin }) {
               
                 // 🔑 Redirect based on firstLogin flag
                 if (firstLogin) {
-                  navigate('/dashboard');      // 🚀 New user → Setup page
+                  navigate('/setup');      // 🚀 New user → Setup page
                 } else {
-                  navigate('/setup');  // ✅ Existing user → Dashboard
+                  navigate('/dashboard');  // ✅ Existing user → Dashboard
                 }
               } else {
                 setError(data.error || '❌ Something went wrong');
