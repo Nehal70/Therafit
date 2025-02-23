@@ -1,907 +1,907 @@
 [
-    {
-        "datetime": "2025-02-22 17:22:19",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey can you tell me about myself?",
-                "time": "2025-02-22 17:15:10"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello! It looks like we don't have your profile information yet. To help you better, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce I have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
-                "time": "2025-02-22 17:15:14"
-            },
-            {
-                "sender": "user",
-                "text": "Are you sure you do not have my profile",
-                "time": "2025-02-22 17:15:24"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello! It seems we don't have your profile information stored yet. To ensure we provide the best assistance, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce we have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
-                "time": "2025-02-22 17:15:27"
-            },
-            {
-                "time": "2025-02-22 17:15:50",
-                "sender": "user",
-                "text": "Hello can you tell me about myself?"
-            },
-            {
-                "time": "2025-02-22 17:15:53",
-                "sender": "ai",
-                "text": "Hello Emily! Here's a quick summary of your profile details: \n\n- Name: Emily Parker\n- Email: emily.parker@example.com\n- Date of Birth: August 25, 1992\n- Height: 162 cm\n- Weight: 58 kg\n- Gender: Female\n\nNow, let's move on to assess your injury. Could you tell me about any current pain you're experiencing and any previous injuries you've had?"
-            },
-            {
-                "time": "2025-02-22 17:20:51",
-                "sender": "user",
-                "text": "Hello, can you tell me about myself?"
-            },
-            {
-                "time": "2025-02-22 17:20:56",
-                "sender": "ai",
-                "text": "Hello Emily! Based on the information I have, you're 31 years old, female, with a height of 162 cm and weight of 58 kg. Let's focus on tailoring a recovery plan for you. \n\nCould you let me know about your current pain level and any previous injuries you might have had? This will help me suggest the most suitable exercises for your recovery."
-            },
-            {
-                "time": "2025-02-22 17:21:42",
-                "sender": "user",
-                "text": "Yep - but actually I have 10 minutes and just want to do an exercise that isn't putting too much pressure on my knees. "
-            },
-            {
-                "time": "2025-02-22 17:21:48",
-                "sender": "ai",
-                "text": "Since you want to avoid putting too much pressure on your knees and have only 10 minutes, I recommend the following exercise:\n\n**Exercise:** Seated Leg Lifts  \n**Description:** Sit on a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping it straight. Hold for a second, then lower it back down. Repeat with the other leg. This exercise helps strengthen the quadriceps without putting pressure on the knees.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, let me know how you felt, and we'll adjust future recommendations accordingly."
-            },
-            {
-                "time": "2025-02-22 17:22:01",
-                "sender": "user",
-                "text": "I just wanted to do one exercise, but sure. Let's complete it now. How should I finish"
-            },
-            {
-                "time": "2025-02-22 17:22:07",
-                "sender": "ai",
-                "text": "Great, Emily! Let's finish up your session with some calming and restorative activities. Here's a cool-down exercise to help you wrap up:\n\n**Exercise:** Seated Forward Bend  \n**Description:** Sit on the floor with your legs extended straight out in front of you. Inhale, and as you exhale, slowly bend forward at the hips, reaching your hands towards your feet. Keep your back straight and go as far as comfortable without straining. This stretch helps to release tension in the lower back and hamstrings.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, please let me know how you felt so I can adjust future recommendations accordingly. Remember to stay hydrated and give your body the rest it needs!"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 17:29:06",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Can you tell me about myself, just to make sure you really know me",
-                "timestamp": "2025-02-22 17:28:48"
-            },
-            {
-                "time": "2025-02-22 17:28:52",
-                "sender": "chatbot",
-                "text": "It looks like I already have your profile information. Here\u2019s what I have for you:\n\n- **Name:** Emily Parker\n- **Email:** emily.parker@example.com\n- **Date of Birth:** August 25, 1992\n- **Height:** 162 cm\n- **Weight:** 58 kg\n- **Gender:** Female\n\nNow, let's move on to assessing your injury. Could you tell me about your current pain level and if you have any previous injuries?"
-            },
-            {
-                "sender": "user",
-                "text": "Actually, I'll talk to you later. Bye!",
-                "timestamp": "2025-02-22 17:29:02"
-            },
-            {
-                "time": "2025-02-22 17:29:03",
-                "sender": "chatbot",
-                "text": "Alright, Emily. Whenever you're ready to continue, feel free to reach out. Take care and talk soon!"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 19:23:13",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey can you tell me about myself?",
-                "timestamp": "2025-02-22 19:22:42"
-            },
-            {
-                "time": "2025-02-22 19:22:45",
-                "sender": "chatbot",
-                "text": "It looks like I have some of your information, but there might be a discrepancy in your height and weight details. Could you please confirm your current weight and height? Additionally, please let me know about your current injury type. This will help me tailor the best recovery plan for you."
-            },
-            {
-                "sender": "user",
-                "text": "What details do you have of me?",
-                "timestamp": "2025-02-22 19:22:52"
-            },
-            {
-                "time": "2025-02-22 19:22:55",
-                "sender": "chatbot",
-                "text": "It seems I have some of your basic profile information, but there seems to be an error with your height and weight details. Could you please confirm your current weight and height? Additionally, please let me know about your current injury type. This will help me provide a more personalized recovery plan for you."
-            },
-            {
-                "sender": "user",
-                "text": "What's my name",
-                "timestamp": "2025-02-22 19:22:59"
-            },
-            {
-                "time": "2025-02-22 19:23:01",
-                "sender": "chatbot",
-                "text": "It looks like your name is Bob Jeff. Thank you for confirming your details earlier. Let's proceed to assess your injury and current pain level. Could you please tell me more about your current pain and any previous injuries you might have had?"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 21:26:22",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "hey this is a test",
-                "timestamp": "2025-02-22 19:24:45"
-            },
-            {
-                "time": "2025-02-22 19:24:50",
-                "sender": "chatbot",
-                "text": "Hello Bob! It looks like I already have your profile information. Let's move on to assessing your injury. Could you please tell me about your current pain level and if you've had any previous injuries?"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell me about myself",
-                "timestamp": "2025-02-22 20:56:49"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Here's the information we have about you:\n\n- **Name:** Bob Jeff\n- **Email:** bob@example.com\n- **Gender:** Male\n- **Height:** 234 cm\n- **Weight:** 23 kg\n- **Date of Birth:** January 1, 2000\n\nNow, let's focus on your injury recovery. Could you tell me more about your current pain level and any previous injuries you've had?",
-                "timestamp": "2025-02-22 20:56:53"
-            },
-            {
-                "sender": "user",
-                "text": "I'm currently having some minor shoulder injuries. I want a 20 min workout, how to start?",
-                "timestamp": "2025-02-22 20:57:15"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Let's start with a gentle exercise to help with your shoulder recovery. Here's the first one:\n\n**Exercise:** Seated Front Deltoid Stretch  \n**Description:** Sit comfortably on a chair with your back straight. Extend your arms in front of you and interlock your fingers. Slowly lift your arms upward, feeling a stretch in your shoulders and the front deltoid muscles. Hold this position for a few seconds, then relax. Repeat the movement for a gentle stretch without overstraining.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback and ensure we complete a 20-minute session.",
-                "timestamp": "2025-02-22 20:57:19"
-            },
-            {
-                "sender": "user",
-                "text": "I did this, that's great. Now how do I continue? ",
-                "timestamp": "2025-02-22 20:57:32"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great to hear that the Seated Front Deltoid Stretch felt good! Let's move on to the next exercise to continue your shoulder recovery:\n\n**Exercise:** Scapular Retraction  \n**Description:** Stand or sit with a straight back. Keep your arms at your sides, and pull your shoulder blades back and down as if you are trying to pinch a pencil between them. Hold this position for a few seconds and then release. This exercise helps to strengthen the muscles around your shoulder blades, promoting better posture and stability.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises to complete your 20-minute session.",
-                "timestamp": "2025-02-22 20:57:35"
-            },
-            {
-                "sender": "user",
-                "text": "How long have I worked out so far?",
-                "timestamp": "2025-02-22 20:57:46"
-            },
-            {
-                "sender": "chatbot",
-                "text": "So far, you've completed 8 minutes of your workout session with the Seated Front Deltoid Stretch and Scapular Retraction exercises. Let's continue with the next exercise to help with your shoulder recovery:\n\n**Exercise:** Shoulder Blade Squeeze  \n**Description:** Sit or stand with your back straight. Place your arms by your sides and bend your elbows at a 90-degree angle. Squeeze your shoulder blades together as if you're trying to hold a pencil between them. Hold the squeeze for a few seconds and then release. This exercise helps to strengthen the upper back and improve shoulder posture.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises to reach your 20-minute goal.",
-                "timestamp": "2025-02-22 20:57:50"
-            },
-            {
-                "sender": "user",
-                "text": "Actually, I'm done. How long have I worked out for? You did a great job, man",
-                "timestamp": "2025-02-22 20:59:33"
-            },
-            {
-                "sender": "chatbot",
-                "text": "You've completed a total of 12 minutes of your workout session so far with the Seated Front Deltoid Stretch, Scapular Retraction, and Shoulder Blade Squeeze exercises. Since you're done for now, let's focus on recovery tips to help your shoulder heal effectively. \n\n**Warm-Up Recommendation:**  \nBefore starting your next workout, try a gentle warm-up like arm circles or shoulder rolls for 5 minutes to increase blood flow to your shoulder area.\n\n**Cool-Down Recommendation:**  \nAfter your workout, spend 5 minutes doing gentle stretches, such as the cross-body shoulder stretch, to help relax your muscles and improve flexibility.\n\n**Rest Recommendation:**  \nEnsure you get adequate rest and avoid activities that might strain your shoulder. Aim for at least 7-8 hours of sleep to aid in recovery.\n\nHow did you feel after today's exercises? Your feedback will help tailor future sessions to better suit your needs.",
-                "timestamp": "2025-02-22 20:59:38"
-            },
-            {
-                "sender": "user",
-                "text": "Hey, are we starting fresh?",
-                "timestamp": "2025-02-22 21:00:29"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Since we're starting fresh, let's focus on your shoulder recovery once again with a new exercise. Here's a tailored exercise for you:\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall and your feet a few inches away. Ensure your head, upper back, and buttocks are touching the wall. Raise your arms to shoulder height with elbows bent at 90 degrees, like a goalpost. Slowly slide your arms up and down the wall in a controlled manner, keeping your shoulder blades in contact with the wall throughout. This exercise helps improve shoulder mobility and posture.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to complete a full session.",
-                "timestamp": "2025-02-22 21:00:34"
-            },
-            {
-                "sender": "user",
-                "text": "How long have I worked out for?",
-                "timestamp": "2025-02-22 21:00:44"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Based on your previous sessions and focus on shoulder recovery, here's an exercise that can further aid in your rehabilitation:\n\n**Exercise:** Shoulder External Rotation with Resistance Band  \n**Description:** Secure a resistance band to a stable object at elbow height. Stand sideways with the injured shoulder farthest from the anchor point. Hold the band with the hand of the injured shoulder and bend your elbow to 90 degrees. Keep your elbow close to your body, then slowly rotate your forearm away from your body while keeping your shoulder stable. Return to the starting position in a controlled manner. This exercise helps strengthen the rotator cuff muscles and improve shoulder stability.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to complete your workout session.",
-                "timestamp": "2025-02-22 21:00:49"
-            },
-            {
-                "sender": "user",
-                "text": "I tried this workout, and it is going good so far. What do I do next",
-                "timestamp": "2025-02-22 21:01:01"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great to hear that the workout is going well, Bob! Let's continue with another exercise tailored for your shoulder recovery:\n\n**Exercise:** Wall Push-Ups  \n**Description:** Stand facing a wall at arm's length. Place your hands on the wall at shoulder height and shoulder-width apart. Keep your feet firmly planted on the ground, and slowly bend your elbows to bring your chest closer to the wall. Ensure your body forms a straight line from head to heels. Push back to the starting position in a controlled manner. This exercise is great for gently strengthening the shoulder muscles without causing strain.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue to adjust based on your feedback to reach your workout goals safely.",
-                "timestamp": "2025-02-22 21:01:06"
-            },
-            {
-                "sender": "user",
-                "text": "Great. Today how long have I worked out for",
-                "timestamp": "2025-02-22 21:01:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Based on your current focus on shoulder recovery, here's an exercise to keep up the good work and ensure safety:\n\n**Exercise:** Arm Circles  \n**Description:** Stand with your feet shoulder-width apart. Extend your arms straight out to the sides at shoulder height. Slowly make small circles with your arms in a forward motion for about 2 minutes, then reverse the direction for another 2 minutes. This exercise helps improve shoulder mobility and warm-up the muscles gently.  \n**Duration:** 4 minutes\n\nYou have completed 4 minutes of your workout today. Try this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to ensure a comprehensive session.",
-                "timestamp": "2025-02-22 21:01:34"
-            },
-            {
-                "sender": "user",
-                "text": "Hey how is it going, are we starting fresh",
-                "timestamp": "2025-02-22 21:18:59"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! It looks like we already have your profile information. Let's start by assessing your current condition. Can you tell me about your current pain levels and if you've had any previous injuries?",
-                "timestamp": "2025-02-22 21:19:02"
-            },
-            {
-                "sender": "user",
-                "text": "Do you know anything about my current condition",
-                "timestamp": "2025-02-22 21:19:53"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! While I don't have specific details about your current injury condition, you've mentioned some pain concerns. To better assist you, could you please describe your current pain levels and let me know if you've had any previous injuries?\n\nOnce we have that information, I can suggest a personalized exercise for you.",
-                "timestamp": "2025-02-22 21:19:55"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, are we starting fresh?",
-                "timestamp": "2025-02-22 21:26:12"
-            },
-            {
-                "sender": "chatbot",
-                "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and any previous injuries you have had?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
-                "timestamp": "2025-02-22 21:26:15"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 21:27:52",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hi, do you know me?",
-                "timestamp": "2025-02-22 21:27:18"
-            },
-            {
-                "sender": "chatbot",
-                "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and any previous injuries you have had?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
-                "timestamp": "2025-02-22 21:27:20"
-            },
-            {
-                "sender": "user",
-                "text": "What's my name then?",
-                "timestamp": "2025-02-22 21:27:24"
-            },
-            {
-                "sender": "chatbot",
-                "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup. From your profile, I understand your name is Bob Jeff.\n\n## Assess Injury:\nBefore we continue with the exercise recommendations, could you please let me know about your current pain levels and if you have any previous injuries?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
-                "timestamp": "2025-02-22 21:27:27"
-            },
-            {
-                "sender": "user",
-                "text": "I'm currently having a leg injury. and I want to do a quick workout, for 15 minutes. Let's start, I don't have any gym equipment",
-                "timestamp": "2025-02-22 21:27:45"
-            },
-            {
-                "sender": "chatbot",
-                "text": "## Assess Injury:\nThank you for letting me know about your leg injury. Since you want to do a quick workout without any gym equipment, I'll suggest a safe and effective exercise that won't aggravate your injury.\n\n## Generate Personalized Workout:\n### Exercise: Seated Leg Raises\n**Description:** Sit on the edge of a sturdy chair with your back straight and feet flat on the floor. Extend one leg out in front of you until it is parallel to the floor, hold for a few seconds, then lower it back down. Repeat on the other leg. This exercise strengthens the quadriceps without putting stress on the leg.\n**Duration:** 5 minutes\n\nLet me know how this feels, and we can adjust or suggest another exercise!",
-                "timestamp": "2025-02-22 21:27:49"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 21:46:00",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hi, are we starting fresh?",
-                "timestamp": "2025-02-22 21:27:57"
-            },
-            {
-                "sender": "chatbot",
-                "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and if you have any previous injuries?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
-                "timestamp": "2025-02-22 21:28:00"
-            },
-            {
-                "sender": "user",
-                "text": "Hey, there, what do you know about me? I wanna get started!",
-                "timestamp": "2025-02-22 21:44:20"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! I see that we have some basic information about you, but I don't have details about your current injury type. Could you please let me know what type of injury you're recovering from? This will help me tailor the exercises specifically for your needs.",
-                "timestamp": "2025-02-22 21:44:22"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, I wanna do a 15 min workout on shoulders, I have mild pain",
-                "timestamp": "2025-02-22 21:45:16"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Thank you for the information, Bob! Since you have mild pain in your shoulders, let's start with a gentle exercise.\n\n**Exercise:** Shoulder Raise  \n**Description:** Stand with your feet shoulder-width apart. Slowly lift your arms out to the sides until they are parallel to the ground, then lower them back down. Keep the movements controlled and avoid any jerking motions. This exercise helps to improve shoulder mobility and strength while being gentle on the joints.  \n**Duration:** 5 minutes\n\nPlease let me know how this feels, and we can continue with another exercise if you're comfortable.",
-                "timestamp": "2025-02-22 21:45:19"
-            },
-            {
-                "sender": "user",
-                "text": "ok this was good, what next",
-                "timestamp": "2025-02-22 21:45:45"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great to hear that the shoulder raise felt good, Bob! Let's move on to the next exercise to continue strengthening your shoulders gently.\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall, feet about a foot away from the wall. Place your arms against the wall in a 'W' shape with elbows bent and palms facing forward. Slowly raise your arms overhead into a 'Y' shape, keeping your arms and back against the wall. Lower them back to the starting position. This exercise helps improve shoulder mobility and posture.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels!",
-                "timestamp": "2025-02-22 21:45:48"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 22:50:48",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey, are we fresh?",
-                "timestamp": "2025-02-22 21:47:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! It seems like we've already done some shoulder exercises, and you're doing well. Let's continue with another gentle exercise for your shoulders.\n\n**Exercise:** Scapular Retraction  \n**Description:** Stand or sit with a straight back. Pull your shoulder blades together, imagining that you are trying to hold a pencil between them. Hold this position for a few seconds, then release. This exercise helps to strengthen the muscles around your shoulder blades and improve shoulder stability.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels.",
-                "timestamp": "2025-02-22 21:47:33"
-            },
-            {
-                "sender": "user",
-                "text": "Hey are we starting fresh",
-                "timestamp": "2025-02-22 21:59:23"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It looks like we have some of your profile information, but I'm missing details about your injury type. Could you please let me know what type of injury you're currently dealing with? This will help me tailor the exercises to your needs.",
-                "timestamp": "2025-02-22 21:59:33"
-            },
-            {
-                "sender": "user",
-                "text": "Hey can you tell stuff about me",
-                "timestamp": "2025-02-22 22:02:14"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It looks like we already have some of your profile details. However, I need to know your injury type to tailor exercises effectively. Could you please let me know what type of injury you're recovering from?",
-                "timestamp": "2025-02-22 22:02:16"
-            },
-            {
-                "sender": "user",
-                "text": "Hey can you tell stuff about me",
-                "timestamp": "2025-02-22 22:02:58"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It seems like we have most of your profile information, but I still need to know your injury type to tailor exercises effectively. Could you please let me know what type of injury you're recovering from?",
-                "timestamp": "2025-02-22 22:03:01"
-            },
-            {
-                "sender": "user",
-                "text": "Hello",
-                "timestamp": "2025-02-22 22:04:07"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! It seems that we have most of your profile information, but I still need to know the type of injury you're recovering from to tailor exercises effectively. Could you please let me know what type of injury you're dealing with?",
-                "timestamp": "2025-02-22 22:04:09"
-            },
-            {
-                "sender": "user",
-                "text": "Hi there, are you there? Can you tell stuff about  me",
-                "timestamp": "2025-02-22 22:08:34"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Yes, I'm here to help. According to your profile, you're a male with a height of 124 cm and a weight of 234 kg. However, I don't have information about your injury type. Could you please let me know about your current injury and any previous injuries you might have had? This will help me suggest the most appropriate exercises for your recovery.",
-                "timestamp": "2025-02-22 22:08:40"
-            },
-            {
-                "sender": "user",
-                "text": "Um hello",
-                "timestamp": "2025-02-22 22:09:52"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello again, Bob! Thank you for reaching out. To help you with your recovery, I need to know about your current injury and any previous injuries you might have had. This information will enable me to suggest the most suitable exercises for you. Could you please share that with me?",
-                "timestamp": "2025-02-22 22:09:54"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell stuff about  me?",
-                "timestamp": "2025-02-22 22:11:53"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! I see that we have some of your profile details such as your gender, height, and weight. However, I don't have information about your injury type yet.\n\nCould you please tell me what type of injury you're recovering from? This will help me provide better exercise recommendations for you.",
-                "timestamp": "2025-02-22 22:11:55"
-            },
-            {
-                "sender": "user",
-                "text": "Um, ok nice",
-                "timestamp": "2025-02-22 22:12:01"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Thank you for confirming! Since we haven't identified your injury type yet, could you please share what type of injury you're recovering from? This information is crucial for tailoring the most effective and safe exercise recommendations for your recovery journey.",
-                "timestamp": "2025-02-22 22:12:03"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell me about me",
-                "timestamp": "2025-02-22 22:16:26"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob, it seems like we have your basic profile information. Let's start by assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced?",
-                "timestamp": "2025-02-22 22:16:29"
-            },
-            {
-                "sender": "user",
-                "text": "Yes, that's good",
-                "timestamp": "2025-02-22 22:16:34"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great, Bob. Let's move forward with your recovery plan. Could you please provide more details about your current pain level and any previous injuries you might have experienced? This will help me tailor the exercises to your specific needs.",
-                "timestamp": "2025-02-22 22:16:36"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, are we starting fresh",
-                "timestamp": "2025-02-22 22:17:06"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob, it seems like we have your basic profile information on file. Let's proceed with assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced? This will help me provide exercises that are safe and effective for your condition.",
-                "timestamp": "2025-02-22 22:17:11"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, are we starting fresh",
-                "timestamp": "2025-02-22 22:17:19"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob, it seems like we have your basic profile information on file, so let's proceed with assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced? This will help me provide exercises that are safe and effective for your condition.",
-                "timestamp": "2025-02-22 22:17:22"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, do you know anything about me?",
-                "timestamp": "2025-02-22 22:24:24"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Yes, I do have some information about you. Since your profile already exists, let's move on to assess your injury. Could you tell me about your current pain levels and any previous injuries you might have had? This will help me tailor a workout plan that's safe and effective for you.",
-                "timestamp": "2025-02-22 22:24:27"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell stuff about me?",
-                "timestamp": "2025-02-22 22:28:09"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It looks like we have some information about you, but it seems we don't have your injury type recorded. Could you please tell me about your current injury? This will help me suggest the best exercises for your recovery.",
-                "timestamp": "2025-02-22 22:28:12"
-            },
-            {
-                "sender": "user",
-                "text": "Can you tell me my name",
-                "timestamp": "2025-02-22 22:28:20"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Your name is Bob Jeff. Since we have most of your profile details, I just need to know about your current injury type to suggest the best exercises for your recovery. Could you please share that information with me?",
-                "timestamp": "2025-02-22 22:28:22"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, can we start a workout? I'm having a small knee injury and want to work out for 30 minutes.",
-                "timestamp": "2025-02-22 22:28:36"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great, Bob! Let's start your workout. Since you have a small knee injury, we'll focus on exercises that are gentle on the knees. Here's the first exercise:\n\n**Exercise:** Seated Leg Extensions  \n**Description:** Sit in a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping your foot flexed. Hold for a moment, then lower it back down. Repeat for the other leg. This exercise helps to strengthen the quadriceps without putting much strain on the knee.  \n**Duration:** 5 minutes\n\nPlease let me know how this exercise feels for you, and we'll move on to the next one!",
-                "timestamp": "2025-02-22 22:28:39"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell me my name and info?",
-                "timestamp": "2025-02-22 22:32:39"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Based on the information we have, you're a male with a height of 124 cm and a weight of 234 kg. Now, let's proceed with assessing your injury.\n\nCould you please tell me about your current pain and if you have any previous injuries? This will help me tailor the exercise recommendations to your needs.",
-                "timestamp": "2025-02-22 22:32:43"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, I'm having some shoulder pain and want to do a 15 minute workout. What should I do first?",
-                "timestamp": "2025-02-22 22:33:11"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Let's start with a gentle exercise to help alleviate your shoulder pain and prepare your body for the workout.\n\n**Exercise:** Cross-body Shoulder Stretch  \n**Description:** This stretch targets increased flexibility in the shoulders. It's a common inclusion in upper-body dynamic warm-ups to help \"limber up\" the upper body and can be performed anytime.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels, and we can proceed with the next one.",
-                "timestamp": "2025-02-22 22:33:17"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, are we starting fresh?",
-                "timestamp": "2025-02-22 22:34:41"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! We're continuing from where we left off. You've already completed the Cross-body Shoulder Stretch. Now, let's move on to the next exercise to further support your shoulder recovery.\n\n**Exercise:** Seated Row with Resistance Band  \n**Description:** This exercise helps strengthen the muscles around the shoulder and upper back, which can aid in improving shoulder stability and reducing pain. Sit on the floor with your legs extended, loop a resistance band around your feet, and hold the ends with your hands. Keep your back straight and pull the band towards you while squeezing your shoulder blades together.  \n**Duration:** 4 minutes\n\nOnce you've completed this exercise, let me know how you feel, and we can continue with the next part of your workout.",
-                "timestamp": "2025-02-22 22:34:50"
-            },
-            {
-                "sender": "user",
-                "text": "I actually wanna just start fresh. Like new workout completley",
-                "timestamp": "2025-02-22 22:35:03"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Alright Bob, let's start fresh with a new workout that considers your shoulder pain. We'll focus on exercises that are gentle yet effective for your recovery.\n\n**Exercise:** Shoulder Blade Squeeze  \n**Description:** This exercise helps improve posture and strengthens the muscles between your shoulder blades, which is beneficial for shoulder pain relief. Sit or stand with your arms at your sides. Squeeze your shoulder blades together, hold for a few seconds, and then release. Make sure to keep your shoulders down and relaxed during the exercise.  \n**Duration:** 3 minutes\n\nPlease try this exercise and let me know how it feels. We'll continue with the next exercise based on your feedback.",
-                "timestamp": "2025-02-22 22:35:11"
-            },
-            {
-                "sender": "user",
-                "text": "Do you remember anything?",
-                "timestamp": "2025-02-22 22:35:19"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Yes, I remember our previous conversations and your profile details. Let's continue with a new workout plan that focuses on alleviating your shoulder pain.\n\n**Exercise:** Wall Angels  \n**Description:** This exercise helps improve shoulder mobility and posture. Stand with your back against a wall, feet shoulder-width apart. Raise your arms to form a 'W' shape, with elbows bent and hands pointing upwards. Slowly raise your arms to form a 'Y' shape, keeping your arms and back in contact with the wall. Return to the starting position.  \n**Duration:** 3 minutes\n\nPlease try this exercise and let me know how it feels. We can then proceed with the next exercise based on your feedback.",
-                "timestamp": "2025-02-22 22:35:28"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, can you tell stuff about me?",
-                "timestamp": "2025-02-22 22:43:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! I can help you with your injury recovery. Let's start by assessing your injury. Could you please tell me about your current pain level and if you have had any previous injuries?",
-                "timestamp": "2025-02-22 22:43:34"
-            },
-            {
-                "sender": "user",
-                "text": "Yes, can we start working out, I am having some shoulder pain. 15 minutes, how to start",
-                "timestamp": "2025-02-22 22:43:50"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great, Bob! Since you're experiencing shoulder pain, let's start with an exercise that can help improve your shoulder health. Here's a good one for you:\n\n**Exercise:** Face Pulls  \n**Description:** Use a resistance band or cable machine. Stand with feet shoulder-width apart. Hold the band or cable with both hands, keeping your arms extended. Pull towards your face, keeping your elbows high and to the sides, squeezing your shoulder blades together. This helps improve shoulder health and posture.  \n**Duration:** 5 minutes\n\nLet me know how you feel after completing this exercise, and we can move on to the next one!",
-                "timestamp": "2025-02-22 22:43:54"
-            },
-            {
-                "sender": "user",
-                "text": "Are we starting fresh?",
-                "timestamp": "2025-02-22 22:44:00"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Since we're focusing on your shoulder pain and aiming for a 15-minute session, let's continue with another exercise tailored for your shoulder recovery. Here's the next exercise:\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall, feet shoulder-width apart. Keep your arms bent at 90 degrees, and press your elbows and wrists against the wall. Slowly slide your arms up and down the wall, maintaining contact at all points. This exercise helps in improving shoulder mobility and posture.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels. Afterward, we can proceed with the next part of your session!",
-                "timestamp": "2025-02-22 22:44:04"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:04:35",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey, how's it going are we starting fresh",
-                "timestamp": "2025-02-22 22:51:52"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! I see we have your profile on file, so we can jump right into your injury recovery process.\n\n**Assess Injury:** Could you please let me know about your current pain level and if you have any history of previous injuries? This will help me tailor the exercise recommendations to your needs.",
-                "timestamp": "2025-02-22 22:51:55"
-            },
-            {
-                "sender": "user",
-                "text": "Hey, are we starting fresh",
-                "timestamp": "2025-02-22 22:52:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! We already have your profile set up, so no need to start fresh. Let's continue with your injury recovery process.\n\n**Assess Injury:** Could you please let me know about your current pain level and if you have any history of previous injuries? This will help me tailor the exercise recommendations to your needs.",
-                "timestamp": "2025-02-22 22:52:32"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, i am having shoulder injury",
-                "timestamp": "2025-02-22 22:52:38"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Thank you for sharing that you have a shoulder injury, Bob. Let's focus on a gentle exercise to help with your recovery.\n\n**Exercise:** Shoulder Dislocation Stretch-Dowel  \n**Description:** This exercise helps to increase shoulder flexibility and range of motion. Use a dowel or a long stick. Hold it with both hands, wider than shoulder-width apart. Slowly raise the dowel over your head and then move it behind your back, keeping your arms straight throughout the movement. Bring it back to the starting position.  \n**Duration:** 5 minutes\n\nPlease perform this exercise slowly and carefully. Let me know how it feels afterward, so I can adjust future recommendations accordingly.",
-                "timestamp": "2025-02-22 22:52:42"
-            },
-            {
-                "sender": "user",
-                "text": "hey are we starting fresh",
-                "timestamp": "2025-02-22 22:52:49"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! We already have your profile set up, so no need to start fresh. Let's continue with your injury recovery process.\n\n**Exercise:** Pendulum Swing  \n**Description:** This exercise helps to gently mobilize your shoulder joint. Lean forward slightly, supporting your non-injured arm on a table or chair. Let your injured arm hang down freely. Begin to gently swing your arm in small circles, using gravity to help move the shoulder joint.  \n**Duration:** 5 minutes  \n\nPlease perform this exercise slowly and carefully. Let me know how it feels afterward, so I can adjust future recommendations accordingly.",
-                "timestamp": "2025-02-22 22:52:53"
-            },
-            {
-                "sender": "user",
-                "text": "Hey, are we starting fresh?",
-                "timestamp": "2025-02-22 22:54:38"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Since your user profile is already on file, we can skip directly to assessing your injury. Could you please tell me about your current pain levels and if you've had any previous injuries? This will help me tailor the exercises appropriately for your recovery.",
-                "timestamp": "2025-02-22 22:54:41"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, can we start legs workout?",
-                "timestamp": "2025-02-22 22:54:46"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Certainly, Bob! Let's start with a leg exercise that is safe and effective given your profile. \n\n**Exercise:** Seated Leg Press  \n**Description:** Sit comfortably on the leg press machine with your back and head resting against the padded support. Place your feet on the footplate shoulder-width apart. Push the plate away by extending your legs and then slowly return to the starting position. This exercise targets your quadriceps, glutes, and hamstrings.  \n**Duration:** 10 minutes\n\nPlease let me know how this exercise feels, and we'll proceed accordingly!",
-                "timestamp": "2025-02-22 22:54:49"
-            },
-            {
-                "sender": "user",
-                "text": "Hey are we starting fresh",
-                "timestamp": "2025-02-22 22:56:37"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Since we have some of your profile information on file, let's proceed to assess your injury. Could you please describe your current pain level and let me know if you have had any previous injuries?",
-                "timestamp": "2025-02-22 22:56:39"
-            },
-            {
-                "sender": "user",
-                "text": "Ok can you give me knee workout for 5 mins",
-                "timestamp": "2025-02-22 22:56:47"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Since you have requested a knee workout for 5 minutes, let's start with a gentle exercise to ensure safety and effectiveness.\n\n**Exercise:** Knee Circles  \n**Description:** Stand with your feet slightly apart and place your hands on your knees. Slowly bend your knees and make small circles with them by rotating them in one direction for half the duration, then switch to the opposite direction. This exercise helps improve knee flexibility and mobility.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after completing this exercise, and I can suggest further activities or provide recovery tips.",
-                "timestamp": "2025-02-22 22:56:51"
-            },
-            {
-                "sender": "user",
-                "text": "Hi can you remember",
-                "timestamp": "2025-02-22 23:01:06"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Since we've already established your profile and begun assessing your injury with a knee workout, let's continue with another exercise to support your recovery.\n\n**Exercise:** Quad Sets  \n**Description:** Sit on the floor with your legs extended in front of you. Place a small rolled towel under your knee. Tighten your thigh muscle, pressing the back of your knee down into the towel. Hold for a count of 5 seconds, then relax. This exercise helps strengthen the quadriceps without putting stress on the knee joint.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after completing this exercise, and I can suggest further activities or provide recovery tips.",
-                "timestamp": "2025-02-22 23:01:11"
-            },
-            {
-                "sender": "user",
-                "text": "Ok, hi can you tell me stuff",
-                "timestamp": "2025-02-22 23:04:27"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! It looks like I have some of your profile information, but I don't have details about your injury type. Could you please let me know what type of injury you're recovering from? This will help me provide the best recommendations for your recovery. \n\nOnce we have that, I can suggest exercises tailored to your needs.",
-                "timestamp": "2025-02-22 23:04:30"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:04:55",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Are we starting fresh",
-                "timestamp": "2025-02-22 23:04:50"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! It looks like I have most of your profile information, but I still need to know about the type of injury you're recovering from. Could you please let me know about your injury? This will help me tailor the exercises to your needs.\n\nOnce I have that information, I'll be able to suggest an appropriate exercise for you.",
-                "timestamp": "2025-02-22 23:04:53"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:09:37",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hi, this is a test",
-                "timestamp": "2025-02-22 23:08:55"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Welcome back. Based on your profile, I have noted your height and weight. However, I don't have information about your current injury. Could you please let me know what type of injury you're dealing with right now?\n\nOnce I have that information, we can proceed with assessing your current pain level and any previous injuries. Then, I'll be able to suggest a personalized workout for you.",
-                "timestamp": "2025-02-22 23:08:58"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:20:23",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey, my knees are slightly hurting",
-                "timestamp": "2025-02-22 23:19:17"
-            },
-            {
-                "sender": "chatbot",
-                "text": "**Assess Injury:**\n\nHi Bob, I see that you have an existing profile. Let's focus on assessing your current condition. You mentioned that your knees are slightly hurting. Could you tell me more about your current pain level and whether you've had any previous knee injuries?",
-                "timestamp": "2025-02-22 23:19:20"
-            },
-            {
-                "sender": "user",
-                "text": "Yes, can we do an exercise for 5 minutes just to warm up - i want to do total 30 minutes",
-                "timestamp": "2025-02-22 23:19:34"
-            },
-            {
-                "sender": "chatbot",
-                "text": "**Generate Personalized Workout:**\n\nLet's start with a gentle warm-up exercise to get your body ready. Here's a good option for you:\n\n**Exercise:** Marching in Place  \n**Description:** Marching in place is a low-impact exercise that helps to increase your heart rate and get your muscles warm without putting much stress on your knees. Simply stand in place and lift your knees towards your chest in an alternating pattern, swinging your arms naturally as you do so.  \n**Duration:** 5 minutes\n\nOnce you're done, let me know how you feel, and we can move on to the next part of your workout!",
-                "timestamp": "2025-02-22 23:19:39"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:27:21",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hey my legs are hurting",
-                "timestamp": "2025-02-22 23:20:45"
-            },
-            {
-                "sender": "chatbot",
-                "text": "**Assess Injury:**\n\nHi Bob, I see you're experiencing some discomfort in your legs. Could you please describe your current pain level and if you've had any previous leg injuries? This will help me suggest the most appropriate exercises for you.",
-                "timestamp": "2025-02-22 23:20:48"
-            },
-            {
-                "sender": "user",
-                "text": "Hi, my knees are slightly hurting, and I want to do a 20 minute workout. How should I start?",
-                "timestamp": "2025-02-22 23:26:31"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Since we have your user profile, let's move on to assessing your injury and suggesting an exercise.\n\n**Assess Injury:**\nYou mentioned that your knees are slightly hurting. Have you had any previous knee injuries, or is this a new issue?\n\n**Exercise Suggestion:**\nTo get you started with your 20-minute workout, let's begin with a gentle exercise that can help alleviate knee discomfort:\n\n**Exercise:** One Knee To Chest  \n**Description:** This stretch helps to relieve tension in the glutes and lower back, which can indirectly support knee health by improving overall leg flexibility. Lie on your back with both legs extended. Pull one knee toward your chest while keeping the other leg straight on the floor. Hold for a few seconds and switch legs.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels for you, and we'll proceed with the next one!",
-                "timestamp": "2025-02-22 23:26:41"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:31:12",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hi, can you give me a 5 min workout for my knees",
-                "timestamp": "2025-02-22 23:30:46"
-            },
-            {
-                "sender": "chatbot",
-                "text": "**Exercise:** Knee Circles  \n**Description:** Stand with your feet together and place your hands on your knees. Slowly move your knees in a circular motion, first clockwise and then counterclockwise. This exercise helps improve knee flexibility and warm up the joint.  \n**Duration:** 5 minutes  \n\nPlease perform this exercise and let me know how you feel afterward!",
-                "timestamp": "2025-02-22 23:30:51"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-22 23:31:56",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "Hi, my legs are hurting",
-                "timestamp": "2025-02-22 23:31:20"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Before we proceed with the exercise recommendation, could you please let me know if there have been any recent injuries or if there's any current pain you're experiencing in your legs? Additionally, it would be helpful to know if you have had any previous injuries related to your legs. This information will help me tailor the exercise to your needs.",
-                "timestamp": "2025-02-22 23:31:22"
-            },
-            {
-                "sender": "user",
-                "text": "What's everything I told you so far",
-                "timestamp": "2025-02-22 23:31:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It looks like we've had a conversation about knee exercises before, and you mentioned some leg pain. Here's a summary of what you've shared so far:\n\n1. You requested a 5-minute workout for your knees, and I suggested \"Knee Circles\" to help improve flexibility and warm up the joint.\n2. You later mentioned that your legs were hurting, so I asked about any recent or previous injuries to better tailor the recommendations.\n\nNow, let's proceed with the next step for your recovery. Given your history and current situation, here's a recommended exercise:\n\n**Exercise:** Seated Leg Extension  \n**Description:** Sit on a chair with your back straight and feet flat on the floor. Slowly extend your right leg out in front of you, keeping it straight, and hold for a few seconds before lowering it back down. Repeat with the left leg. This exercise helps strengthen the quadriceps without putting too much strain on the knees.  \n**Duration:** 5 minutes\n\nPlease perform this exercise and let me know how you feel afterward. This will help me adjust future recommendations for your recovery journey.",
-                "timestamp": "2025-02-22 23:31:36"
-            }
-        ]
-    },
-    {
-        "datetime": "2025-02-23 00:44:15",
-        "convo": [
-            {
-                "sender": "user",
-                "text": "hello can you hear me",
-                "timestamp": "2025-02-23 00:39:01"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello Bob! Yes, I can hear you. Let's get started on your injury recovery process. \n\nBefore we proceed, I need to assess your current injury situation. Could you please let me know where you're experiencing pain and if you've had any previous injuries?",
-                "timestamp": "2025-02-23 00:39:05"
-            },
-            {
-                "sender": "user",
-                "text": "can you give me a 15-minute workout for knees",
-                "timestamp": "2025-02-23 00:39:21"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Before we proceed with the workout, could you let me know if you're currently experiencing any knee pain and whether you've had any previous knee injuries? This will help me tailor the workout to your needs.",
-                "timestamp": "2025-02-23 00:39:23"
-            },
-            {
-                "sender": "user",
-                "text": "I'm experiencing some mild knee pain",
-                "timestamp": "2025-02-23 00:39:30"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Thank you for letting me know, Bob. Since you have mild knee pain, let's start with a gentle exercise to ease into your workout.\n\n**Exercise:** One Knee to Chest  \n**Description:** This exercise is a gentle stretch designed to relieve tension in the glutes and lower back. Lie on your back with your legs extended. Slowly bring one knee toward your chest, holding it with both hands. Keep the other leg straight and flat on the floor. Hold the stretch for a few seconds and then switch to the other leg.  \n**Duration:** 3 minutes\n\nPlease let me know how you feel after this exercise, and we'll continue with the next step.",
-                "timestamp": "2025-02-23 00:39:34"
-            },
-            {
-                "sender": "user",
-                "text": "i think i'm feeling good after it what next",
-                "timestamp": "2025-02-23 00:40:10"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Great to hear that you're feeling good after the last exercise, Bob! Let's move on to the next exercise to continue our gentle knee-focused workout.\n\n**Exercise:** Seated Leg Extension  \n**Description:** This exercise helps strengthen the quadriceps without putting too much strain on the knee. Sit on a chair with your feet flat on the floor. Slowly extend one leg out in front of you until it is straight, hold for a moment, then lower it back down to the starting position. Alternate between both legs.  \n**Duration:** 4 minutes\n\nPlease let me know how this exercise feels for you, and we'll proceed with the next step based on your feedback.",
-                "timestamp": "2025-02-23 00:40:15"
-            },
-            {
-                "sender": "user",
-                "text": "can you hear me",
-                "timestamp": "2025-02-23 00:41:04"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Hello again, Bob! Yes, I can hear you. Let's continue with your knee-focused workout. Based on your feedback and current condition, here's the next exercise:\n\n**Exercise:** Partner Facing Feet-Elevated Side Plank With Band Row  \n**Description:** This exercise helps to strengthen your core and improve stability, which can be beneficial for knee support. Place your feet on an elevated surface while in a side plank position. Hold a resistance band with your top hand. While maintaining the plank position, perform a rowing motion by pulling the band towards your ribcage, then return to the starting position. Switch sides after completing the reps.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels for you, and we'll continue with the next step based on your feedback.",
-                "timestamp": "2025-02-23 00:41:09"
-            },
-            {
-                "sender": "user",
-                "text": "how much time do I have left",
-                "timestamp": "2025-02-23 00:41:17"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Based on your progress so far and considering your mild knee pain, let's continue with a knee-friendly exercise. You have approximately 5 minutes left in your 15-minute workout session. Here's the next exercise:\n\n**Exercise:** Calf Raises  \n**Description:** This exercise helps to strengthen the calf muscles, which can provide additional support to the knees. Stand with your feet hip-width apart, and slowly raise your heels to stand on your toes, then lower back down. To maintain balance, you can hold onto a wall or a chair.  \n**Duration:** 5 minutes  \n\nPlease let me know how this exercise feels for you, and we'll wrap up with some recovery tips afterward.",
-                "timestamp": "2025-02-23 00:41:21"
-            },
-            {
-                "sender": "user",
-                "text": "Can you give me a 5 min workout for knees",
-                "timestamp": "2025-02-23 00:43:56"
-            },
-            {
-                "sender": "chatbot",
-                "text": "It looks like your profile is already set up, Bob. Let's focus on assessing your injury.\n\nCould you please tell me more about your current knee pain and any previous knee injuries you might have had? This information will help me suggest the most suitable exercises for you.",
-                "timestamp": "2025-02-23 00:43:59"
-            },
-            {
-                "sender": "user",
-                "text": "Yes I just want to get started",
-                "timestamp": "2025-02-23 00:44:07"
-            },
-            {
-                "sender": "chatbot",
-                "text": "Let's start with a gentle exercise to help with your knee recovery. Here's a recommended exercise for you:\n\n**Exercise:** Seated Leg Raises  \n**Description:** Sit in a chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you until it's parallel to the ground, hold for a moment, then lower it back down. Alternate between legs. This exercise helps strengthen the quadriceps without putting too much strain on the knee.  \n**Duration:** 5 minutes\n\nPlease let me know how this feels, and we can adjust any future recommendations based on your feedback.",
-                "timestamp": "2025-02-23 00:44:13"
-            }
-        ]
-    }
+  {
+    "datetime": "2025-02-22 17:22:19",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey can you tell me about myself?",
+        "time": "2025-02-22 17:15:10"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello! It looks like we don't have your profile information yet. To help you better, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce I have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
+        "time": "2025-02-22 17:15:14"
+      },
+      {
+        "sender": "user",
+        "text": "Are you sure you do not have my profile",
+        "time": "2025-02-22 17:15:24"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello! It seems we don't have your profile information stored yet. To ensure we provide the best assistance, could you please provide the following details?\n\n1. Age\n2. Gender\n3. Weight\n4. Height\n5. Type of injury\n\nOnce we have this information, we can proceed with assessing your injury and creating a personalized workout plan.",
+        "time": "2025-02-22 17:15:27"
+      },
+      {
+        "time": "2025-02-22 17:15:50",
+        "sender": "user",
+        "text": "Hello can you tell me about myself?"
+      },
+      {
+        "time": "2025-02-22 17:15:53",
+        "sender": "ai",
+        "text": "Hello Emily! Here's a quick summary of your profile details: \n\n- Name: Emily Parker\n- Email: emily.parker@example.com\n- Date of Birth: August 25, 1992\n- Height: 162 cm\n- Weight: 58 kg\n- Gender: Female\n\nNow, let's move on to assess your injury. Could you tell me about any current pain you're experiencing and any previous injuries you've had?"
+      },
+      {
+        "time": "2025-02-22 17:20:51",
+        "sender": "user",
+        "text": "Hello, can you tell me about myself?"
+      },
+      {
+        "time": "2025-02-22 17:20:56",
+        "sender": "ai",
+        "text": "Hello Emily! Based on the information I have, you're 31 years old, female, with a height of 162 cm and weight of 58 kg. Let's focus on tailoring a recovery plan for you. \n\nCould you let me know about your current pain level and any previous injuries you might have had? This will help me suggest the most suitable exercises for your recovery."
+      },
+      {
+        "time": "2025-02-22 17:21:42",
+        "sender": "user",
+        "text": "Yep - but actually I have 10 minutes and just want to do an exercise that isn't putting too much pressure on my knees. "
+      },
+      {
+        "time": "2025-02-22 17:21:48",
+        "sender": "ai",
+        "text": "Since you want to avoid putting too much pressure on your knees and have only 10 minutes, I recommend the following exercise:\n\n**Exercise:** Seated Leg Lifts  \n**Description:** Sit on a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping it straight. Hold for a second, then lower it back down. Repeat with the other leg. This exercise helps strengthen the quadriceps without putting pressure on the knees.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, let me know how you felt, and we'll adjust future recommendations accordingly."
+      },
+      {
+        "time": "2025-02-22 17:22:01",
+        "sender": "user",
+        "text": "I just wanted to do one exercise, but sure. Let's complete it now. How should I finish"
+      },
+      {
+        "time": "2025-02-22 17:22:07",
+        "sender": "ai",
+        "text": "Great, Emily! Let's finish up your session with some calming and restorative activities. Here's a cool-down exercise to help you wrap up:\n\n**Exercise:** Seated Forward Bend  \n**Description:** Sit on the floor with your legs extended straight out in front of you. Inhale, and as you exhale, slowly bend forward at the hips, reaching your hands towards your feet. Keep your back straight and go as far as comfortable without straining. This stretch helps to release tension in the lower back and hamstrings.  \n**Duration:** 5 minutes\n\nAfter completing this exercise, please let me know how you felt so I can adjust future recommendations accordingly. Remember to stay hydrated and give your body the rest it needs!"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 17:29:06",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Can you tell me about myself, just to make sure you really know me",
+        "timestamp": "2025-02-22 17:28:48"
+      },
+      {
+        "time": "2025-02-22 17:28:52",
+        "sender": "chatbot",
+        "text": "It looks like I already have your profile information. Here\u2019s what I have for you:\n\n- **Name:** Emily Parker\n- **Email:** emily.parker@example.com\n- **Date of Birth:** August 25, 1992\n- **Height:** 162 cm\n- **Weight:** 58 kg\n- **Gender:** Female\n\nNow, let's move on to assessing your injury. Could you tell me about your current pain level and if you have any previous injuries?"
+      },
+      {
+        "sender": "user",
+        "text": "Actually, I'll talk to you later. Bye!",
+        "timestamp": "2025-02-22 17:29:02"
+      },
+      {
+        "time": "2025-02-22 17:29:03",
+        "sender": "chatbot",
+        "text": "Alright, Emily. Whenever you're ready to continue, feel free to reach out. Take care and talk soon!"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 19:23:13",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey can you tell me about myself?",
+        "timestamp": "2025-02-22 19:22:42"
+      },
+      {
+        "time": "2025-02-22 19:22:45",
+        "sender": "chatbot",
+        "text": "It looks like I have some of your information, but there might be a discrepancy in your height and weight details. Could you please confirm your current weight and height? Additionally, please let me know about your current injury type. This will help me tailor the best recovery plan for you."
+      },
+      {
+        "sender": "user",
+        "text": "What details do you have of me?",
+        "timestamp": "2025-02-22 19:22:52"
+      },
+      {
+        "time": "2025-02-22 19:22:55",
+        "sender": "chatbot",
+        "text": "It seems I have some of your basic profile information, but there seems to be an error with your height and weight details. Could you please confirm your current weight and height? Additionally, please let me know about your current injury type. This will help me provide a more personalized recovery plan for you."
+      },
+      {
+        "sender": "user",
+        "text": "What's my name",
+        "timestamp": "2025-02-22 19:22:59"
+      },
+      {
+        "time": "2025-02-22 19:23:01",
+        "sender": "chatbot",
+        "text": "It looks like your name is Bob Jeff. Thank you for confirming your details earlier. Let's proceed to assess your injury and current pain level. Could you please tell me more about your current pain and any previous injuries you might have had?"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 21:26:22",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "hey this is a test",
+        "timestamp": "2025-02-22 19:24:45"
+      },
+      {
+        "time": "2025-02-22 19:24:50",
+        "sender": "chatbot",
+        "text": "Hello Bob! It looks like I already have your profile information. Let's move on to assessing your injury. Could you please tell me about your current pain level and if you've had any previous injuries?"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell me about myself",
+        "timestamp": "2025-02-22 20:56:49"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Here's the information we have about you:\n\n- **Name:** Bob Jeff\n- **Email:** bob@example.com\n- **Gender:** Male\n- **Height:** 234 cm\n- **Weight:** 23 kg\n- **Date of Birth:** January 1, 2000\n\nNow, let's focus on your injury recovery. Could you tell me more about your current pain level and any previous injuries you've had?",
+        "timestamp": "2025-02-22 20:56:53"
+      },
+      {
+        "sender": "user",
+        "text": "I'm currently having some minor shoulder injuries. I want a 20 min workout, how to start?",
+        "timestamp": "2025-02-22 20:57:15"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Let's start with a gentle exercise to help with your shoulder recovery. Here's the first one:\n\n**Exercise:** Seated Front Deltoid Stretch  \n**Description:** Sit comfortably on a chair with your back straight. Extend your arms in front of you and interlock your fingers. Slowly lift your arms upward, feeling a stretch in your shoulders and the front deltoid muscles. Hold this position for a few seconds, then relax. Repeat the movement for a gentle stretch without overstraining.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback and ensure we complete a 20-minute session.",
+        "timestamp": "2025-02-22 20:57:19"
+      },
+      {
+        "sender": "user",
+        "text": "I did this, that's great. Now how do I continue? ",
+        "timestamp": "2025-02-22 20:57:32"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great to hear that the Seated Front Deltoid Stretch felt good! Let's move on to the next exercise to continue your shoulder recovery:\n\n**Exercise:** Scapular Retraction  \n**Description:** Stand or sit with a straight back. Keep your arms at your sides, and pull your shoulder blades back and down as if you are trying to pinch a pencil between them. Hold this position for a few seconds and then release. This exercise helps to strengthen the muscles around your shoulder blades, promoting better posture and stability.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises to complete your 20-minute session.",
+        "timestamp": "2025-02-22 20:57:35"
+      },
+      {
+        "sender": "user",
+        "text": "How long have I worked out so far?",
+        "timestamp": "2025-02-22 20:57:46"
+      },
+      {
+        "sender": "chatbot",
+        "text": "So far, you've completed 8 minutes of your workout session with the Seated Front Deltoid Stretch and Scapular Retraction exercises. Let's continue with the next exercise to help with your shoulder recovery:\n\n**Exercise:** Shoulder Blade Squeeze  \n**Description:** Sit or stand with your back straight. Place your arms by your sides and bend your elbows at a 90-degree angle. Squeeze your shoulder blades together as if you're trying to hold a pencil between them. Hold the squeeze for a few seconds and then release. This exercise helps to strengthen the upper back and improve shoulder posture.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises to reach your 20-minute goal.",
+        "timestamp": "2025-02-22 20:57:50"
+      },
+      {
+        "sender": "user",
+        "text": "Actually, I'm done. How long have I worked out for? You did a great job, man",
+        "timestamp": "2025-02-22 20:59:33"
+      },
+      {
+        "sender": "chatbot",
+        "text": "You've completed a total of 12 minutes of your workout session so far with the Seated Front Deltoid Stretch, Scapular Retraction, and Shoulder Blade Squeeze exercises. Since you're done for now, let's focus on recovery tips to help your shoulder heal effectively. \n\n**Warm-Up Recommendation:**  \nBefore starting your next workout, try a gentle warm-up like arm circles or shoulder rolls for 5 minutes to increase blood flow to your shoulder area.\n\n**Cool-Down Recommendation:**  \nAfter your workout, spend 5 minutes doing gentle stretches, such as the cross-body shoulder stretch, to help relax your muscles and improve flexibility.\n\n**Rest Recommendation:**  \nEnsure you get adequate rest and avoid activities that might strain your shoulder. Aim for at least 7-8 hours of sleep to aid in recovery.\n\nHow did you feel after today's exercises? Your feedback will help tailor future sessions to better suit your needs.",
+        "timestamp": "2025-02-22 20:59:38"
+      },
+      {
+        "sender": "user",
+        "text": "Hey, are we starting fresh?",
+        "timestamp": "2025-02-22 21:00:29"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Since we're starting fresh, let's focus on your shoulder recovery once again with a new exercise. Here's a tailored exercise for you:\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall and your feet a few inches away. Ensure your head, upper back, and buttocks are touching the wall. Raise your arms to shoulder height with elbows bent at 90 degrees, like a goalpost. Slowly slide your arms up and down the wall in a controlled manner, keeping your shoulder blades in contact with the wall throughout. This exercise helps improve shoulder mobility and posture.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to complete a full session.",
+        "timestamp": "2025-02-22 21:00:34"
+      },
+      {
+        "sender": "user",
+        "text": "How long have I worked out for?",
+        "timestamp": "2025-02-22 21:00:44"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Based on your previous sessions and focus on shoulder recovery, here's an exercise that can further aid in your rehabilitation:\n\n**Exercise:** Shoulder External Rotation with Resistance Band  \n**Description:** Secure a resistance band to a stable object at elbow height. Stand sideways with the injured shoulder farthest from the anchor point. Hold the band with the hand of the injured shoulder and bend your elbow to 90 degrees. Keep your elbow close to your body, then slowly rotate your forearm away from your body while keeping your shoulder stable. Return to the starting position in a controlled manner. This exercise helps strengthen the rotator cuff muscles and improve shoulder stability.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to complete your workout session.",
+        "timestamp": "2025-02-22 21:00:49"
+      },
+      {
+        "sender": "user",
+        "text": "I tried this workout, and it is going good so far. What do I do next",
+        "timestamp": "2025-02-22 21:01:01"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great to hear that the workout is going well, Bob! Let's continue with another exercise tailored for your shoulder recovery:\n\n**Exercise:** Wall Push-Ups  \n**Description:** Stand facing a wall at arm's length. Place your hands on the wall at shoulder height and shoulder-width apart. Keep your feet firmly planted on the ground, and slowly bend your elbows to bring your chest closer to the wall. Ensure your body forms a straight line from head to heels. Push back to the starting position in a controlled manner. This exercise is great for gently strengthening the shoulder muscles without causing strain.  \n**Duration:** 4 minutes\n\nTry this exercise and let me know how it feels. We'll continue to adjust based on your feedback to reach your workout goals safely.",
+        "timestamp": "2025-02-22 21:01:06"
+      },
+      {
+        "sender": "user",
+        "text": "Great. Today how long have I worked out for",
+        "timestamp": "2025-02-22 21:01:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Based on your current focus on shoulder recovery, here's an exercise to keep up the good work and ensure safety:\n\n**Exercise:** Arm Circles  \n**Description:** Stand with your feet shoulder-width apart. Extend your arms straight out to the sides at shoulder height. Slowly make small circles with your arms in a forward motion for about 2 minutes, then reverse the direction for another 2 minutes. This exercise helps improve shoulder mobility and warm-up the muscles gently.  \n**Duration:** 4 minutes\n\nYou have completed 4 minutes of your workout today. Try this exercise and let me know how it feels. We'll continue with more exercises based on your feedback to ensure a comprehensive session.",
+        "timestamp": "2025-02-22 21:01:34"
+      },
+      {
+        "sender": "user",
+        "text": "Hey how is it going, are we starting fresh",
+        "timestamp": "2025-02-22 21:18:59"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! It looks like we already have your profile information. Let's start by assessing your current condition. Can you tell me about your current pain levels and if you've had any previous injuries?",
+        "timestamp": "2025-02-22 21:19:02"
+      },
+      {
+        "sender": "user",
+        "text": "Do you know anything about my current condition",
+        "timestamp": "2025-02-22 21:19:53"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! While I don't have specific details about your current injury condition, you've mentioned some pain concerns. To better assist you, could you please describe your current pain levels and let me know if you've had any previous injuries?\n\nOnce we have that information, I can suggest a personalized exercise for you.",
+        "timestamp": "2025-02-22 21:19:55"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, are we starting fresh?",
+        "timestamp": "2025-02-22 21:26:12"
+      },
+      {
+        "sender": "chatbot",
+        "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and any previous injuries you have had?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
+        "timestamp": "2025-02-22 21:26:15"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 21:27:52",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hi, do you know me?",
+        "timestamp": "2025-02-22 21:27:18"
+      },
+      {
+        "sender": "chatbot",
+        "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and any previous injuries you have had?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
+        "timestamp": "2025-02-22 21:27:20"
+      },
+      {
+        "sender": "user",
+        "text": "What's my name then?",
+        "timestamp": "2025-02-22 21:27:24"
+      },
+      {
+        "sender": "chatbot",
+        "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup. From your profile, I understand your name is Bob Jeff.\n\n## Assess Injury:\nBefore we continue with the exercise recommendations, could you please let me know about your current pain levels and if you have any previous injuries?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
+        "timestamp": "2025-02-22 21:27:27"
+      },
+      {
+        "sender": "user",
+        "text": "I'm currently having a leg injury. and I want to do a quick workout, for 15 minutes. Let's start, I don't have any gym equipment",
+        "timestamp": "2025-02-22 21:27:45"
+      },
+      {
+        "sender": "chatbot",
+        "text": "## Assess Injury:\nThank you for letting me know about your leg injury. Since you want to do a quick workout without any gym equipment, I'll suggest a safe and effective exercise that won't aggravate your injury.\n\n## Generate Personalized Workout:\n### Exercise: Seated Leg Raises\n**Description:** Sit on the edge of a sturdy chair with your back straight and feet flat on the floor. Extend one leg out in front of you until it is parallel to the floor, hold for a few seconds, then lower it back down. Repeat on the other leg. This exercise strengthens the quadriceps without putting stress on the leg.\n**Duration:** 5 minutes\n\nLet me know how this feels, and we can adjust or suggest another exercise!",
+        "timestamp": "2025-02-22 21:27:49"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 21:46:00",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hi, are we starting fresh?",
+        "timestamp": "2025-02-22 21:27:57"
+      },
+      {
+        "sender": "chatbot",
+        "text": "## Collect User Profile:\nIt looks like your profile already exists, so we can skip the initial setup.\n\n## Assess Injury:\nBefore we continue, could you please let me know about your current pain levels and if you have any previous injuries?\n\n## Generate Personalized Workout:\nOnce I have more information about your current pain and injury history, I'll be able to suggest a suitable exercise for you.",
+        "timestamp": "2025-02-22 21:28:00"
+      },
+      {
+        "sender": "user",
+        "text": "Hey, there, what do you know about me? I wanna get started!",
+        "timestamp": "2025-02-22 21:44:20"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! I see that we have some basic information about you, but I don't have details about your current injury type. Could you please let me know what type of injury you're recovering from? This will help me tailor the exercises specifically for your needs.",
+        "timestamp": "2025-02-22 21:44:22"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, I wanna do a 15 min workout on shoulders, I have mild pain",
+        "timestamp": "2025-02-22 21:45:16"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Thank you for the information, Bob! Since you have mild pain in your shoulders, let's start with a gentle exercise.\n\n**Exercise:** Shoulder Raise  \n**Description:** Stand with your feet shoulder-width apart. Slowly lift your arms out to the sides until they are parallel to the ground, then lower them back down. Keep the movements controlled and avoid any jerking motions. This exercise helps to improve shoulder mobility and strength while being gentle on the joints.  \n**Duration:** 5 minutes\n\nPlease let me know how this feels, and we can continue with another exercise if you're comfortable.",
+        "timestamp": "2025-02-22 21:45:19"
+      },
+      {
+        "sender": "user",
+        "text": "ok this was good, what next",
+        "timestamp": "2025-02-22 21:45:45"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great to hear that the shoulder raise felt good, Bob! Let's move on to the next exercise to continue strengthening your shoulders gently.\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall, feet about a foot away from the wall. Place your arms against the wall in a 'W' shape with elbows bent and palms facing forward. Slowly raise your arms overhead into a 'Y' shape, keeping your arms and back against the wall. Lower them back to the starting position. This exercise helps improve shoulder mobility and posture.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels!",
+        "timestamp": "2025-02-22 21:45:48"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 22:50:48",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey, are we fresh?",
+        "timestamp": "2025-02-22 21:47:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! It seems like we've already done some shoulder exercises, and you're doing well. Let's continue with another gentle exercise for your shoulders.\n\n**Exercise:** Scapular Retraction  \n**Description:** Stand or sit with a straight back. Pull your shoulder blades together, imagining that you are trying to hold a pencil between them. Hold this position for a few seconds, then release. This exercise helps to strengthen the muscles around your shoulder blades and improve shoulder stability.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels.",
+        "timestamp": "2025-02-22 21:47:33"
+      },
+      {
+        "sender": "user",
+        "text": "Hey are we starting fresh",
+        "timestamp": "2025-02-22 21:59:23"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It looks like we have some of your profile information, but I'm missing details about your injury type. Could you please let me know what type of injury you're currently dealing with? This will help me tailor the exercises to your needs.",
+        "timestamp": "2025-02-22 21:59:33"
+      },
+      {
+        "sender": "user",
+        "text": "Hey can you tell stuff about me",
+        "timestamp": "2025-02-22 22:02:14"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It looks like we already have some of your profile details. However, I need to know your injury type to tailor exercises effectively. Could you please let me know what type of injury you're recovering from?",
+        "timestamp": "2025-02-22 22:02:16"
+      },
+      {
+        "sender": "user",
+        "text": "Hey can you tell stuff about me",
+        "timestamp": "2025-02-22 22:02:58"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It seems like we have most of your profile information, but I still need to know your injury type to tailor exercises effectively. Could you please let me know what type of injury you're recovering from?",
+        "timestamp": "2025-02-22 22:03:01"
+      },
+      {
+        "sender": "user",
+        "text": "Hello",
+        "timestamp": "2025-02-22 22:04:07"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! It seems that we have most of your profile information, but I still need to know the type of injury you're recovering from to tailor exercises effectively. Could you please let me know what type of injury you're dealing with?",
+        "timestamp": "2025-02-22 22:04:09"
+      },
+      {
+        "sender": "user",
+        "text": "Hi there, are you there? Can you tell stuff about  me",
+        "timestamp": "2025-02-22 22:08:34"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Yes, I'm here to help. According to your profile, you're a male with a height of 124 cm and a weight of 234 kg. However, I don't have information about your injury type. Could you please let me know about your current injury and any previous injuries you might have had? This will help me suggest the most appropriate exercises for your recovery.",
+        "timestamp": "2025-02-22 22:08:40"
+      },
+      {
+        "sender": "user",
+        "text": "Um hello",
+        "timestamp": "2025-02-22 22:09:52"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello again, Bob! Thank you for reaching out. To help you with your recovery, I need to know about your current injury and any previous injuries you might have had. This information will enable me to suggest the most suitable exercises for you. Could you please share that with me?",
+        "timestamp": "2025-02-22 22:09:54"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell stuff about  me?",
+        "timestamp": "2025-02-22 22:11:53"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! I see that we have some of your profile details such as your gender, height, and weight. However, I don't have information about your injury type yet.\n\nCould you please tell me what type of injury you're recovering from? This will help me provide better exercise recommendations for you.",
+        "timestamp": "2025-02-22 22:11:55"
+      },
+      {
+        "sender": "user",
+        "text": "Um, ok nice",
+        "timestamp": "2025-02-22 22:12:01"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Thank you for confirming! Since we haven't identified your injury type yet, could you please share what type of injury you're recovering from? This information is crucial for tailoring the most effective and safe exercise recommendations for your recovery journey.",
+        "timestamp": "2025-02-22 22:12:03"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell me about me",
+        "timestamp": "2025-02-22 22:16:26"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob, it seems like we have your basic profile information. Let's start by assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced?",
+        "timestamp": "2025-02-22 22:16:29"
+      },
+      {
+        "sender": "user",
+        "text": "Yes, that's good",
+        "timestamp": "2025-02-22 22:16:34"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great, Bob. Let's move forward with your recovery plan. Could you please provide more details about your current pain level and any previous injuries you might have experienced? This will help me tailor the exercises to your specific needs.",
+        "timestamp": "2025-02-22 22:16:36"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, are we starting fresh",
+        "timestamp": "2025-02-22 22:17:06"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob, it seems like we have your basic profile information on file. Let's proceed with assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced? This will help me provide exercises that are safe and effective for your condition.",
+        "timestamp": "2025-02-22 22:17:11"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, are we starting fresh",
+        "timestamp": "2025-02-22 22:17:19"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob, it seems like we have your basic profile information on file, so let's proceed with assessing your current injury condition. Could you please tell me more about your current pain level and any previous injuries you might have experienced? This will help me provide exercises that are safe and effective for your condition.",
+        "timestamp": "2025-02-22 22:17:22"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, do you know anything about me?",
+        "timestamp": "2025-02-22 22:24:24"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Yes, I do have some information about you. Since your profile already exists, let's move on to assess your injury. Could you tell me about your current pain levels and any previous injuries you might have had? This will help me tailor a workout plan that's safe and effective for you.",
+        "timestamp": "2025-02-22 22:24:27"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell stuff about me?",
+        "timestamp": "2025-02-22 22:28:09"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It looks like we have some information about you, but it seems we don't have your injury type recorded. Could you please tell me about your current injury? This will help me suggest the best exercises for your recovery.",
+        "timestamp": "2025-02-22 22:28:12"
+      },
+      {
+        "sender": "user",
+        "text": "Can you tell me my name",
+        "timestamp": "2025-02-22 22:28:20"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Your name is Bob Jeff. Since we have most of your profile details, I just need to know about your current injury type to suggest the best exercises for your recovery. Could you please share that information with me?",
+        "timestamp": "2025-02-22 22:28:22"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, can we start a workout? I'm having a small knee injury and want to work out for 30 minutes.",
+        "timestamp": "2025-02-22 22:28:36"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great, Bob! Let's start your workout. Since you have a small knee injury, we'll focus on exercises that are gentle on the knees. Here's the first exercise:\n\n**Exercise:** Seated Leg Extensions  \n**Description:** Sit in a sturdy chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you, keeping your foot flexed. Hold for a moment, then lower it back down. Repeat for the other leg. This exercise helps to strengthen the quadriceps without putting much strain on the knee.  \n**Duration:** 5 minutes\n\nPlease let me know how this exercise feels for you, and we'll move on to the next one!",
+        "timestamp": "2025-02-22 22:28:39"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell me my name and info?",
+        "timestamp": "2025-02-22 22:32:39"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Based on the information we have, you're a male with a height of 124 cm and a weight of 234 kg. Now, let's proceed with assessing your injury.\n\nCould you please tell me about your current pain and if you have any previous injuries? This will help me tailor the exercise recommendations to your needs.",
+        "timestamp": "2025-02-22 22:32:43"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, I'm having some shoulder pain and want to do a 15 minute workout. What should I do first?",
+        "timestamp": "2025-02-22 22:33:11"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Let's start with a gentle exercise to help alleviate your shoulder pain and prepare your body for the workout.\n\n**Exercise:** Cross-body Shoulder Stretch  \n**Description:** This stretch targets increased flexibility in the shoulders. It's a common inclusion in upper-body dynamic warm-ups to help \"limber up\" the upper body and can be performed anytime.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels, and we can proceed with the next one.",
+        "timestamp": "2025-02-22 22:33:17"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, are we starting fresh?",
+        "timestamp": "2025-02-22 22:34:41"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! We're continuing from where we left off. You've already completed the Cross-body Shoulder Stretch. Now, let's move on to the next exercise to further support your shoulder recovery.\n\n**Exercise:** Seated Row with Resistance Band  \n**Description:** This exercise helps strengthen the muscles around the shoulder and upper back, which can aid in improving shoulder stability and reducing pain. Sit on the floor with your legs extended, loop a resistance band around your feet, and hold the ends with your hands. Keep your back straight and pull the band towards you while squeezing your shoulder blades together.  \n**Duration:** 4 minutes\n\nOnce you've completed this exercise, let me know how you feel, and we can continue with the next part of your workout.",
+        "timestamp": "2025-02-22 22:34:50"
+      },
+      {
+        "sender": "user",
+        "text": "I actually wanna just start fresh. Like new workout completley",
+        "timestamp": "2025-02-22 22:35:03"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Alright Bob, let's start fresh with a new workout that considers your shoulder pain. We'll focus on exercises that are gentle yet effective for your recovery.\n\n**Exercise:** Shoulder Blade Squeeze  \n**Description:** This exercise helps improve posture and strengthens the muscles between your shoulder blades, which is beneficial for shoulder pain relief. Sit or stand with your arms at your sides. Squeeze your shoulder blades together, hold for a few seconds, and then release. Make sure to keep your shoulders down and relaxed during the exercise.  \n**Duration:** 3 minutes\n\nPlease try this exercise and let me know how it feels. We'll continue with the next exercise based on your feedback.",
+        "timestamp": "2025-02-22 22:35:11"
+      },
+      {
+        "sender": "user",
+        "text": "Do you remember anything?",
+        "timestamp": "2025-02-22 22:35:19"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Yes, I remember our previous conversations and your profile details. Let's continue with a new workout plan that focuses on alleviating your shoulder pain.\n\n**Exercise:** Wall Angels  \n**Description:** This exercise helps improve shoulder mobility and posture. Stand with your back against a wall, feet shoulder-width apart. Raise your arms to form a 'W' shape, with elbows bent and hands pointing upwards. Slowly raise your arms to form a 'Y' shape, keeping your arms and back in contact with the wall. Return to the starting position.  \n**Duration:** 3 minutes\n\nPlease try this exercise and let me know how it feels. We can then proceed with the next exercise based on your feedback.",
+        "timestamp": "2025-02-22 22:35:28"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, can you tell stuff about me?",
+        "timestamp": "2025-02-22 22:43:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! I can help you with your injury recovery. Let's start by assessing your injury. Could you please tell me about your current pain level and if you have had any previous injuries?",
+        "timestamp": "2025-02-22 22:43:34"
+      },
+      {
+        "sender": "user",
+        "text": "Yes, can we start working out, I am having some shoulder pain. 15 minutes, how to start",
+        "timestamp": "2025-02-22 22:43:50"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great, Bob! Since you're experiencing shoulder pain, let's start with an exercise that can help improve your shoulder health. Here's a good one for you:\n\n**Exercise:** Face Pulls  \n**Description:** Use a resistance band or cable machine. Stand with feet shoulder-width apart. Hold the band or cable with both hands, keeping your arms extended. Pull towards your face, keeping your elbows high and to the sides, squeezing your shoulder blades together. This helps improve shoulder health and posture.  \n**Duration:** 5 minutes\n\nLet me know how you feel after completing this exercise, and we can move on to the next one!",
+        "timestamp": "2025-02-22 22:43:54"
+      },
+      {
+        "sender": "user",
+        "text": "Are we starting fresh?",
+        "timestamp": "2025-02-22 22:44:00"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Since we're focusing on your shoulder pain and aiming for a 15-minute session, let's continue with another exercise tailored for your shoulder recovery. Here's the next exercise:\n\n**Exercise:** Wall Angels  \n**Description:** Stand with your back against a wall, feet shoulder-width apart. Keep your arms bent at 90 degrees, and press your elbows and wrists against the wall. Slowly slide your arms up and down the wall, maintaining contact at all points. This exercise helps in improving shoulder mobility and posture.  \n**Duration:** 5 minutes\n\nPlease give this a try and let me know how it feels. Afterward, we can proceed with the next part of your session!",
+        "timestamp": "2025-02-22 22:44:04"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:04:35",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey, how's it going are we starting fresh",
+        "timestamp": "2025-02-22 22:51:52"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! I see we have your profile on file, so we can jump right into your injury recovery process.\n\n**Assess Injury:** Could you please let me know about your current pain level and if you have any history of previous injuries? This will help me tailor the exercise recommendations to your needs.",
+        "timestamp": "2025-02-22 22:51:55"
+      },
+      {
+        "sender": "user",
+        "text": "Hey, are we starting fresh",
+        "timestamp": "2025-02-22 22:52:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! We already have your profile set up, so no need to start fresh. Let's continue with your injury recovery process.\n\n**Assess Injury:** Could you please let me know about your current pain level and if you have any history of previous injuries? This will help me tailor the exercise recommendations to your needs.",
+        "timestamp": "2025-02-22 22:52:32"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, i am having shoulder injury",
+        "timestamp": "2025-02-22 22:52:38"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Thank you for sharing that you have a shoulder injury, Bob. Let's focus on a gentle exercise to help with your recovery.\n\n**Exercise:** Shoulder Dislocation Stretch-Dowel  \n**Description:** This exercise helps to increase shoulder flexibility and range of motion. Use a dowel or a long stick. Hold it with both hands, wider than shoulder-width apart. Slowly raise the dowel over your head and then move it behind your back, keeping your arms straight throughout the movement. Bring it back to the starting position.  \n**Duration:** 5 minutes\n\nPlease perform this exercise slowly and carefully. Let me know how it feels afterward, so I can adjust future recommendations accordingly.",
+        "timestamp": "2025-02-22 22:52:42"
+      },
+      {
+        "sender": "user",
+        "text": "hey are we starting fresh",
+        "timestamp": "2025-02-22 22:52:49"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! We already have your profile set up, so no need to start fresh. Let's continue with your injury recovery process.\n\n**Exercise:** Pendulum Swing  \n**Description:** This exercise helps to gently mobilize your shoulder joint. Lean forward slightly, supporting your non-injured arm on a table or chair. Let your injured arm hang down freely. Begin to gently swing your arm in small circles, using gravity to help move the shoulder joint.  \n**Duration:** 5 minutes  \n\nPlease perform this exercise slowly and carefully. Let me know how it feels afterward, so I can adjust future recommendations accordingly.",
+        "timestamp": "2025-02-22 22:52:53"
+      },
+      {
+        "sender": "user",
+        "text": "Hey, are we starting fresh?",
+        "timestamp": "2025-02-22 22:54:38"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Since your user profile is already on file, we can skip directly to assessing your injury. Could you please tell me about your current pain levels and if you've had any previous injuries? This will help me tailor the exercises appropriately for your recovery.",
+        "timestamp": "2025-02-22 22:54:41"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, can we start legs workout?",
+        "timestamp": "2025-02-22 22:54:46"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Certainly, Bob! Let's start with a leg exercise that is safe and effective given your profile. \n\n**Exercise:** Seated Leg Press  \n**Description:** Sit comfortably on the leg press machine with your back and head resting against the padded support. Place your feet on the footplate shoulder-width apart. Push the plate away by extending your legs and then slowly return to the starting position. This exercise targets your quadriceps, glutes, and hamstrings.  \n**Duration:** 10 minutes\n\nPlease let me know how this exercise feels, and we'll proceed accordingly!",
+        "timestamp": "2025-02-22 22:54:49"
+      },
+      {
+        "sender": "user",
+        "text": "Hey are we starting fresh",
+        "timestamp": "2025-02-22 22:56:37"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Since we have some of your profile information on file, let's proceed to assess your injury. Could you please describe your current pain level and let me know if you have had any previous injuries?",
+        "timestamp": "2025-02-22 22:56:39"
+      },
+      {
+        "sender": "user",
+        "text": "Ok can you give me knee workout for 5 mins",
+        "timestamp": "2025-02-22 22:56:47"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Since you have requested a knee workout for 5 minutes, let's start with a gentle exercise to ensure safety and effectiveness.\n\n**Exercise:** Knee Circles  \n**Description:** Stand with your feet slightly apart and place your hands on your knees. Slowly bend your knees and make small circles with them by rotating them in one direction for half the duration, then switch to the opposite direction. This exercise helps improve knee flexibility and mobility.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after completing this exercise, and I can suggest further activities or provide recovery tips.",
+        "timestamp": "2025-02-22 22:56:51"
+      },
+      {
+        "sender": "user",
+        "text": "Hi can you remember",
+        "timestamp": "2025-02-22 23:01:06"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Since we've already established your profile and begun assessing your injury with a knee workout, let's continue with another exercise to support your recovery.\n\n**Exercise:** Quad Sets  \n**Description:** Sit on the floor with your legs extended in front of you. Place a small rolled towel under your knee. Tighten your thigh muscle, pressing the back of your knee down into the towel. Hold for a count of 5 seconds, then relax. This exercise helps strengthen the quadriceps without putting stress on the knee joint.  \n**Duration:** 5 minutes\n\nPlease let me know how you feel after completing this exercise, and I can suggest further activities or provide recovery tips.",
+        "timestamp": "2025-02-22 23:01:11"
+      },
+      {
+        "sender": "user",
+        "text": "Ok, hi can you tell me stuff",
+        "timestamp": "2025-02-22 23:04:27"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! It looks like I have some of your profile information, but I don't have details about your injury type. Could you please let me know what type of injury you're recovering from? This will help me provide the best recommendations for your recovery. \n\nOnce we have that, I can suggest exercises tailored to your needs.",
+        "timestamp": "2025-02-22 23:04:30"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:04:55",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Are we starting fresh",
+        "timestamp": "2025-02-22 23:04:50"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! It looks like I have most of your profile information, but I still need to know about the type of injury you're recovering from. Could you please let me know about your injury? This will help me tailor the exercises to your needs.\n\nOnce I have that information, I'll be able to suggest an appropriate exercise for you.",
+        "timestamp": "2025-02-22 23:04:53"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:09:37",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hi, this is a test",
+        "timestamp": "2025-02-22 23:08:55"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Welcome back. Based on your profile, I have noted your height and weight. However, I don't have information about your current injury. Could you please let me know what type of injury you're dealing with right now?\n\nOnce I have that information, we can proceed with assessing your current pain level and any previous injuries. Then, I'll be able to suggest a personalized workout for you.",
+        "timestamp": "2025-02-22 23:08:58"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:20:23",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey, my knees are slightly hurting",
+        "timestamp": "2025-02-22 23:19:17"
+      },
+      {
+        "sender": "chatbot",
+        "text": "**Assess Injury:**\n\nHi Bob, I see that you have an existing profile. Let's focus on assessing your current condition. You mentioned that your knees are slightly hurting. Could you tell me more about your current pain level and whether you've had any previous knee injuries?",
+        "timestamp": "2025-02-22 23:19:20"
+      },
+      {
+        "sender": "user",
+        "text": "Yes, can we do an exercise for 5 minutes just to warm up - i want to do total 30 minutes",
+        "timestamp": "2025-02-22 23:19:34"
+      },
+      {
+        "sender": "chatbot",
+        "text": "**Generate Personalized Workout:**\n\nLet's start with a gentle warm-up exercise to get your body ready. Here's a good option for you:\n\n**Exercise:** Marching in Place  \n**Description:** Marching in place is a low-impact exercise that helps to increase your heart rate and get your muscles warm without putting much stress on your knees. Simply stand in place and lift your knees towards your chest in an alternating pattern, swinging your arms naturally as you do so.  \n**Duration:** 5 minutes\n\nOnce you're done, let me know how you feel, and we can move on to the next part of your workout!",
+        "timestamp": "2025-02-22 23:19:39"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:27:21",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hey my legs are hurting",
+        "timestamp": "2025-02-22 23:20:45"
+      },
+      {
+        "sender": "chatbot",
+        "text": "**Assess Injury:**\n\nHi Bob, I see you're experiencing some discomfort in your legs. Could you please describe your current pain level and if you've had any previous leg injuries? This will help me suggest the most appropriate exercises for you.",
+        "timestamp": "2025-02-22 23:20:48"
+      },
+      {
+        "sender": "user",
+        "text": "Hi, my knees are slightly hurting, and I want to do a 20 minute workout. How should I start?",
+        "timestamp": "2025-02-22 23:26:31"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Since we have your user profile, let's move on to assessing your injury and suggesting an exercise.\n\n**Assess Injury:**\nYou mentioned that your knees are slightly hurting. Have you had any previous knee injuries, or is this a new issue?\n\n**Exercise Suggestion:**\nTo get you started with your 20-minute workout, let's begin with a gentle exercise that can help alleviate knee discomfort:\n\n**Exercise:** One Knee To Chest  \n**Description:** This stretch helps to relieve tension in the glutes and lower back, which can indirectly support knee health by improving overall leg flexibility. Lie on your back with both legs extended. Pull one knee toward your chest while keeping the other leg straight on the floor. Hold for a few seconds and switch legs.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels for you, and we'll proceed with the next one!",
+        "timestamp": "2025-02-22 23:26:41"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:31:12",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hi, can you give me a 5 min workout for my knees",
+        "timestamp": "2025-02-22 23:30:46"
+      },
+      {
+        "sender": "chatbot",
+        "text": "**Exercise:** Knee Circles  \n**Description:** Stand with your feet together and place your hands on your knees. Slowly move your knees in a circular motion, first clockwise and then counterclockwise. This exercise helps improve knee flexibility and warm up the joint.  \n**Duration:** 5 minutes  \n\nPlease perform this exercise and let me know how you feel afterward!",
+        "timestamp": "2025-02-22 23:30:51"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-22 23:31:56",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "Hi, my legs are hurting",
+        "timestamp": "2025-02-22 23:31:20"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Before we proceed with the exercise recommendation, could you please let me know if there have been any recent injuries or if there's any current pain you're experiencing in your legs? Additionally, it would be helpful to know if you have had any previous injuries related to your legs. This information will help me tailor the exercise to your needs.",
+        "timestamp": "2025-02-22 23:31:22"
+      },
+      {
+        "sender": "user",
+        "text": "What's everything I told you so far",
+        "timestamp": "2025-02-22 23:31:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It looks like we've had a conversation about knee exercises before, and you mentioned some leg pain. Here's a summary of what you've shared so far:\n\n1. You requested a 5-minute workout for your knees, and I suggested \"Knee Circles\" to help improve flexibility and warm up the joint.\n2. You later mentioned that your legs were hurting, so I asked about any recent or previous injuries to better tailor the recommendations.\n\nNow, let's proceed with the next step for your recovery. Given your history and current situation, here's a recommended exercise:\n\n**Exercise:** Seated Leg Extension  \n**Description:** Sit on a chair with your back straight and feet flat on the floor. Slowly extend your right leg out in front of you, keeping it straight, and hold for a few seconds before lowering it back down. Repeat with the left leg. This exercise helps strengthen the quadriceps without putting too much strain on the knees.  \n**Duration:** 5 minutes\n\nPlease perform this exercise and let me know how you feel afterward. This will help me adjust future recommendations for your recovery journey.",
+        "timestamp": "2025-02-22 23:31:36"
+      }
+    ]
+  },
+  {
+    "datetime": "2025-02-23 00:44:15",
+    "convo": [
+      {
+        "sender": "user",
+        "text": "hello can you hear me",
+        "timestamp": "2025-02-23 00:39:01"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello Bob! Yes, I can hear you. Let's get started on your injury recovery process. \n\nBefore we proceed, I need to assess your current injury situation. Could you please let me know where you're experiencing pain and if you've had any previous injuries?",
+        "timestamp": "2025-02-23 00:39:05"
+      },
+      {
+        "sender": "user",
+        "text": "can you give me a 15-minute workout for knees",
+        "timestamp": "2025-02-23 00:39:21"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Before we proceed with the workout, could you let me know if you're currently experiencing any knee pain and whether you've had any previous knee injuries? This will help me tailor the workout to your needs.",
+        "timestamp": "2025-02-23 00:39:23"
+      },
+      {
+        "sender": "user",
+        "text": "I'm experiencing some mild knee pain",
+        "timestamp": "2025-02-23 00:39:30"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Thank you for letting me know, Bob. Since you have mild knee pain, let's start with a gentle exercise to ease into your workout.\n\n**Exercise:** One Knee to Chest  \n**Description:** This exercise is a gentle stretch designed to relieve tension in the glutes and lower back. Lie on your back with your legs extended. Slowly bring one knee toward your chest, holding it with both hands. Keep the other leg straight and flat on the floor. Hold the stretch for a few seconds and then switch to the other leg.  \n**Duration:** 3 minutes\n\nPlease let me know how you feel after this exercise, and we'll continue with the next step.",
+        "timestamp": "2025-02-23 00:39:34"
+      },
+      {
+        "sender": "user",
+        "text": "i think i'm feeling good after it what next",
+        "timestamp": "2025-02-23 00:40:10"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Great to hear that you're feeling good after the last exercise, Bob! Let's move on to the next exercise to continue our gentle knee-focused workout.\n\n**Exercise:** Seated Leg Extension  \n**Description:** This exercise helps strengthen the quadriceps without putting too much strain on the knee. Sit on a chair with your feet flat on the floor. Slowly extend one leg out in front of you until it is straight, hold for a moment, then lower it back down to the starting position. Alternate between both legs.  \n**Duration:** 4 minutes\n\nPlease let me know how this exercise feels for you, and we'll proceed with the next step based on your feedback.",
+        "timestamp": "2025-02-23 00:40:15"
+      },
+      {
+        "sender": "user",
+        "text": "can you hear me",
+        "timestamp": "2025-02-23 00:41:04"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Hello again, Bob! Yes, I can hear you. Let's continue with your knee-focused workout. Based on your feedback and current condition, here's the next exercise:\n\n**Exercise:** Partner Facing Feet-Elevated Side Plank With Band Row  \n**Description:** This exercise helps to strengthen your core and improve stability, which can be beneficial for knee support. Place your feet on an elevated surface while in a side plank position. Hold a resistance band with your top hand. While maintaining the plank position, perform a rowing motion by pulling the band towards your ribcage, then return to the starting position. Switch sides after completing the reps.  \n**Duration:** 3 minutes\n\nPlease let me know how this exercise feels for you, and we'll continue with the next step based on your feedback.",
+        "timestamp": "2025-02-23 00:41:09"
+      },
+      {
+        "sender": "user",
+        "text": "how much time do I have left",
+        "timestamp": "2025-02-23 00:41:17"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Based on your progress so far and considering your mild knee pain, let's continue with a knee-friendly exercise. You have approximately 5 minutes left in your 15-minute workout session. Here's the next exercise:\n\n**Exercise:** Calf Raises  \n**Description:** This exercise helps to strengthen the calf muscles, which can provide additional support to the knees. Stand with your feet hip-width apart, and slowly raise your heels to stand on your toes, then lower back down. To maintain balance, you can hold onto a wall or a chair.  \n**Duration:** 5 minutes  \n\nPlease let me know how this exercise feels for you, and we'll wrap up with some recovery tips afterward.",
+        "timestamp": "2025-02-23 00:41:21"
+      },
+      {
+        "sender": "user",
+        "text": "Can you give me a 5 min workout for knees",
+        "timestamp": "2025-02-23 00:43:56"
+      },
+      {
+        "sender": "chatbot",
+        "text": "It looks like your profile is already set up, Bob. Let's focus on assessing your injury.\n\nCould you please tell me more about your current knee pain and any previous knee injuries you might have had? This information will help me suggest the most suitable exercises for you.",
+        "timestamp": "2025-02-23 00:43:59"
+      },
+      {
+        "sender": "user",
+        "text": "Yes I just want to get started",
+        "timestamp": "2025-02-23 00:44:07"
+      },
+      {
+        "sender": "chatbot",
+        "text": "Let's start with a gentle exercise to help with your knee recovery. Here's a recommended exercise for you:\n\n**Exercise:** Seated Leg Raises  \n**Description:** Sit in a chair with your back straight and feet flat on the floor. Slowly extend one leg out in front of you until it's parallel to the ground, hold for a moment, then lower it back down. Alternate between legs. This exercise helps strengthen the quadriceps without putting too much strain on the knee.  \n**Duration:** 5 minutes\n\nPlease let me know how this feels, and we can adjust any future recommendations based on your feedback.",
+        "timestamp": "2025-02-23 00:44:13"
+      }
+    ]
+  }
 ]
