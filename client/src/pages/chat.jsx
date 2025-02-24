@@ -198,9 +198,9 @@ function Chat({ sessionId }) {
       {/* 🔴 Archive Conversation Button */}
       <a href='/dashboard'><button
         onClick={handleArchiveConversation}
-        className="bg-fit-orange text-white px-4 py-2 rounded-full fixed top-20 left-10 hover:bg-red-600"
+        className="bg-white text-fit-black border border-gray-300 px-4 py-2 rounded-full flex gap-2 items-center fixed top-20 left-5 hover:bg-fit-white-hover"
       >
-        <ImExit />
+        <p>Exit Session</p> <ImExit />
       </button></a>
 
       {/* 🟢 Display Workout Info (if name not N/A) */}
