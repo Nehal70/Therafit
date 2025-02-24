@@ -628,5 +628,89 @@
         "description": "** This exercise helps build strength in the quadriceps, which supports the knee joint. Stand with your back against a wall and your feet shoulder-width apart. Slowly slide down the wall until your knees are at a 90-degree angle, as if sitting in a chair. Hold this position.",
         "duration": 180,
         "recommendedAt": "2025-02-23 04:15:04"
+    },
+    {
+        "name": "** Bottoms Up",
+        "description": "** Lie flat on your back with your legs extended. Place your arms at your sides with palms facing down. Engage your core and lift your legs towards the ceiling, keeping them straight. Continue the motion by lifting your hips off the ground, reaching your feet upwards. Slowly lower back down to the starting position. This exercise targets the core muscles and helps improve stability.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:10:38"
+    },
+    {
+        "name": "** Lunges",
+        "description": "** Stand upright with your feet hip-width apart. Take a step forward with your right foot, bending both knees until your right thigh is parallel to the floor. Keep your left knee just above the ground. Push through your right heel to return to the starting position. Repeat on the left side. This exercise helps improve balance and coordination while strengthening your legs.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:11:39"
+    },
+    {
+        "name": "** FYR2 Dumbbell Deadlift to Dumbbell Upright Row",
+        "description": "** Begin with feet shoulder-width apart and hold a dumbbell in each hand. Start by performing a deadlift",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:11:52"
+    },
+    {
+        "name": "** Bodyweight Squats",
+        "description": "** Stand with your feet shoulder-width apart and your arms extended in front of you for balance. Slowly lower your body by bending your knees and hips, as if you're sitting back into a chair. Keep your chest up and your back straight. Once your thighs are parallel to the ground, push through your heels to return to the starting position. This exercise helps to strengthen the lower body, including the thighs, hips, and glutes.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:12:38"
+    },
+    {
+        "name": "** Dead Bugs",
+        "description": "** Lie on your back with your arms extended towards the ceiling and your knees bent at a 90-degree angle, feet off the ground. Slowly lower your right arm and left leg towards the floor while keeping your core engaged and your lower back pressed into the ground. Return to the starting position and repeat with the opposite arm and leg. This exercise improves core stability and coordination.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:14:35"
+    },
+    {
+        "name": "** Butt-Ups",
+        "description": "** Start in a plank position with your forearms on the ground and your body in a straight line from head to heels. Engage your core and lift your hips towards the ceiling, forming an inverted \"V\" shape. Hold for a moment, then slowly lower back to the plank position. This exercise targets the core, glutes, and improves overall body stability.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 07:14:51"
+    },
+    {
+        "name": "** Mixed Grip Chin",
+        "description": "** Find a pull-up bar. Use a mixed grip, with one palm facing towards you and the other away. Hang from the bar with your arms fully extended. Pull yourself up until your chin is above the bar, focusing on engaging your middle back muscles. Lower yourself back down in a controlled manner. This exercise targets the middle back and improves upper body strength.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 10:56:34"
+    },
+    {
+        "name": "** Quadriceps Setting",
+        "description": "** Sit with your leg extended straight in front of you. Tighten the muscles on top of your thigh by pressing the back of your knee flat against the floor. Hold the contraction for 5 seconds, then release. This exercise helps strengthen the quadriceps without putting stress on the knee joint.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:04:50"
+    },
+    {
+        "name": "** Straight Leg Raise",
+        "description": "** Lie down on your back with one leg bent and the other leg straight. Slowly lift the straight leg to the height of the bent knee, keeping the leg straight. Hold for a couple of seconds, then slowly lower it back down. This exercise helps strengthen the quadriceps without putting too much pressure on the knee joint.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:05:26"
+    },
+    {
+        "name": "** Heel Slide",
+        "description": "** Lie on your back with your legs straight. Slowly slide the heel of the affected leg towards your buttocks, bending the knee as much as is comfortable. Hold the position for a few seconds, then slide the heel back to the starting position. This exercise helps to improve knee mobility without adding stress.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:06:44"
+    },
+    {
+        "name": "** Seated Knee Extension",
+        "description": "** Sit on a chair with your feet flat on the floor. Slowly extend the affected leg until your knee is straight, holding the position for a few seconds before lowering it back down. This exercise helps to strengthen the knee muscles gently.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:07:31"
+    },
+    {
+        "name": "** Hamstring Stretch",
+        "description": "** Sit on the edge of a sturdy chair with one leg extended straight out in front of you, heel on the floor. Lean forward at the hips towards the extended leg, keeping your back straight, until you feel a gentle stretch in the back of your thigh. Hold the stretch for 20-30 seconds, then switch legs. This stretch helps to maintain flexibility and relieve tension in the thigh muscles.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:08:08"
+    },
+    {
+        "name": "** One Knee to Chest",
+        "description": "** Lie on your back on a comfortable surface. Gently bring one knee towards your chest, holding the shin with your hands. Keep the other leg extended flat on the ground. Hold this position for 20-30 seconds, feeling a stretch in your lower back and glutes. This exercise helps to relieve tension and improve flexibility around the knee area.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:26:55"
+    },
+    {
+        "name": "** Calf Stretch",
+        "description": "** Stand facing a wall, placing your hands on the wall for support. Step one foot back, keeping the heel on the ground and the knee straight. Bend the front knee slightly and lean forward until you feel a stretch in the back leg's calf. Hold the stretch for 20-30 seconds, then switch legs. This exercise helps to stretch the calf muscles, which can aid in alleviating knee tension.",
+        "duration": 300,
+        "recommendedAt": "2025-02-23 11:28:20"
     }
 ]

@@ -1,28 +1,26 @@
 [
     {
         "_id": {
-            "$oid": "67ba5a761d50cd77783d84ac"
+            "$oid": "67bb4566ee1ce6c2b340902d"
         },
-        "email": "babara@gmail.com",
+        "email": "shyland@gmail.com",
         "password": "password",
-        "firstName": "Babar",
-        "lastName": "Azam",
+        "firstName": "Sarah",
+        "lastName": "Hyland",
         "dateOfBirth": {
-            "$date": {
-                "$numberLong": "-23291539200000"
-            }
+            "$date": "1997-07-23T00:00:00Z"
         },
         "profilePicture": "",
         "isVerified": false,
         "createdAt": {
-            "$date": "2025-02-22T23:15:02.150Z"
+            "$date": "2025-02-23T15:57:26.521Z"
         },
         "updatedAt": {
-            "$date": "2025-02-22T23:15:02.150Z"
+            "$date": "2025-02-23T15:57:26.521Z"
         },
         "__v": 0,
-        "gender": "male",
-        "height": 109,
-        "weight": 1213
+        "gender": "female",
+        "height": 175,
+        "weight": 70
     }
 ]

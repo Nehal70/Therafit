@@ -148,12 +148,7 @@ function Dashboard() {
               My Current Programs
             </h2>
             <div className="grid w-full grid-cols-3 gap-4">
-                {sessions && [...sessions].reverse().map((session) => (
-                    <ProgramBlock key={session._id}
-                    title={formatDate(session.sessionStart)} desc={formatTime(session.sessionStart)}
-                  />
-                  ))}
-              <div onClick={startSession} className='cursor-pointer text-[#737373] hover:text-[#615e5e] border-dashed border-4 gap-4 rounded-lg border-[#ADADAD] hover:border-[#615e5e] p-6 w-full items-center flex justify-center flex-col'>
+            <div onClick={startSession} className='cursor-pointer text-[#737373] hover:text-[#615e5e] border-dashed border-4 gap-4 rounded-lg border-[#ADADAD] hover:border-[#615e5e] p-6 w-full items-center flex justify-center flex-col'>
                               <h1 className=''><FaPlus size={90}/></h1>
               
                               <div>
@@ -161,6 +156,11 @@ function Dashboard() {
                                   
                               </div>
                           </div>
+                {sessions && [...sessions].reverse().map((session) => (
+                    <ProgramBlock key={session._id}
+                    title={formatDate(session.sessionStart)} desc={formatTime(session.sessionStart)}
+                  />
+                  ))}
             </div>
 
         

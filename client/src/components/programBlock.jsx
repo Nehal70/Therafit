@@ -32,7 +32,9 @@ function ProgramBlock({ title, desc }) {
                 <p className='text-center'>{desc}</p>
             </div>
 
-            <button className='bg-fit-orange px-5 py-2 rounded-[100px] text-white font-semibold hover:bg-fit-orange-hover hover:text-fit-white-hover'>Continue Program</button>
+            <div onClick={() => navigate(`/workout-details/${session._id}`)} className="cursor-pointer">
+                <ProgramBlock key={session._id} title={formatDate(session.sessionStart)} desc={formatTime(session.sessionStart)} />
+            </div>
         </div>
     )
 }
