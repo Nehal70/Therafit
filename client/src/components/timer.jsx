@@ -51,7 +51,14 @@ function Timer({ name, duration, onClose }) {
           <div className="text-8xl mb-8 font-semibold text-fit-black">{formatTime(time)}</div>
           <div className="flex items-center justify-center gap-3">
             <button
-              onClick={() => setIsRunning(!isRunning)}
+              onClick={() => {
+                setIsRunning(!isRunning);
+                if (isRunning) {
+                  setIsMusicPlaying(false);
+                } else {
+                  setIsMusicPlaying(true);
+                }
+              }}              
               className="text-2xl px-10 py-2 rounded-full bg-fit-orange text-white font-semibold hover:bg-fit-orange-hover hover:text-fit-white-hover transition"
             >
               {isRunning ? "Pause" : "Start"}
@@ -60,6 +67,7 @@ function Timer({ name, duration, onClose }) {
               onClick={() => {
                 setIsRunning(false);
                 setTime(duration);
+                setIsMusicPlaying(false);
               }}
               className="text-2xl px-10 py-2 rounded-full border border-gray-300 bg-white text-fit-black font-semibold hover:bg-fit-white-hover transition"
             >
@@ -91,4 +99,3 @@ function Timer({ name, duration, onClose }) {
 };
 
 export default Timer;
-
