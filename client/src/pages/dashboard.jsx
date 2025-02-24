@@ -34,7 +34,9 @@ function Dashboard() {
             });
           getUserSessions(userId, token)
             .then((data) => {
-              setSessions(data);
+              if (data != 'User') {
+                setSessions(data);
+              }
               console.log(data);
             })
             .catch((error) => {
