@@ -1,9 +1,10 @@
 Hacklytics 2025. Link to Devpost: https://devpost.com/software/879051
 
-Inspiration
+#Inspiration
+
 TheraFit was born out of the need for a more accessible, personalized, and interactive way to approach physical therapy. Many people struggle to find the right exercises for their specific pain or injury, and often don’t have the support they need during their recovery journey. We wanted to create an app that would bridge that gap by offering a tailored workout experience powered by AI, with the guidance and feedback needed to support effective recovery.
 
-What it does
+#What it does
 
 - TheraFit is an AI-driven physical therapy coach designed to help users with strain, injuries, and general physical recovery. The app listens to the user’s pain points and recommends workouts based on their specific needs. Using a voice interface, it walks users through personalized, timed exercises, and collects feedback after each session to track progress and make adjustments. The workouts can be saved and accessed later, making it easy for users to continue their recovery journey over time.
 
@@ -11,13 +12,13 @@ What it does
 
 - Previous conversations are stored and context-driven so that users can request changes, and add or remove excercises as they see fit as the problem worsens or subdues.  
 
-How we built it
+#How we built it
 
 - We built TheraFit using the MERN stack, leveraging MongoDB for database storage, React for the front-end interface, Express to handle backend operations, and JavaScript to tie it all together. The app uses a RAG (Retrieval-Augmented Generation) model trained on Kaggle datasets to deliver personalized, effective workout recommendations. Voice recognition and timers were integrated to provide a more immersive experience, allowing real-time interaction. The app is designed for scalability and responsiveness, utilizing the full power of the MERN stack to ensure smooth user experiences and efficient data processing.
 
 - Langchain was used to finetune our LLM and to provide tools to extract the excercise, its timings, descriptions, etc. as well as to extract user information / user pain. Langchain tools were put together via langchain agent to create an agentic physical therapy assistant that could edit your excercise playlist and provide you recommendations all through natural language instructions. This was all put together in a Flask Server.
 
-How to use it : 
+#How to use it : 
 
 1) Clone the github repository.
 2) Create a .env file for server, client and ai_models
@@ -26,15 +27,15 @@ How to use it :
 5) For the ai_models .env file, add OPENAI_API_KEY, LANGCHAIN_TRACING_V2, LANGCHAIN_API_KEY, FLASK_PORT=5001
 6) Install dependencies for each component:
 
-Install server dependencies
+- Install server dependencies
 cd server
 npm install
 
-Install client dependencies
+- Install client dependencies
 cd ../client
 npm install
 
-Install AI model dependencies
+- Install AI model dependencies
 cd ../ai_models
 pip install -r requirements.txt
 
@@ -54,16 +55,12 @@ npm start
 - Backend API: http://localhost:5000
 - AI Models API: http://localhost:5001
 
-Prerequisites
-Node.js (v14 or higher)
-
-Python (v3.8 or higher)
-
-MongoDB (local installation or MongoDB Atlas)
-
-OpenAI API key
-
-LangChain API key (optional, for tracing)
+#Prerequisites
+- Node.js (v14 or higher)
+- Python (v3.8 or higher)
+- MongoDB (local installation or MongoDB Atlas)
+- OpenAI API key
+- LangChain API key (optional, for tracing)
 
 Additional Setup Notes
 Ensure your MongoDB instance is running before starting the server
