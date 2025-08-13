@@ -26,27 +26,27 @@ How to use it :
 5) For the ai_models .env file, add OPENAI_API_KEY, LANGCHAIN_TRACING_V2, LANGCHAIN_API_KEY, FLASK_PORT=5001
 6) Install dependencies for each component:
 
-# Install server dependencies
+Install server dependencies
 cd server
 npm install
 
-# Install client dependencies
+Install client dependencies
 cd ../client
 npm install
 
-# Install AI model dependencies
+Install AI model dependencies
 cd ../ai_models
 pip install -r requirements.txt
 
 7) Start the application:
 
-# Start the Flask AI server (in ai_models directory)
+Start the Flask AI server (in ai_models directory)
 python app.py
 
-# Start the Express server (in server directory)
+Start the Express server (in server directory)
 npm start
 
-# Start the React client (in client directory)
+Start the React client (in client directory)
 npm start
 
 8) Access the application:
